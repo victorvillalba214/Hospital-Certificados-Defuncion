@@ -1,9 +1,6 @@
 package modelos;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.sql.Types;
+import java.sql.*;
 
 public class CertificanteDAO {
     Connection conexion;
@@ -74,6 +71,31 @@ public class CertificanteDAO {
         }
 
         return false;
+    }
+
+    //TODO revisar si retornar el id solo por verificar el nombre es correcto
+    // Method para retornar el id del Certificante
+    public int getIdCertificante(Certificante certificante) {
+        final String INSERT_QUERY = "SELECT id_certificante FROM certificante "
+                + "WHERE nombre = ?";
+        try (PreparedStatement preparedStatement = conexion.prepareStatement(INSERT_QUERY)) {
+            preparedStatement.setString(1, certificante.getNombre());
+            ResultSet resultset = preparedStatement.executeQuery();
+            while (resultset.next()) {
+                return resultset.getInt("id_certificante");
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al recuperar el id del Certificante: " + e.getMessage());
+        } finally {
+            if (conexion != null) {
+                try {
+                    conexion.close();
+                } catch (SQLException e) {
+                    System.err.println("Error al intentar cerrar la conexión: " + e.getMessage());
+                }
+            }
+        }
+        return -1;
     }
 
     // Méthod auxiliar para establecer valores en el PreparedStatement

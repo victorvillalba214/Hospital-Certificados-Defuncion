@@ -360,6 +360,71 @@ public class DefuncionDAO {
         return null;
     }
 
+    // Method para obtener los datos de la tabla defuncion_encefalica por id_defuncion
+    public Defuncion getDefuncionEncefalicaByIdDefuncion(int idDefuncion) {
+        Defuncion defuncion;
+        final String SELECT_QUERY = "SELECT muerte_encefalica, donador_organos FROM defuncion_encefalica " +
+                "WHERE id_defuncion = ?";
+        try (PreparedStatement preparedStatement = conexion.prepareStatement(SELECT_QUERY)) {
+            preparedStatement.setInt(1, idDefuncion);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                defuncion = new Defuncion();
+                defuncion.setMuerteEncefalica(resultSet.getString("muerte_encefalica"));
+                defuncion.setDonadorOrganos(resultSet.getString("donador_organos"));
+                return defuncion;
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al obtener defuncion_encefalica por id_defuncion: " + e.getMessage());
+        } finally {
+            if (conexion != null) {
+                try {
+                    conexion.close();
+                } catch (SQLException e) {
+                    System.err.println("Error al cerrar la conexión: " + e.getMessage());
+                }
+            }
+        }
+        return null;
+    }
+
+    // Method para obtener los datos de la tabla defuncion_domicilio por id_defuncion
+    public Defuncion getDefuncionDomicilioByIdDefuncion(int idDefuncion) {
+        Defuncion defuncion;
+        final String SELECT_QUERY = "SELECT tipo_vialidad, vialidad_nombre, numero_exterior, numero_interior, " +
+                "tipo_asentamiento_humano, nombre_asentamiento_humano, codigo_postal, localidad, municipio_alcaldia, " +
+                "entidad_federativa FROM defuncion_domicilio WHERE id_defuncion = ?";
+        try (PreparedStatement preparedStatement = conexion.prepareStatement(SELECT_QUERY)) {
+            preparedStatement.setInt(1, idDefuncion);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                defuncion = new Defuncion();
+                defuncion.setTipoVialidad(resultSet.getString("tipo_vialidad"));
+                defuncion.setVialidadNombre(resultSet.getString("vialidad_nombre"));
+                defuncion.setNumeroExterior(resultSet.getString("numero_exterior"));
+                defuncion.setNumeroInterior(resultSet.getString("numero_interior"));
+                defuncion.setTipoAsentamientoHumano(resultSet.getString("tipo_asentamiento_humano"));
+                defuncion.setNombreAsentamientoHumano(resultSet.getString("nombre_asentamiento_humano"));
+                defuncion.setCodigoPostal(resultSet.getString("codigo_postal"));
+                defuncion.setLocalidad(resultSet.getString("localidad"));
+                defuncion.setMunicipioAlcaldia(resultSet.getString("municipio_alcaldia"));
+                defuncion.setEntidadFederativa(resultSet.getString("entidad_federativa"));
+                return defuncion;
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al obtener defuncion_domicilio por id_defuncion: " + e.getMessage());
+        } finally {
+            if (conexion != null) {
+                try {
+                    conexion.close();
+                } catch (SQLException e) {
+                    System.err.println("Error al cerrar la conexión: " + e.getMessage());
+                }
+            }
+        }
+        return null;
+    }
+
     /// # METHODS AUXILIARES
 
     // Méthod auxiliar para establecer valores en el PreparedStatement

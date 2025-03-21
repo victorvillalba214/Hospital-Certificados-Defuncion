@@ -38,6 +38,8 @@ public class ControladorCertificadoDefuncion {
         vistaGeneraCertificado.setVisible(true);
     }
 
+    /// # METHODS PARA RECOPILAR INFORMACIÓN DE LAS VISTAS
+
     public static void recopilarInformacionVista1() {
 //        Se crea una instancia de Fallecido para aignarle los datos
         fallecido = new Fallecido();
@@ -1530,6 +1532,38 @@ public class ControladorCertificadoDefuncion {
             //generarActa();
         }
     }
+
+    /// # METHODS PARA INSERTAR LA INFORMACIÓN EN LA BASE DE DATOS
+    // Method para insertar la información del certificante en la BD
+    private static boolean insertarInformacionCertificante() {
+        if (new CertificanteDAO().registrarCertificante(certificante)) {
+            int idCertificante = new CertificanteDAO().getIdCertificante(certificante);
+            if (idCertificante != -1) {
+                if (new CertificanteDAO().registrarCertificanteDomicilio(certificante, idCertificante)) {
+                    System.out.println("Información del certificante ingresada correctamente!");
+                    return true;
+                } else {
+                    System.err.println("Error al insertar datos en la tabla certificante_domicilio");
+                    return false;
+                }
+            } else {
+                System.err.println("Error al obtener el idCertificante");
+                return false;
+            }
+
+        } else {
+            System.err.println("Error al insertar datos en la tabla certificante");
+            return false;
+        }
+
+    }
+
+    // TODO - Método para insertar la información del fallecido en la BD
+    private static void insertarInformacionFallecido() {
+
+    }
+
+    /// # METHODS AUXILIARES QUE MANIPULAN LA VISTA
 
     public static void deshabilitarHabilitarCamposEdadCumplida() {
         // Verifica y habilita o deshabilita los campos según la selección de la edad cumplida
