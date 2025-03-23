@@ -390,7 +390,11 @@ public class ControladorCertificadoDefuncion {
         // Validar y asignar el campo "Código Postal"
         if (!vistaGeneraCertificado.getTxtCodigoPostal().getText().isEmpty()
                 && !vistaGeneraCertificado.getTxtCodigoPostal().getText().isBlank()) {
-            fallecido.setCodigoPostal(vistaGeneraCertificado.getTxtCodigoPostal().getText().trim());
+            if (vistaGeneraCertificado.getTxtCodigoPostal().getText().trim().length() == 5) {
+                fallecido.setCodigoPostal(vistaGeneraCertificado.getTxtCodigoPostal().getText().trim());
+            } else {
+                errores.append("El campo Código Postal debe ser de 5 caracteres\n");
+            }
         } else {
             errores.append("El campo Código Postal no debe ser vacío\n");
         }
@@ -703,7 +707,11 @@ public class ControladorCertificadoDefuncion {
         }
         if (!vistaGeneraCertificado.getTxtCodigoPostalDefuncion().getText().isEmpty()
                 && !vistaGeneraCertificado.getTxtCodigoPostalDefuncion().getText().isBlank()) {
-            defuncion.setCodigoPostal(vistaGeneraCertificado.getTxtCodigoPostalDefuncion().getText().trim());
+            if (vistaGeneraCertificado.getTxtCodigoPostalDefuncion().getText().trim().length() == 5) {
+                defuncion.setCodigoPostal(vistaGeneraCertificado.getTxtCodigoPostalDefuncion().getText().trim());
+            } else {
+                errores.append("El campo Código Postal debe ser de 5 caracteres\n");
+            }
         } else {
             errores.append("El campo Código Postal no debe ser vacío\n");
         }
@@ -1076,13 +1084,21 @@ public class ControladorCertificadoDefuncion {
 
         if (!vistaGeneraCertificado.getTxtCausaBasicaDefuncion().getText().isEmpty()
                 && !vistaGeneraCertificado.getTxtCausaBasicaDefuncion().getText().isBlank()) {
-            defuncion.setCausaBasica(vistaGeneraCertificado.getTxtCausaBasicaDefuncion().getText().trim());
+            if (vistaGeneraCertificado.getTxtCausaBasicaDefuncion().getText().trim().length() == 4) {
+                defuncion.setCausaBasica(vistaGeneraCertificado.getTxtCausaBasicaDefuncion().getText().trim());
+            } else {
+                errores.append("El El campo Causa Básica de Defunción debe ser de 4 caracteres\n");
+            }
         } else {
             errores.append("El campo Causa Básica de Defunción no debe ser vacío\n");
         }
         if (!vistaGeneraCertificado.getTxtCodigoAdicional().getText().isEmpty()
                 && !vistaGeneraCertificado.getTxtCodigoAdicional().getText().isBlank()) {
-            defuncion.setCodigoCieCausaBasica(vistaGeneraCertificado.getTxtCodigoAdicional().getText().trim());
+            if (vistaGeneraCertificado.getTxtCodigoAdicional().getText().trim().length() == 4) {
+                defuncion.setCodigoCieCausaBasica(vistaGeneraCertificado.getTxtCodigoAdicional().getText().trim());
+            } else {
+                errores.append("El El campo Código Adicional debe ser de 4 caracteres\n");
+            }
         } else {
             errores.append("El campo Código Adicional no debe ser vacío\n");
         }
@@ -1218,7 +1234,11 @@ public class ControladorCertificadoDefuncion {
         }
         if (!vistaGeneraCertificado.getTxtCodigoPostalLesion().getText().isEmpty()
                 && !vistaGeneraCertificado.getTxtCodigoPostalLesion().getText().isBlank()) {
-            situacion.setCodigoPostal(vistaGeneraCertificado.getTxtCodigoPostalLesion().getText().trim());
+            if(vistaGeneraCertificado.getTxtCodigoPostalLesion().getText().trim().length()==5){
+                situacion.setCodigoPostal(vistaGeneraCertificado.getTxtCodigoPostalLesion().getText().trim());
+            }else{
+                errores.append("El campo Código Postal debe ser de 5 caracteres\n");
+            }
         } else {
             errores.append("El campo Código Postal no debe ser vacío\n");
         }
@@ -1365,7 +1385,11 @@ public class ControladorCertificadoDefuncion {
         }
         if (!vistaGeneraCertificado.getTxtCodigoPostalCertificante().getText().isEmpty()
                 && !vistaGeneraCertificado.getTxtCodigoPostalCertificante().getText().isBlank()) {
-            certificante.setCodigoPostal(vistaGeneraCertificado.getTxtCodigoPostalCertificante().getText().trim());
+            if (vistaGeneraCertificado.getTxtCodigoPostalCertificante().getText().trim().length() == 5) {
+                certificante.setCodigoPostal(vistaGeneraCertificado.getTxtCodigoPostalCertificante().getText().trim());
+            } else {
+                errores.append("El campo Código Postal debe ser de 5 caracteres vacío\n");
+            }
         } else {
             errores.append("El campo Código Postal no debe ser vacío\n");
         }
@@ -1537,7 +1561,7 @@ public class ControladorCertificadoDefuncion {
     // Method para insertar la información del certificante en la BD
     private static boolean insertarInformacionCertificante() {
         if (new CertificanteDAO().registrarCertificante(certificante)) {
-            int idCertificante = new CertificanteDAO().getIdCertificante(certificante);
+            int idCertificante = new CertificanteDAO().getIdCertificante(certificante.getNombre());
             if (idCertificante != -1) {
                 if (new CertificanteDAO().registrarCertificanteDomicilio(certificante, idCertificante)) {
                     System.out.println("Información del certificante ingresada correctamente!");
@@ -1768,7 +1792,7 @@ public class ControladorCertificadoDefuncion {
      * @param month The month of birth.
      * @param year  The year of birth.
      * @return The calculated age as an integer.
-     * @throws IllegalArgumentException If the birth date is invalid or in the future.
+     * @throws IllegalArgumentException If the birthdate is invalid or in the future.
      */
     public static int calcularEdad(int day, int month, int year) {
         // Create a LocalDate object from the provided day, month, and year

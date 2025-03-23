@@ -269,8 +269,31 @@ public class DefuncionDAO {
 
     /// # METHODS PARA OBTENER DATOS DE LA BASE DE DATOS
 
+    // Method para obtener el idDefuncion por idFallecido
+    public int getIdDefuncion(int idFallecido) {
+        final String SELECT_QUERY = "SELECT id_defuncion FROM defuncion WHERE id_fallecido = ?";
+        try (PreparedStatement preparedStatement = conexion.prepareStatement(SELECT_QUERY)) {
+            preparedStatement.setInt(1, idFallecido);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                return resultSet.getInt("id_defuncion");
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al obtener el id de defuncion: " + e.getMessage());
+        } finally {
+            if (conexion != null) {
+                try {
+                    conexion.close();
+                } catch (SQLException e) {
+                    System.err.println("Error al cerrar la conexión: " + e.getMessage());
+                }
+            }
+        }
+        return -1;
+    }
+
     // Method para obtener los datos de la tabla defuncion por id_fallecido
-    public Defuncion getDefuncionByIdFallecido(int idFallecido) {
+    public Defuncion getDefuncion(int idFallecido) {
         Defuncion defuncion;
         final String SELECT_QUERY = "SELECT sitio, fecha, atencion_medica, accidental_violenta, defuncion_tipo " +
                 "FROM defuncion WHERE id_fallecido = ?";
@@ -301,7 +324,7 @@ public class DefuncionDAO {
     }
 
     // Method para obtener los datos de la tabla defuncion_unidad_medica por id_defuncion
-    public Defuncion getDefuncionUnidadMedicaByIdDefuncion(int idDefuncion) {
+    public Defuncion getDefuncionUnidadMedica(int idDefuncion) {
         Defuncion defuncion;
         final String SELECT_QUERY = "SELECT unidad_medica, nombre_unidad_medica, clues " +
                 "FROM defuncion_unidad_medica WHERE id_defuncion = ?";
@@ -330,7 +353,7 @@ public class DefuncionDAO {
     }
 
     // Method para obtener los datos de la tabla defuncion_mujer_10_54_anios por id_defuncion
-    public Defuncion getDefuncionMujer1054AniosByIdDefuncion(int idDefuncion) {
+    public Defuncion getDefuncionMujer1054Anios(int idDefuncion) {
         Defuncion defuncion;
         final String SELECT_QUERY = "SELECT muerte_durante, causas_complicaciones_propias_embarazo_parto_puerperio, " +
                 "causas_complicaron_embarazo_parto_puerperio FROM defuncion_mujer_10_54_anios WHERE id_defuncion = ?";
@@ -361,7 +384,7 @@ public class DefuncionDAO {
     }
 
     // Method para obtener los datos de la tabla defuncion_encefalica por id_defuncion
-    public Defuncion getDefuncionEncefalicaByIdDefuncion(int idDefuncion) {
+    public Defuncion getDefuncionEncefalica(int idDefuncion) {
         Defuncion defuncion;
         final String SELECT_QUERY = "SELECT muerte_encefalica, donador_organos FROM defuncion_encefalica " +
                 "WHERE id_defuncion = ?";
@@ -389,7 +412,7 @@ public class DefuncionDAO {
     }
 
     // Method para obtener los datos de la tabla defuncion_domicilio por id_defuncion
-    public Defuncion getDefuncionDomicilioByIdDefuncion(int idDefuncion) {
+    public Defuncion getDefuncionDomicilio(int idDefuncion) {
         Defuncion defuncion;
         final String SELECT_QUERY = "SELECT tipo_vialidad, vialidad_nombre, numero_exterior, numero_interior, " +
                 "tipo_asentamiento_humano, nombre_asentamiento_humano, codigo_postal, localidad, municipio_alcaldia, " +
@@ -419,6 +442,130 @@ public class DefuncionDAO {
                     conexion.close();
                 } catch (SQLException e) {
                     System.err.println("Error al cerrar la conexión: " + e.getMessage());
+                }
+            }
+        }
+        return null;
+    }
+
+    //Method para obtener los datos de la tabla defuncion_cirugia por id_defuncion
+    public Defuncion getDefuncionCirugia(int idDefuncion) {
+        Defuncion defuncion;
+        final String SELECT_QUERY = "SELECT cirugia_ultimas_4_semanas, cirugia_fecha, cirugia_motivo " +
+                "FROM defuncion_cirugia WHERE id_defuncion = ?";
+        try (PreparedStatement preparedStatement = conexion.prepareStatement(SELECT_QUERY)) {
+            preparedStatement.setInt(1, idDefuncion);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                defuncion = new Defuncion();
+                defuncion.setCirugiaUltimas4Semanas(resultSet.getString("cirugia_ultimas_4_semanas"));
+                defuncion.setCirugiaDia(resultSet.getDate("cirugia_fecha").toLocalDate().getDayOfMonth());
+                defuncion.setCirugiaMes(resultSet.getDate("cirugia_fecha").toLocalDate().getMonthValue());
+                defuncion.setCirugiaAnio(resultSet.getDate("cirugia_fecha").toLocalDate().getYear());
+                defuncion.setCirugiaMotivo(resultSet.getString("cirugia_motivo"));
+                return defuncion;
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al obtener defuncion_cirugia por id_defuncion: " + e.getMessage());
+        } finally {
+            if (conexion != null) {
+                try {
+                    conexion.close();
+                } catch (SQLException e) {
+                    System.err.println("Error al cerrar la conexión: " + e.getMessage());
+                }
+            }
+        }
+        return null;
+    }
+
+    //Method para obtener los datos de la tabla defuncion_necropsia por id_defuncion
+    public Defuncion getDefuncionNecropsia(int idDefuncion) {
+        Defuncion defuncion;
+        final String SELECT_QUERY = "SELECT necropsia, hallazgos_certificacion FROM defuncion_necropsia " +
+                "WHERE id_defuncion = ?";
+        try (PreparedStatement preparedStatement = conexion.prepareStatement(SELECT_QUERY)) {
+            preparedStatement.setInt(1, idDefuncion);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                defuncion = new Defuncion();
+                defuncion.setNecropsia(resultSet.getString("necropsia"));
+                defuncion.setHallazgosCertificacion(resultSet.getString("hallazgos_certificacion"));
+                return defuncion;
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al obtener defuncion_necropsia por id_defuncion: " + e.getMessage());
+        } finally {
+            if (conexion != null) {
+                try {
+                    conexion.close();
+                } catch (SQLException e) {
+                    System.err.println("Error al cerrar la conexión: " + e.getMessage());
+                }
+            }
+        }
+        return null;
+    }
+
+    // TODO este método toma en cuenta que siempre son 5 causas!
+    public Defuncion getDefuncionCausas(int idDefuncion) {
+        Defuncion defuncion;
+        String[] causas = new String[5];
+        String[] intervalosTiempo = new String[4];
+        String[] codigosCIE = new String[5];
+        final String SELECT_QUERY = "SELECT causa, intervalo_tiempo, codigo_cie FROM defuncion_causas WHERE id_defuncion = ?";
+        try (PreparedStatement preparedStatement = conexion.prepareStatement(SELECT_QUERY)) {
+            preparedStatement.setInt(1, idDefuncion);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            int i = 0;
+            while (resultSet.next()) {
+                causas[i] = resultSet.getString("causa");
+                if (i != 4) {
+                    intervalosTiempo[i] = resultSet.getString("intervalo_tiempo");
+                }
+                codigosCIE[i] = resultSet.getString("codigo_cie");
+                i++;
+            }
+            defuncion = new Defuncion();
+            defuncion.setCausas(causas);
+            defuncion.setIntervaloTiempo(intervalosTiempo);
+            defuncion.setCodigoCie(codigosCIE);
+            return defuncion;
+        } catch (SQLException e) {
+            System.err.println("Error al obtener defuncion_causas por id_defuncion: " + e.getMessage());
+        } finally {
+            if (conexion != null) {
+                try {
+                    conexion.close();
+                } catch (SQLException e) {
+                    System.err.println("Error al cerrar la conexión: " + e.getMessage());
+                }
+            }
+        }
+        return null;
+    }
+
+    // Method para obtener los datos de la tabla defuncion_causa_basica
+    public Defuncion getDefuncionCausaBasica(int idDefuncion) {
+        Defuncion defuncion;
+        final String SELECT_QUERY = "SELECT causa_basica, codigo_cie FROM defuncion_causa_basica WHERE id_defuncion = ?";
+        try (PreparedStatement preparedStatement = conexion.prepareStatement(SELECT_QUERY)) {
+            preparedStatement.setInt(1, idDefuncion);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                defuncion = new Defuncion();
+                defuncion.setCausaBasica(resultSet.getString("causa_basica"));
+                defuncion.setCodigoCieCausaBasica(resultSet.getString("codigo_cie"));
+                return defuncion;
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al obtener los datos de la tabla defuncion_causa_basica: " + e.getMessage());
+        } finally {
+            if (conexion != null) {
+                try {
+                    conexion.close();
+                } catch (SQLException e) {
+                    System.err.println("Error al intentar cerrar la conexión: " + e.getMessage());
                 }
             }
         }
