@@ -1234,9 +1234,9 @@ public class ControladorCertificadoDefuncion {
         }
         if (!vistaGeneraCertificado.getTxtCodigoPostalLesion().getText().isEmpty()
                 && !vistaGeneraCertificado.getTxtCodigoPostalLesion().getText().isBlank()) {
-            if(vistaGeneraCertificado.getTxtCodigoPostalLesion().getText().trim().length()==5){
+            if (vistaGeneraCertificado.getTxtCodigoPostalLesion().getText().trim().length() == 5) {
                 situacion.setCodigoPostal(vistaGeneraCertificado.getTxtCodigoPostalLesion().getText().trim());
-            }else{
+            } else {
                 errores.append("El campo Código Postal debe ser de 5 caracteres\n");
             }
         } else {
@@ -1558,6 +1558,36 @@ public class ControladorCertificadoDefuncion {
     }
 
     /// # METHODS PARA INSERTAR LA INFORMACIÓN EN LA BASE DE DATOS
+
+    // TODO - Método para insertar en la BD TODA la información necesaria para generar el Certificado de Defuncion
+    public static void insertarInformacionCertificadoDefuncion() {
+        if (insertarInformacionCertificante()) {
+            if (insertarInformacionFallecido()) {
+                if (insertarInformacionDefuncion()) {
+                    if (insertarInformacionSituacion()) {
+                        if (insertarInformacionRegistroCivil()) {
+                            if (insertarInformacionInformante()) {
+                                System.out.println("Información insertada correctamente!");
+                            } else {
+                                System.err.println("Error al insertar información del certificante");
+                            }
+                        } else {
+                            System.err.println("Error al insertar información del informante");
+                        }
+                    } else {
+                        System.err.println("Error al insertar información del registro civil");
+                    }
+                } else {
+                    System.err.println("Error al insertar información de la situación");
+                }
+            } else {
+                System.err.println("Error al insertar información de la defunción");
+            }
+        } else {
+            System.err.println("Error al insertar información del fallecido");
+        }
+    }
+
     // Method para insertar la información del certificante en la BD
     private static boolean insertarInformacionCertificante() {
         if (new CertificanteDAO().registrarCertificante(certificante)) {
@@ -1583,8 +1613,28 @@ public class ControladorCertificadoDefuncion {
     }
 
     // TODO - Método para insertar la información del fallecido en la BD
-    private static void insertarInformacionFallecido() {
+    private static boolean insertarInformacionFallecido() {
+        return false;
+    }
 
+    // TODO - Método para insertar la información de la defunción en la BD
+    private static boolean insertarInformacionDefuncion() {
+        return false;
+    }
+
+    // TODO - Método para insertar la información de la situación en la BD
+    private static boolean insertarInformacionSituacion() {
+        return false;
+    }
+
+    // TODO - Método para insertar la información del registro civil en la BD
+    private static boolean insertarInformacionRegistroCivil() {
+        return false;
+    }
+
+    // TODO - Método para insertar la información del informante en la BD
+    private static boolean insertarInformacionInformante() {
+        return false;
     }
 
     /// # METHODS AUXILIARES QUE MANIPULAN LA VISTA
