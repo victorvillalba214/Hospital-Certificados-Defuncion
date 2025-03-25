@@ -16,6 +16,7 @@ public class ControladorLogin {
     // Método para mostrar la vista de login
     public static void mostrar() {
         vistaLogin.setVisible(true);
+        limpiarVista();
     }
 
     // Método para manejar la funcionalidad de inicio de sesión
@@ -44,8 +45,8 @@ public class ControladorLogin {
             Usuario usuario = new UsuarioDAO().login(username, pass);
             if (usuario != null) {
                 // Si el inicio de sesión es exitoso, iniciar el proceso del sistema y ocultar la vista
-                ControladorSistema.iniciarGenerarCertificadoDefuncion();
-                vistaLogin.setVisible(false);
+                ControladorSistema.iniciarMenuPrincipal();
+                vistaLogin.dispose();
             } else {
                 // Mostrar error si el inicio de sesión falla
                 JOptionPane.showMessageDialog(null,
@@ -111,5 +112,10 @@ public class ControladorLogin {
     private static void limpiarVistaOlvidoPassword() {
         vistaOlvidoPassword.getTxtUsername().setText("");
         vistaOlvidoPassword.getPasswordFieldNewPassword().setText("");
+    }
+    
+    private static void limpiarVista(){
+        vistaLogin.getTxtUsuario().setText("");
+        vistaLogin.getPwdContrasena().setText("");
     }
 }

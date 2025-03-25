@@ -4,7 +4,7 @@
  */
 package vistas;
 
-import controladores.ControladorCertificadoDefuncion;
+import controladores.ControladorFormularioCertificadoDefuncion;
 import java.util.logging.Logger;
 import javax.swing.JComboBox;
 import javax.swing.JRadioButton;
@@ -16,12 +16,12 @@ import javax.swing.JTextField;
  *
  * @author Keyla Flores
  */
-public class VistaGeneraCertificado extends javax.swing.JFrame {
+public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
 
     /**
      * Creates new form VistaGeneraCertificado
      */
-    public VistaGeneraCertificado() {
+    public VistaFormularioCertificadoDefuncion() {
         initComponents();
         this.setLocationRelativeTo(null);
     }
@@ -751,6 +751,8 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
         btnEnviarFormulario = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        tabbedPaneCertificadoDefuncion.setEnabled(false);
 
         jPanelVista1.setBackground(new java.awt.Color(0, 51, 102));
 
@@ -5782,7 +5784,7 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
                     .addGroup(jPanelVista16Layout.createSequentialGroup()
                         .addComponent(jPanel59, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel61, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
+                        .addComponent(jPanel61, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)))
                 .addContainerGap(57, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista16Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -6380,7 +6382,6 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
                         .addComponent(jLabel193)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 87, Short.MAX_VALUE))
                     .addGroup(jPanel68Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(txtMesRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(txtAñoRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -6430,7 +6431,7 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
                         .addGap(6, 6, 6)
                         .addComponent(jPanel65, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jPanel66, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                        .addComponent(jPanel66, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE))
                     .addGroup(jPanelVista18Layout.createSequentialGroup()
                         .addComponent(jPanel67, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(33, 33, 33)
@@ -6503,15 +6504,15 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
     }//GEN-LAST:event_rdbtnNoIndigenaActionPerformed
 
     private void rdbtnNoLenguaIndigenaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnNoLenguaIndigenaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarEspecifiqueLenguaIndigena();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarEspecifiqueLenguaIndigena();
     }//GEN-LAST:event_rdbtnNoLenguaIndigenaActionPerformed
 
     private void rdbtnNacionalidadMexActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnNacionalidadMexActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarEspecifiqueNacionalidad();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarEspecifiqueNacionalidad();
     }//GEN-LAST:event_rdbtnNacionalidadMexActionPerformed
 
     private void rdbtnOtraNacionalidadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnOtraNacionalidadActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarEspecifiqueNacionalidad();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarEspecifiqueNacionalidad();
     }//GEN-LAST:event_rdbtnOtraNacionalidadActionPerformed
 
     private void txtEspecifiqueNacionalidadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtEspecifiqueNacionalidadActionPerformed
@@ -6527,15 +6528,15 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
     }//GEN-LAST:event_rdbtnUnionLibreActionPerformed
 
     private void rdbtnEscolaridadNingunaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnEscolaridadNingunaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
     }//GEN-LAST:event_rdbtnEscolaridadNingunaActionPerformed
 
     private void rdbtnEscolaridadPrimariaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnEscolaridadPrimariaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
     }//GEN-LAST:event_rdbtnEscolaridadPrimariaActionPerformed
 
     private void rdbtnEscolaridadProfesionalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnEscolaridadProfesionalActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
     }//GEN-LAST:event_rdbtnEscolaridadProfesionalActionPerformed
 
     private void rdbtnEscolaridadIncompletaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnEscolaridadIncompletaActionPerformed
@@ -6551,11 +6552,11 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
     }//GEN-LAST:event_rdbtnSiTrabajabaActionPerformed
 
     private void rdbtnServiciosDeSaludIMSSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnServiciosDeSaludIMSSActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
     }//GEN-LAST:event_rdbtnServiciosDeSaludIMSSActionPerformed
 
     private void rdbtnServiciosDeSaludIMSSBIENESTARActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnServiciosDeSaludIMSSBIENESTARActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
     }//GEN-LAST:event_rdbtnServiciosDeSaludIMSSBIENESTARActionPerformed
 
     private void txtDefuncionClaveUnicaEstablecimientosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDefuncionClaveUnicaEstablecimientosActionPerformed
@@ -6563,15 +6564,15 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
     }//GEN-LAST:event_txtDefuncionClaveUnicaEstablecimientosActionPerformed
 
     private void rdbtnDefuncionImssBienestarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnDefuncionImssBienestarActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
     }//GEN-LAST:event_rdbtnDefuncionImssBienestarActionPerformed
 
     private void rdbtnDefuncionHogarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnDefuncionHogarActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
     }//GEN-LAST:event_rdbtnDefuncionHogarActionPerformed
 
     private void rdbtnDefuncionOtroLugarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnDefuncionOtroLugarActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
     }//GEN-LAST:event_rdbtnDefuncionOtroLugarActionPerformed
 
     private void txtNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombreActionPerformed
@@ -6579,47 +6580,47 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
     }//GEN-LAST:event_txtNombreActionPerformed
 
     private void rdbtnPersonaDesconocidaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnPersonaDesconocidaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarTextFieldNombre();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarTextFieldNombre();
     }//GEN-LAST:event_rdbtnPersonaDesconocidaActionPerformed
 
     private void btnSiguienteVista1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista1ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista1();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista1();
     }//GEN-LAST:event_btnSiguienteVista1ActionPerformed
 
     private void btnSiguienteVista2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista2ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista2();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista2();
     }//GEN-LAST:event_btnSiguienteVista2ActionPerformed
 
     private void btnSiguienteVista3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista3ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista3();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista3();
     }//GEN-LAST:event_btnSiguienteVista3ActionPerformed
 
     private void jComboBoxTiempoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxTiempoActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposEdadCumplida();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposEdadCumplida();
     }//GEN-LAST:event_jComboBoxTiempoActionPerformed
 
     private void txtEdadTiempoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtEdadTiempoActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposEdadCumplida();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposEdadCumplida();
     }//GEN-LAST:event_txtEdadTiempoActionPerformed
 
     private void rdbtnSeIgnoraEdadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnSeIgnoraEdadActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposEdadCumplida();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposEdadCumplida();
     }//GEN-LAST:event_rdbtnSeIgnoraEdadActionPerformed
 
     private void btnSiguienteVista4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista4ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista4();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista4();
     }//GEN-LAST:event_btnSiguienteVista4ActionPerformed
 
     private void rdbtnOcupacionHabitualSeIgnoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnOcupacionHabitualSeIgnoraActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarOcupacionDescripcion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarOcupacionDescripcion();
     }//GEN-LAST:event_rdbtnOcupacionHabitualSeIgnoraActionPerformed
 
     private void btnSiguienteVista5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista5ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista5();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista5();
     }//GEN-LAST:event_btnSiguienteVista5ActionPerformed
 
     private void btnSiguienteVista6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista6ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista6();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista6();
     }//GEN-LAST:event_btnSiguienteVista6ActionPerformed
 
     private void txtDiaDefuncionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDiaDefuncionActionPerformed
@@ -6635,7 +6636,7 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
     }//GEN-LAST:event_rdbtnNoAtencionMedicaActionPerformed
 
     private void rdbtnNoRealizoCirugiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnNoRealizoCirugiaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposCirugia();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposCirugia();
     }//GEN-LAST:event_rdbtnNoRealizoCirugiaActionPerformed
 
     private void txtMesRealizoCirugiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtMesRealizoCirugiaActionPerformed
@@ -6699,7 +6700,7 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
     }//GEN-LAST:event_rdbtnSiComplicacionesPropiasActionPerformed
 
     private void rdbtnSiMuerteEncefalicaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnSiMuerteEncefalicaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposEncefalica();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposEncefalica();
     }//GEN-LAST:event_rdbtnSiMuerteEncefalicaActionPerformed
 
     private void rdbtnNoDonadorOrganosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnNoDonadorOrganosActionPerformed
@@ -6711,7 +6712,7 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
     }//GEN-LAST:event_rdbtnSiDonadorOrganosActionPerformed
 
     private void rdbtnNoMuerteEncefalicaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnNoMuerteEncefalicaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposEncefalica();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposEncefalica();
     }//GEN-LAST:event_rdbtnNoMuerteEncefalicaActionPerformed
 
     private void rdbtnNoOcurrioDesempeñoTrabajoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnNoOcurrioDesempeñoTrabajoActionPerformed
@@ -6723,13 +6724,13 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
     }//GEN-LAST:event_rdbtnAreaDeportivaActionPerformed
 
     private void rdbtnAutoridadCivilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnAutoridadCivilActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCedulaMedico();
-        ControladorCertificadoDefuncion.deshabilitarHabilitarEspecifiqueCertificante();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCedulaMedico();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarEspecifiqueCertificante();
     }//GEN-LAST:event_rdbtnAutoridadCivilActionPerformed
 
     private void rdbtnOtroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnOtroActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCedulaMedico();
-        ControladorCertificadoDefuncion.deshabilitarHabilitarEspecifiqueCertificante();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCedulaMedico();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarEspecifiqueCertificante();
     }//GEN-LAST:event_rdbtnOtroActionPerformed
 
     private void jLabel160ComponentHidden(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_jLabel160ComponentHidden
@@ -6793,195 +6794,195 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
     }//GEN-LAST:event_txtNombreVialidadDefuncionActionPerformed
 
     private void rdbtnEscolaridadBachilleratoPreparatoriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnEscolaridadBachilleratoPreparatoriaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
     }//GEN-LAST:event_rdbtnEscolaridadBachilleratoPreparatoriaActionPerformed
 
     private void rdbtnEscolaridadPosgradoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnEscolaridadPosgradoActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
     }//GEN-LAST:event_rdbtnEscolaridadPosgradoActionPerformed
 
     private void rdbtnEscolaridadPreescolarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnEscolaridadPreescolarActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
     }//GEN-LAST:event_rdbtnEscolaridadPreescolarActionPerformed
 
     private void rdbtnEscolaridadSecundariaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnEscolaridadSecundariaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
     }//GEN-LAST:event_rdbtnEscolaridadSecundariaActionPerformed
 
     private void rdbtnEscolaridadSeIgnoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnEscolaridadSeIgnoraActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarTipoEscolaridad();
     }//GEN-LAST:event_rdbtnEscolaridadSeIgnoraActionPerformed
 
     private void rdbtnServiciosDeSaludNingunaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnServiciosDeSaludNingunaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
     }//GEN-LAST:event_rdbtnServiciosDeSaludNingunaActionPerformed
 
     private void rdbtnServiciosDeSaludISSSTEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnServiciosDeSaludISSSTEActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
     }//GEN-LAST:event_rdbtnServiciosDeSaludISSSTEActionPerformed
 
     private void rdbtnServiciosDeSaludSEDENAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnServiciosDeSaludSEDENAActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
     }//GEN-LAST:event_rdbtnServiciosDeSaludSEDENAActionPerformed
 
     private void rdbtnServiciosDeSaludSeIgnoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnServiciosDeSaludSeIgnoraActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
     }//GEN-LAST:event_rdbtnServiciosDeSaludSeIgnoraActionPerformed
 
     private void rdbtnServiciosDeSaludPEMEXActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnServiciosDeSaludPEMEXActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
     }//GEN-LAST:event_rdbtnServiciosDeSaludPEMEXActionPerformed
 
     private void rdbtnServiciosDeSaludSEMARActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnServiciosDeSaludSEMARActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
     }//GEN-LAST:event_rdbtnServiciosDeSaludSEMARActionPerformed
 
     private void rdbtnServiciosDeSaludISSFAMActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnServiciosDeSaludISSFAMActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
     }//GEN-LAST:event_rdbtnServiciosDeSaludISSFAMActionPerformed
 
     private void rdbtnServiciosDeSaludOtraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnServiciosDeSaludOtraActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposServicioSalud();
     }//GEN-LAST:event_rdbtnServiciosDeSaludOtraActionPerformed
 
     private void rdbtnSiLenguaIndigenaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnSiLenguaIndigenaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarEspecifiqueLenguaIndigena();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarEspecifiqueLenguaIndigena();
     }//GEN-LAST:event_rdbtnSiLenguaIndigenaActionPerformed
 
     private void rdbtnSeIgnoraLenguaIndigenaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnSeIgnoraLenguaIndigenaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarEspecifiqueLenguaIndigena();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarEspecifiqueLenguaIndigena();
     }//GEN-LAST:event_rdbtnSeIgnoraLenguaIndigenaActionPerformed
 
     private void rdbtnSeIgnoraNacionalidadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnSeIgnoraNacionalidadActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarEspecifiqueNacionalidad();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarEspecifiqueNacionalidad();
     }//GEN-LAST:event_rdbtnSeIgnoraNacionalidadActionPerformed
 
     private void rdbtnDefuncionSecretariaSaludActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnDefuncionSecretariaSaludActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
     }//GEN-LAST:event_rdbtnDefuncionSecretariaSaludActionPerformed
 
     private void rdbtnDefuncionIsssteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnDefuncionIsssteActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
     }//GEN-LAST:event_rdbtnDefuncionIsssteActionPerformed
 
     private void rdbtnDefuncionSemarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnDefuncionSemarActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
     }//GEN-LAST:event_rdbtnDefuncionSemarActionPerformed
 
     private void rdbtnDefuncionPemexActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnDefuncionPemexActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
     }//GEN-LAST:event_rdbtnDefuncionPemexActionPerformed
 
     private void rdbtnDefuncionOtraUnidadMedicaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnDefuncionOtraUnidadMedicaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
     }//GEN-LAST:event_rdbtnDefuncionOtraUnidadMedicaActionPerformed
 
     private void rdbtnDefuncionImssActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnDefuncionImssActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
     }//GEN-LAST:event_rdbtnDefuncionImssActionPerformed
 
     private void rdbtnDefuncionSedenaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnDefuncionSedenaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
     }//GEN-LAST:event_rdbtnDefuncionSedenaActionPerformed
 
     private void rdbtnDefuncionUnidadMedicaPrivadaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnDefuncionUnidadMedicaPrivadaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
     }//GEN-LAST:event_rdbtnDefuncionUnidadMedicaPrivadaActionPerformed
 
     private void rdbtnDefuncionViaPublicaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnDefuncionViaPublicaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
     }//GEN-LAST:event_rdbtnDefuncionViaPublicaActionPerformed
 
     private void rdbtnDefuncionSeIgnoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnDefuncionSeIgnoraActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposSitioDefuncion();
     }//GEN-LAST:event_rdbtnDefuncionSeIgnoraActionPerformed
 
     private void btnSiguienteVista7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista7ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista7();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista7();
     }//GEN-LAST:event_btnSiguienteVista7ActionPerformed
 
     private void btnSiguienteVista8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista8ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista8();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista8();
     }//GEN-LAST:event_btnSiguienteVista8ActionPerformed
 
     private void btnSiguienteVista9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista9ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista9();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista9();
     }//GEN-LAST:event_btnSiguienteVista9ActionPerformed
 
     private void rdbtnSiRealizoCirugiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnSiRealizoCirugiaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposCirugia();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposCirugia();
     }//GEN-LAST:event_rdbtnSiRealizoCirugiaActionPerformed
 
     private void rdbtnSeIgnoraRealizoCirugiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnSeIgnoraRealizoCirugiaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposCirugia();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposCirugia();
     }//GEN-LAST:event_rdbtnSeIgnoraRealizoCirugiaActionPerformed
 
     private void btnSiguienteVista10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista10ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista10();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista10();
     }//GEN-LAST:event_btnSiguienteVista10ActionPerformed
 
     private void btnSiguienteVista11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista11ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista11();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista11();
     }//GEN-LAST:event_btnSiguienteVista11ActionPerformed
 
     private void rdbtnSiPracticoNecropsiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnSiPracticoNecropsiaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposNecropsia();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposNecropsia();
     }//GEN-LAST:event_rdbtnSiPracticoNecropsiaActionPerformed
 
     private void rdbtnNoPracticoNecropsiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnNoPracticoNecropsiaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposNecropsia();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposNecropsia();
     }//GEN-LAST:event_rdbtnNoPracticoNecropsiaActionPerformed
 
     private void rdbtnSeIgnoraPracticoNecropsiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnSeIgnoraPracticoNecropsiaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCamposNecropsia();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCamposNecropsia();
     }//GEN-LAST:event_rdbtnSeIgnoraPracticoNecropsiaActionPerformed
 
     private void btnSiguienteVista12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista12ActionPerformed
-       ControladorCertificadoDefuncion.recopilarInformacionVista12();
+       ControladorFormularioCertificadoDefuncion.recopilarInformacionVista12();
     }//GEN-LAST:event_btnSiguienteVista12ActionPerformed
 
     private void btnSiguienteVista13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista13ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista13();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista13();
     }//GEN-LAST:event_btnSiguienteVista13ActionPerformed
 
     private void btnSiguienteVista14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista14ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista14();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista14();
     }//GEN-LAST:event_btnSiguienteVista14ActionPerformed
 
     private void btnSiguienteVista15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista15ActionPerformed
-       ControladorCertificadoDefuncion.recopilarInformacionVista15();
+       ControladorFormularioCertificadoDefuncion.recopilarInformacionVista15();
     }//GEN-LAST:event_btnSiguienteVista15ActionPerformed
 
     private void rdbtnMedicoTratanteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnMedicoTratanteActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCedulaMedico();
-        ControladorCertificadoDefuncion.deshabilitarHabilitarEspecifiqueCertificante();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCedulaMedico();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarEspecifiqueCertificante();
     }//GEN-LAST:event_rdbtnMedicoTratanteActionPerformed
 
     private void rdbtnMedicoLegistaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnMedicoLegistaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCedulaMedico();
-        ControladorCertificadoDefuncion.deshabilitarHabilitarEspecifiqueCertificante();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCedulaMedico();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarEspecifiqueCertificante();
     }//GEN-LAST:event_rdbtnMedicoLegistaActionPerformed
 
     private void rdbtnOtroMedicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnOtroMedicoActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCedulaMedico();
-        ControladorCertificadoDefuncion.deshabilitarHabilitarEspecifiqueCertificante();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCedulaMedico();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarEspecifiqueCertificante();
     }//GEN-LAST:event_rdbtnOtroMedicoActionPerformed
 
     private void rdbtnPersonaAutorizadaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnPersonaAutorizadaActionPerformed
-        ControladorCertificadoDefuncion.deshabilitarHabilitarCedulaMedico();
-        ControladorCertificadoDefuncion.deshabilitarHabilitarEspecifiqueCertificante();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarCedulaMedico();
+        ControladorFormularioCertificadoDefuncion.deshabilitarHabilitarEspecifiqueCertificante();
     }//GEN-LAST:event_rdbtnPersonaAutorizadaActionPerformed
 
     private void btnSiguienteVista16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista16ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista16();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista16();
     }//GEN-LAST:event_btnSiguienteVista16ActionPerformed
 
     private void btnSiguienteVista17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista17ActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista17();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista17();
     }//GEN-LAST:event_btnSiguienteVista17ActionPerformed
 
     private void btnEnviarFormularioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviarFormularioActionPerformed
-        ControladorCertificadoDefuncion.recopilarInformacionVista18();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista18();
     }//GEN-LAST:event_btnEnviarFormularioActionPerformed
 
     public JRadioButton getRdbtnNoOcurrioDesempeñoTrabajo() {
@@ -6995,7 +6996,7 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
     public JRadioButton getRdbtnSiOcurrioDesempeñoTrabajo() {
         return rdbtnSiOcurrioDesempeñoTrabajo;
     }
-    private static final Logger LOG = Logger.getLogger(VistaGeneraCertificado.class.getName());
+    private static final Logger LOG = Logger.getLogger(VistaFormularioCertificadoDefuncion.class.getName());
 
     public JRadioButton getRdbtnMuerteDespuesPartoAborto() {
         return rdbtnMuerteDespuesPartoAborto;
@@ -7750,20 +7751,21 @@ public class VistaGeneraCertificado extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(VistaGeneraCertificado.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VistaFormularioCertificadoDefuncion.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(VistaGeneraCertificado.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VistaFormularioCertificadoDefuncion.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(VistaGeneraCertificado.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VistaFormularioCertificadoDefuncion.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(VistaGeneraCertificado.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VistaFormularioCertificadoDefuncion.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new VistaGeneraCertificado().setVisible(true);
+                new VistaFormularioCertificadoDefuncion().setVisible(true);
             }
         });
     }

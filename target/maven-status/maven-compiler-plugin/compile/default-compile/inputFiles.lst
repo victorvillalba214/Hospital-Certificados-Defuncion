@@ -1,5 +1,6 @@
 C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\controladores\ControladorCertificadoDefuncion.java
 C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\controladores\ControladorLogin.java
+C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\controladores\ControladorMenuPrincipal.java
 C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\controladores\ControladorSistema.java
 C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\controladores\Main.java
 C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\Certificante.java
@@ -16,5 +17,6 @@ C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\Situaci
 C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\Usuario.java
 C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\UsuarioDAO.java
 C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\vistas\Login.java
+C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\vistas\MenuPrincipal.java
 C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\vistas\VistaGeneraCertificado.java
 C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\vistas\VistaOlvidoPassword.java

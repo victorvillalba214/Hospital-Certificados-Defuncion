@@ -19,6 +19,7 @@ vistas\VistaGeneraCertificado$82.class
 vistas\VistaGeneraCertificado$25.class
 vistas\VistaGeneraCertificado$45.class
 vistas\VistaGeneraCertificado$124.class
+vistas\MenuPrincipal$1.class
 vistas\VistaGeneraCertificado$65.class
 vistas\VistaGeneraCertificado$68.class
 vistas\VistaGeneraCertificado$88.class
@@ -36,6 +37,7 @@ vistas\VistaGeneraCertificado$61.class
 vistas\VistaGeneraCertificado$21.class
 vistas\VistaGeneraCertificado$31.class
 vistas\VistaGeneraCertificado$3.class
+vistas\MenuPrincipal.class
 vistas\VistaGeneraCertificado$101.class
 modelos\Certificante.class
 vistas\VistaGeneraCertificado$115.class
@@ -96,6 +98,7 @@ vistas\VistaGeneraCertificado$106.class
 vistas\VistaGeneraCertificado$49.class
 vistas\VistaGeneraCertificado$123.class
 vistas\VistaGeneraCertificado$59.class
+vistas\MenuPrincipal$2.class
 vistas\VistaGeneraCertificado$113.class
 vistas\VistaGeneraCertificado$69.class
 vistas\VistaGeneraCertificado$29.class
@@ -132,6 +135,7 @@ vistas\VistaGeneraCertificado$24.class
 vistas\VistaGeneraCertificado$74.class
 vistas\VistaGeneraCertificado$34.class
 vistas\VistaGeneraCertificado$64.class
+vistas\MenuPrincipal$3.class
 vistas\VistaGeneraCertificado$80.class
 vistas\VistaGeneraCertificado$122.class
 vistas\VistaGeneraCertificado$47.class
@@ -143,6 +147,7 @@ vistas\VistaGeneraCertificado$52.class
 vistas\VistaGeneraCertificado$35.class
 vistas\VistaGeneraCertificado$98.class
 vistas\VistaGeneraCertificado$63.class
+controladores\ControladorMenuPrincipal.class
 vistas\VistaGeneraCertificado$1.class
 vistas\VistaGeneraCertificado$40.class
 vistas\VistaGeneraCertificado$75.class
