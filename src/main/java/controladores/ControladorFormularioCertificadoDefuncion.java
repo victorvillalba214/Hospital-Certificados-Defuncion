@@ -160,7 +160,11 @@ public class ControladorFormularioCertificadoDefuncion {
         // Valida si el campo "CURP" no está vacío
         if (!vistaFormularioCertificadoDefuncion.getTxtCurp().getText().isEmpty()
                 && !vistaFormularioCertificadoDefuncion.getTxtCurp().getText().isBlank()) {
-            fallecido.setCurp(vistaFormularioCertificadoDefuncion.getTxtCurp().getText().trim());
+            if(vistaFormularioCertificadoDefuncion.getTxtCurp().getText().trim().length()==18){
+                fallecido.setCurp(vistaFormularioCertificadoDefuncion.getTxtCurp().getText().trim());
+            }else{
+                errores.append("El campo Curp debe ser de 18 caracteres\n");
+            }
         } else {
             errores.append("El campo Curp no debe ser vacío\n");
         }
@@ -275,7 +279,11 @@ public class ControladorFormularioCertificadoDefuncion {
                     // Valida y asigna el folio del certificado de nacimiento
                     if (!vistaFormularioCertificadoDefuncion.getTxtFolioCertificadoNacimiento().getText().isEmpty()
                             && !vistaFormularioCertificadoDefuncion.getTxtFolioCertificadoNacimiento().getText().isBlank()) {
-                        fallecido.setFolioCertificadoNacimiento(vistaFormularioCertificadoDefuncion.getTxtFolioCertificadoNacimiento().getText().trim());
+                        if (vistaFormularioCertificadoDefuncion.getTxtFolioCertificadoNacimiento().getText().trim().length()==13){
+                            fallecido.setFolioCertificadoNacimiento(vistaFormularioCertificadoDefuncion.getTxtFolioCertificadoNacimiento().getText().trim());
+                        }else {
+                            errores.append("El campo Folio Certificado de Nacimiento debe ser de 13 caracteres\n");
+                        }
                     } else {
                         errores.append("El campo Folio Certificado de Nacimiento no debe ser vacío\n");
                     }
