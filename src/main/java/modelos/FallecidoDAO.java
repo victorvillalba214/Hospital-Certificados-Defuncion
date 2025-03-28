@@ -475,6 +475,53 @@ public class FallecidoDAO {
         return false;
     }
 
+    /// # METHODS PARA OBTENER LOS DATOS DEL FALLECIDO
+    public int getIdFallecidoByCURP(String curp) {
+        int idFallecido = -1;
+        final String SELECT_QUERY = "SELECT id_fallecido FROM fallecido WHERE curp = ?";
+        try (PreparedStatement preparedStatement = conexion.prepareStatement(SELECT_QUERY)) {
+            preparedStatement.setString(1, curp);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                idFallecido = resultSet.getInt("id_fallecido");
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al obtener el ID del fallecido por CURP: " + e.getMessage());
+        } finally {
+            if (conexion != null) {
+                try {
+                    conexion.close();
+                } catch (SQLException e) {
+                    System.err.println("Error al cerrar la conexión: " + e.getMessage());
+                }
+            }
+        }
+        return idFallecido;
+    }
+
+    public int getIdEdadFallecidoByIdFallecido(int idFallecido) {
+        int idFallecidoEdad = -1;
+        final String SELECT_QUERY = "SELECT id_fallecido_edad FROM fallecido_edad WHERE id_fallecido = ?";
+        try (PreparedStatement preparedStatement = conexion.prepareStatement(SELECT_QUERY)) {
+            preparedStatement.setInt(1, idFallecido);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                idFallecidoEdad = resultSet.getInt("id_fallecido_edad");
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al obtener el ID de la edad del fallecido: " + e.getMessage());
+        } finally {
+            if (conexion != null) {
+                try {
+                    conexion.close();
+                } catch (SQLException e) {
+                    System.err.println("Error al cerrar la conexión: " + e.getMessage());
+                }
+            }
+        }
+        return idFallecidoEdad;
+    }
+
     public Fallecido getFallecidoByIdFallecido(int idFallecido) {
         //Se eliminó id_certificante porque en la clase Fallecido no existe un atributo para ello
         Fallecido fallecido;

@@ -5,7 +5,7 @@ import java.sql.*;
 public class InformanteDAO {
     Connection conexion;
 
-    InformanteDAO() {
+    public InformanteDAO() {
         conexion = new MySQLConexion().getConnection();
     }
 

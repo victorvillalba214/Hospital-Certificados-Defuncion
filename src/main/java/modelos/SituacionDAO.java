@@ -14,6 +14,8 @@ public class SituacionDAO {
         conexion = new MySQLConexion().getConnection();
     }
 
+    /// # METHODS PARA INSERTAR EN TABLAS DE SITUACION
+
     public boolean registrarSituacion(Situacion situacion, int idFallecido) {
         final String INSERT_QUERY = "INSERT INTO situacion(id_fallecido, durante_trabajo, lugar_lesion, "
                 + "acta_numero, relacion_agresor_fallecido) "
@@ -65,7 +67,7 @@ public class SituacionDAO {
         return false;
     }
 
-    // Método para insertar datos en la tabla situacion_domicilio
+    // Méthod para insertar datos en la tabla situacion_domicilio
     public boolean registrarSituacionDomicilio(Situacion situacion, int idSituacion) {
         final String INSERT_QUERY = "INSERT INTO situacion_domicilio(id_situacion, tipo_vialidad, vialidad_nombre, "
                 + "numero_exterior, numero_interior, tipo_asentamiento_humano, nombre_asentamiento_humano, "
@@ -98,6 +100,33 @@ public class SituacionDAO {
             }
         }
         return false;
+    }
+
+    /// # METHODS PARA OBTENER DATOS DE TABLAS DE SITUACION
+
+    public int getIdSituacionByIdFallecido(int idFallecido) {
+        int idSituacion = -1;
+        final String SELECT_QUERY = "SELECT id_situacion FROM situacion WHERE id_fallecido = ?";
+
+        try (PreparedStatement preparedStatement = conexion.prepareStatement(SELECT_QUERY)) {
+            preparedStatement.setInt(1, idFallecido);
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+                idSituacion = resultSet.getInt("id_situacion");
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al obtener id_situacion por id_fallecido: " + e.getMessage());
+        } finally {
+            if (conexion != null) {
+                try {
+                    conexion.close();
+                } catch (SQLException e) {
+                    System.err.println("Error al cerrar la conexión: " + e.getMessage());
+                }
+            }
+        }
+        return idSituacion;
     }
 
     public Situacion getSituacionByIdFallecido(int idFallecido) {

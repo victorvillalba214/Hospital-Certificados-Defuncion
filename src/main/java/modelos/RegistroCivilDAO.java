@@ -15,6 +15,8 @@ public class RegistroCivilDAO {
         conexion = new MySQLConexion().getConnection();
     }
 
+    /// # METHODS PARA INSERTAR EN LA BASE DE DATOS
+
     public boolean registrarRegistroCivil(RegistroCivil registro, int idFallecido) {
         // idFallecido es la FK de la tabla registro_civil que se conecta con la tabla fallecido
         String query = "INSERT INTO registro_civil (id_fallecido, numero, numero_libro, numero_acta, fecha_registro) "
@@ -81,6 +83,33 @@ public class RegistroCivilDAO {
         }
 
         return false;
+    }
+
+    /// # METHODS PARA OBTENER REGISTRO CIVIL
+
+    public int getIdRegistroCivilByIdFallecido(int idFallecido) {
+        int idRegistroCivil = -1;
+        final String SELECT_QUERY = "SELECT id_registro_civil FROM registro_civil WHERE id_fallecido = ?";
+
+        try (PreparedStatement preparedStatement = conexion.prepareStatement(SELECT_QUERY)) {
+            preparedStatement.setInt(1, idFallecido);
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+                idRegistroCivil = resultSet.getInt("id_registro_civil");
+            }
+        } catch (SQLException e) {
+            System.err.println("Error al obtener id_registro_civil por id_fallecido: " + e.getMessage());
+        } finally {
+            if (conexion != null) {
+                try {
+                    conexion.close();
+                } catch (SQLException e) {
+                    System.err.println("Error al cerrar la conexión: " + e.getMessage());
+                }
+            }
+        }
+        return idRegistroCivil;
     }
 
     public RegistroCivil getRegistroCivilByIdFallecido(int idFallecido) {

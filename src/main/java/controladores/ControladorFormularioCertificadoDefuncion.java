@@ -160,9 +160,9 @@ public class ControladorFormularioCertificadoDefuncion {
         // Valida si el campo "CURP" no está vacío
         if (!vistaFormularioCertificadoDefuncion.getTxtCurp().getText().isEmpty()
                 && !vistaFormularioCertificadoDefuncion.getTxtCurp().getText().isBlank()) {
-            if(vistaFormularioCertificadoDefuncion.getTxtCurp().getText().trim().length()==18){
+            if (vistaFormularioCertificadoDefuncion.getTxtCurp().getText().trim().length() == 18) {
                 fallecido.setCurp(vistaFormularioCertificadoDefuncion.getTxtCurp().getText().trim());
-            }else{
+            } else {
                 errores.append("El campo Curp debe ser de 18 caracteres\n");
             }
         } else {
@@ -279,9 +279,9 @@ public class ControladorFormularioCertificadoDefuncion {
                     // Valida y asigna el folio del certificado de nacimiento
                     if (!vistaFormularioCertificadoDefuncion.getTxtFolioCertificadoNacimiento().getText().isEmpty()
                             && !vistaFormularioCertificadoDefuncion.getTxtFolioCertificadoNacimiento().getText().isBlank()) {
-                        if (vistaFormularioCertificadoDefuncion.getTxtFolioCertificadoNacimiento().getText().trim().length()==13){
+                        if (vistaFormularioCertificadoDefuncion.getTxtFolioCertificadoNacimiento().getText().trim().length() == 13) {
                             fallecido.setFolioCertificadoNacimiento(vistaFormularioCertificadoDefuncion.getTxtFolioCertificadoNacimiento().getText().trim());
-                        }else {
+                        } else {
                             errores.append("El campo Folio Certificado de Nacimiento debe ser de 13 caracteres\n");
                         }
                     } else {
@@ -575,6 +575,12 @@ public class ControladorFormularioCertificadoDefuncion {
                 // Generar un error si el campo está vacío
                 errores.append("El campo Número de Seguridad Social no debe ser vacío\n");
             }
+        } else {
+            if (vistaFormularioCertificadoDefuncion.getRdbtnServiciosDeSaludNinguna().isSelected()) {
+                fallecido.setAfiliacionServicioSalud("Ninguna");
+            } else if (vistaFormularioCertificadoDefuncion.getRdbtnServiciosDeSaludSeIgnora().isSelected()) {
+                fallecido.setAfiliacionServicioSalud("Se ignora");
+            }
         }
 
 // Validar y asignar el nombre del informante
@@ -669,7 +675,11 @@ public class ControladorFormularioCertificadoDefuncion {
             }
             if (!vistaFormularioCertificadoDefuncion.getTxtDefuncionClaveUnicaEstablecimientos().getText().isEmpty()
                     && !vistaFormularioCertificadoDefuncion.getTxtDefuncionClaveUnicaEstablecimientos().getText().isBlank()) {
-                defuncion.setClues(vistaFormularioCertificadoDefuncion.getTxtDefuncionClaveUnicaEstablecimientos().getText().trim());
+                if (vistaFormularioCertificadoDefuncion.getTxtDefuncionClaveUnicaEstablecimientos().getText().trim().length() == 11) {
+                    defuncion.setClues(vistaFormularioCertificadoDefuncion.getTxtDefuncionClaveUnicaEstablecimientos().getText().trim());
+                } else {
+                    errores.append("El campo Clave Unica Establecimientos debe ser de 11 caracteres\n");
+                }
             } else {
                 errores.append("El campo Clave Unica Establecimientos no debe ser vacío");
             }
@@ -1423,7 +1433,11 @@ public class ControladorFormularioCertificadoDefuncion {
         }
         if (!vistaFormularioCertificadoDefuncion.getTxtTelefonoCertificante().getText().isEmpty()
                 && !vistaFormularioCertificadoDefuncion.getTxtTelefonoCertificante().getText().isBlank()) {
-            certificante.setTelefono(vistaFormularioCertificadoDefuncion.getTxtTelefonoCertificante().getText().trim());
+            if (vistaFormularioCertificadoDefuncion.getTxtTelefonoCertificante().getText().trim().length() == 10) {
+                certificante.setTelefono(vistaFormularioCertificadoDefuncion.getTxtTelefonoCertificante().getText().trim());
+            } else {
+                errores.append("El campo Teléfono debe ser de 10 caracteres\n");
+            }
         } else {
             errores.append("El campo Teléfono no debe ser vacío");
         }
@@ -1562,14 +1576,14 @@ public class ControladorFormularioCertificadoDefuncion {
                     "Errores de validación",
                     JOptionPane.WARNING_MESSAGE);
         } else {
-            // Avanzar a la siguiente pestaña del formulario si no hay errores
-            //generarActa();
+            // Concluir formulario si no hay errores
+            insertarInformacionCertificadoDefuncion();
         }
     }
 
     /// # METHODS PARA INSERTAR LA INFORMACIÓN EN LA BASE DE DATOS
 
-    // TODO - Método para insertar en la BD TODA la información necesaria para generar el Certificado de Defuncion
+    // Méthod para insertar en la BD TODA la información necesaria para generar el Certificado de Defuncion
     public static void insertarInformacionCertificadoDefuncion() {
         if (insertarInformacionCertificante()) {
             if (insertarInformacionFallecido()) {
@@ -1578,6 +1592,9 @@ public class ControladorFormularioCertificadoDefuncion {
                         if (insertarInformacionRegistroCivil()) {
                             if (insertarInformacionInformante()) {
                                 System.out.println("Información insertada correctamente!");
+                                ControladorCertificadoDefuncion controladorCertificadoDefuncion = new ControladorCertificadoDefuncion();
+                                controladorCertificadoDefuncion.GenerarCertificadoDefuncion(certificante, fallecido,
+                                        defuncion, informante, registroCivil, situacion);
                             } else {
                                 System.err.println("Error al insertar información del certificante");
                             }
@@ -1604,7 +1621,6 @@ public class ControladorFormularioCertificadoDefuncion {
             int idCertificante = new CertificanteDAO().getIdCertificante(certificante.getNombre());
             if (idCertificante != -1) {
                 if (new CertificanteDAO().registrarCertificanteDomicilio(certificante, idCertificante)) {
-                    System.out.println("Información del certificante ingresada correctamente!");
                     return true;
                 } else {
                     System.err.println("Error al insertar datos en la tabla certificante_domicilio");
@@ -1622,29 +1638,230 @@ public class ControladorFormularioCertificadoDefuncion {
 
     }
 
-    // TODO - Método para insertar la información del fallecido en la BD
+    // Méthod para insertar la información del fallecido en la BD
     private static boolean insertarInformacionFallecido() {
-        return false;
+        int idCertificante = new CertificanteDAO().getIdCertificante(certificante.getNombre());
+        if (new FallecidoDAO().registrarFallecido(fallecido, idCertificante)) {
+            int idFallecido = new FallecidoDAO().getIdFallecidoByCURP(fallecido.getCurp());
+            if (idFallecido != -1) {
+                if (new FallecidoDAO().registrarFallecidoEstadoCivil(fallecido, idFallecido)) {
+                    if (new FallecidoDAO().registrarFallecidoIdentidadCultural(fallecido, idFallecido)) {
+                        if (new FallecidoDAO().registrarFallecidoEscolaridad(fallecido, idFallecido)) {
+                            if (new FallecidoDAO().registrarFallecidoOcupacion(fallecido, idFallecido)) {
+                                if (new FallecidoDAO().registrarFallecidoSeguridadSocial(fallecido, idFallecido)) {
+                                    if (new FallecidoDAO().registrarFallecidoResidenciaHabitual(fallecido, idFallecido)) {
+                                        if (new FallecidoDAO().registrarFallecidoEdad(fallecido, idFallecido)) {
+                                            int idFallecidoEdad = new FallecidoDAO().getIdEdadFallecidoByIdFallecido(idFallecido);
+                                            if (idFallecidoEdad != -1) {
+                                                if (new FallecidoDAO().registrarFallecidoEdadMenor28Dias(fallecido, idFallecidoEdad)) {
+                                                    return true;
+                                                } else {
+                                                    System.err.println("Error al insertar datos en la tabla fallecido_edad_menor_28_dias");
+                                                    return false;
+                                                }
+                                            } else {
+                                                System.err.println("Error al obtener el idFallecidoEdad");
+                                                return false;
+                                            }
+                                        } else {
+                                            System.err.println("Error al insertar datos en la tabla fallecido_edad");
+                                            return false;
+                                        }
+                                    } else {
+                                        System.err.println("Error al insertar datos en la tabla fallecido_residencia_habitual");
+                                        return false;
+                                    }
+                                } else {
+                                    System.err.println("Error al insertar datos en la tabla fallecido_seguridad_social");
+                                    return false;
+                                }
+                            } else {
+                                System.err.println("Error al insertar datos en la tabla fallecido_ocupacion");
+                                return false;
+                            }
+                        } else {
+                            System.err.println("Error al insertar datos en la tabla fallecido_escolaridad");
+                            return false;
+                        }
+                    } else {
+                        System.err.println("Error al insertar datos en la tabla fallecido_identidad_cultural");
+                        return false;
+                    }
+                } else {
+                    System.err.println("Error al insertar datos en la tabla fallecido_estado_civil");
+                    return false;
+                }
+            } else {
+                System.err.println("Error al obtener el idFallecido");
+                return false;
+            }
+        } else {
+            System.err.println("Error al insertar datos en la tabla fallecido");
+            return false;
+        }
     }
 
-    // TODO - Método para insertar la información de la defunción en la BD
+    // Méthod para insertar la información de la defunción en la BD
     private static boolean insertarInformacionDefuncion() {
-        return false;
+        int idFallecido = new FallecidoDAO().getIdFallecidoByCURP(fallecido.getCurp());
+        if (idFallecido != -1) {
+            if (new DefuncionDAO().registrarDefuncion(defuncion, idFallecido)) {
+                int idDefuncion = new DefuncionDAO().getIdDefuncion(idFallecido);
+                if (idDefuncion != -1) {
+                    if (new DefuncionDAO().registrarDefuncionUnidadMedica(defuncion, idDefuncion)) {
+                        if (new DefuncionDAO().registrarDefuncionMujer1054Anios(defuncion, idDefuncion)) {
+                            if (new DefuncionDAO().registrarDefuncionEncefalica(defuncion, idDefuncion)) {
+                                if (new DefuncionDAO().registrarDefuncionDomicilio(defuncion, idDefuncion)) {
+                                    if (new DefuncionDAO().registrarDefuncionCirugia(defuncion, idDefuncion)) {
+                                        if (new DefuncionDAO().registrarDefuncionNecropsia(defuncion, idDefuncion)) {
+                                            if (new DefuncionDAO().registrarDefuncionCausas(defuncion.getCausas()[0],
+                                                    defuncion.getIntervaloTiempo()[0], defuncion.getCodigoCie()[0], idDefuncion)) {
+                                                if (new DefuncionDAO().registrarDefuncionCausas(defuncion.getCausas()[1],
+                                                        defuncion.getIntervaloTiempo()[1], defuncion.getCodigoCie()[1], idDefuncion)) {
+                                                    if (new DefuncionDAO().registrarDefuncionCausas(defuncion.getCausas()[2],
+                                                            defuncion.getIntervaloTiempo()[2], defuncion.getCodigoCie()[2], idDefuncion)) {
+                                                        if (new DefuncionDAO().registrarDefuncionCausas(defuncion.getCausas()[3],
+                                                                defuncion.getIntervaloTiempo()[3], defuncion.getCodigoCie()[3], idDefuncion)) {
+                                                            if (new DefuncionDAO().registrarDefuncionCausas(defuncion.getCausas()[4],
+                                                                    null, defuncion.getCodigoCie()[4], idDefuncion)) {
+                                                                if (new DefuncionDAO().registrarDefuncionCausaBasica(defuncion, idDefuncion)) {
+                                                                    return true;
+                                                                } else {
+                                                                    System.err.println("Error al insertar datos en la tabla defuncion_causa_basica");
+                                                                    return false;
+                                                                }
+                                                            } else {
+                                                                System.err.println("5. Error al insertar datos en la tabla defuncion_causas");
+                                                                return false;
+                                                            }
+                                                        } else {
+                                                            System.err.println("4. Error al insertar datos en la tabla defuncion_causas");
+                                                            return false;
+                                                        }
+                                                    } else {
+                                                        System.err.println("3. Error al insertar datos en la tabla defuncion_causas");
+                                                        return false;
+                                                    }
+                                                } else {
+                                                    System.err.println("2. Error al insertar datos en la tabla defuncion_causas");
+                                                    return false;
+                                                }
+                                            } else {
+                                                System.err.println("1. Error al insertar datos en la tabla defuncion_causas");
+                                                return false;
+                                            }
+                                        } else {
+                                            System.err.println("Error al insertar datos en la tabla defuncion_necropsia");
+                                            return false;
+                                        }
+                                    } else {
+                                        System.err.println("Error al insertar datos en la tabla defuncion_cirugia");
+                                        return false;
+                                    }
+                                } else {
+                                    System.err.println("Error al insertar datos en la tabla defuncion_domicilio");
+                                    return false;
+                                }
+                            } else {
+                                System.err.println("Error al insertar datos en la tabla defuncion_encefalica");
+                                return false;
+                            }
+                        } else {
+                            System.err.println("Error al insertar datos en la tabla defuncion_mujer_1054_anios");
+                            return false;
+                        }
+                    } else {
+                        System.err.println("Error al insertar datos en la tabla defuncion_unidad_medica");
+                        return false;
+                    }
+                } else {
+                    System.err.println("Error al obtener el idDefuncion");
+                    return false;
+                }
+
+            } else {
+                System.err.println("Error al insertar datos en la tabla defuncion");
+                return false;
+            }
+        } else {
+            System.err.println("Error al obtener el idFallecido");
+            return false;
+        }
     }
 
-    // TODO - Método para insertar la información de la situación en la BD
+    // Méthod para insertar la información de la situación en la BD
     private static boolean insertarInformacionSituacion() {
-        return false;
+        int idFallecido = new FallecidoDAO().getIdFallecidoByCURP(fallecido.getCurp());
+        if (idFallecido != -1) {
+            if (new SituacionDAO().registrarSituacion(situacion, idFallecido)) {
+                int idSituacion = new SituacionDAO().getIdSituacionByIdFallecido(idFallecido);
+                if (idSituacion != -1) {
+                    if (new SituacionDAO().registrarSituacionAgresion(situacion, idSituacion)) {
+                        if (new SituacionDAO().registrarSituacionDomicilio(situacion, idSituacion)) {
+                            return true;
+                        } else {
+                            System.err.println("Error al insertar datos en la tabla situacion_domicilio");
+                            return false;
+                        }
+                    } else {
+                        System.err.println("Error al insertar datos en la tabla situacion_agresion");
+                        return false;
+                    }
+                } else {
+                    System.err.println("Error al obtener el idSituacion");
+                    return false;
+                }
+            } else {
+                System.err.println("Error al insertar datos en la tabla situacion");
+                return false;
+            }
+        } else {
+            System.err.println("Error al obtener el idFallecido");
+            return false;
+        }
     }
 
-    // TODO - Método para insertar la información del registro civil en la BD
+    // Méthod para insertar la información del registro civil en la BD
     private static boolean insertarInformacionRegistroCivil() {
-        return false;
+        int idFallecido = new FallecidoDAO().getIdFallecidoByCURP(fallecido.getCurp());
+        if (idFallecido != -1) {
+            if (new RegistroCivilDAO().registrarRegistroCivil(registroCivil, idFallecido)) {
+                int idRegistroCivil = new RegistroCivilDAO().getIdRegistroCivilByIdFallecido(idFallecido);
+                if (idRegistroCivil != -1) {
+                    if (new RegistroCivilDAO().registrarRegistroCivilLugar(registroCivil, idRegistroCivil)) {
+                        return true;
+                    } else {
+                        System.err.println("Error al insertar datos en la tabla registro_civil_lugar");
+                        return false;
+                    }
+                } else {
+                    System.err.println("Error al obtener el idRegistroCivil");
+                    return false;
+                }
+            } else {
+                System.err.println("Error al insertar datos en la tabla registro_civil");
+                return false;
+            }
+        } else {
+            System.err.println("Error al obtener el idFallecido");
+            return false;
+        }
     }
 
-    // TODO - Método para insertar la información del informante en la BD
+    // Méthod para insertar la información del informante en la BD
     private static boolean insertarInformacionInformante() {
-        return false;
+        int idFallecido = new FallecidoDAO().getIdFallecidoByCURP(fallecido.getCurp());
+        if (idFallecido != -1) {
+            if (new InformanteDAO().registrarInformante(informante, idFallecido)) {
+                return true;
+            } else {
+                System.err.println("Error al insertar datos en la tabla informante");
+                return false;
+            }
+        } else {
+            System.err.println("Error al obtener el idFallecido");
+            return false;
+        }
     }
 
     /// # METHODS AUXILIARES QUE MANIPULAN LA VISTA

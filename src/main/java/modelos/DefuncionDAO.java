@@ -130,9 +130,9 @@ public class DefuncionDAO {
 
     // Method para insertar datos en la tabla defuncion_domiclio
     public boolean registrarDefuncionDomicilio(Defuncion defuncion, int idDefuncion) {
-        final String INSERT_QUERY = "INSERT INTO defuncion_domiclio(id_defuncion, tipo_vialidad, vialidad_nombre, " +
+        final String INSERT_QUERY = "INSERT INTO defuncion_domicilio(id_defuncion, tipo_vialidad, vialidad_nombre, " +
                 "numero_exterior, numero_interior, tipo_asentamiento_humano, nombre_asentamiento_humano, codigo_postal, " +
-                "localidad, municipio_alcaldia, entidad_federativa) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+                "localidad, municipio_alcaldia, entidad_federativa_pais) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         try (PreparedStatement preparedStatement = conexion.prepareStatement(INSERT_QUERY)) {
             preparedStatement.setInt(1, idDefuncion);
             setPreparedStatementValor(preparedStatement, 2, defuncion.getTipoVialidad());
@@ -170,7 +170,11 @@ public class DefuncionDAO {
         try (PreparedStatement preparedStatement = conexion.prepareStatement(INSERT_QUERY)) {
             preparedStatement.setInt(1, idDefuncion);
             setPreparedStatementValor(preparedStatement, 2, defuncion.getCirugiaUltimas4Semanas());
-            preparedStatement.setDate(3, createSqlDate(defuncion));
+            if(defuncion.getCirugiaDia()==0){
+                preparedStatement.setNull(3, Types.DATE);
+            }else{
+                preparedStatement.setDate(3, createSqlDate(defuncion));
+            }
             setPreparedStatementValor(preparedStatement, 4, defuncion.getCirugiaMotivo());
 
             // Ejecutar query y retornar resultado
