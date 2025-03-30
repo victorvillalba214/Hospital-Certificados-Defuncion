@@ -279,6 +279,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jLabel20 = new javax.swing.JLabel();
         txtEspecifiqueNacionalidad = new javax.swing.JTextField();
         btnSiguienteVista2 = new javax.swing.JButton();
+        btnRegresarVista2 = new javax.swing.JButton();
         jPanelVista3 = new javax.swing.JPanel();
         jPanel15 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
@@ -305,6 +306,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         rdbtnViudo = new javax.swing.JRadioButton();
         rdbtnSeIgnoraSituacionConyugal = new javax.swing.JRadioButton();
         btnSiguienteVista3 = new javax.swing.JButton();
+        btnRegresarVista3 = new javax.swing.JButton();
         jPanelVista4 = new javax.swing.JPanel();
         jPanel19 = new javax.swing.JPanel();
         jLabel28 = new javax.swing.JLabel();
@@ -333,6 +335,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         txtMunicipioAlcaldia = new javax.swing.JTextField();
         txtEntidadFederativaPais = new javax.swing.JTextField();
         btnSiguienteVista4 = new javax.swing.JButton();
+        btnRegresarVista4 = new javax.swing.JButton();
         jPanelVista5 = new javax.swing.JPanel();
         jPanel21 = new javax.swing.JPanel();
         jLabel42 = new javax.swing.JLabel();
@@ -360,6 +363,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         rdbtnNoTrabajaba = new javax.swing.JRadioButton();
         jSeparator24 = new javax.swing.JSeparator();
         btnSiguienteVista5 = new javax.swing.JButton();
+        btnRegresarVista5 = new javax.swing.JButton();
         jPanelVista6 = new javax.swing.JPanel();
         jPanel22 = new javax.swing.JPanel();
         jLabel47 = new javax.swing.JLabel();
@@ -388,6 +392,8 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         txtApellidoMaternoInf = new javax.swing.JTextField();
         txtApellidoPaternoInf = new javax.swing.JTextField();
         jLabel55 = new javax.swing.JLabel();
+        jLabel197 = new javax.swing.JLabel();
+        btnRegresarVista6 = new javax.swing.JButton();
         jPanelVista7 = new javax.swing.JPanel();
         jPanel24 = new javax.swing.JPanel();
         jLabel51 = new javax.swing.JLabel();
@@ -418,6 +424,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         rdbtnDefuncionSeIgnora = new javax.swing.JRadioButton();
         jLabel62 = new javax.swing.JLabel();
         btnSiguienteVista7 = new javax.swing.JButton();
+        btnRegresarVista7 = new javax.swing.JButton();
         jPanelVista8 = new javax.swing.JPanel();
         jPanel27 = new javax.swing.JPanel();
         jLabel61 = new javax.swing.JLabel();
@@ -444,6 +451,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         txtEntidadFederativaDefuncion = new javax.swing.JTextField();
         txtNumIntDefuncion = new javax.swing.JTextField();
         btnSiguienteVista8 = new javax.swing.JButton();
+        btnRegresarVista8 = new javax.swing.JButton();
         jPanelVista9 = new javax.swing.JPanel();
         jPanel29 = new javax.swing.JPanel();
         jLabel74 = new javax.swing.JLabel();
@@ -484,6 +492,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         rdbtnNoDefuncionAccidentalViolenta = new javax.swing.JRadioButton();
         rdbtnSeIgnoraDefuncionAccidentalViolenta = new javax.swing.JRadioButton();
         btnSiguienteVista9 = new javax.swing.JButton();
+        btnRegresarVista9 = new javax.swing.JButton();
         jPanelVista10 = new javax.swing.JPanel();
         jPanel34 = new javax.swing.JPanel();
         jLabel89 = new javax.swing.JLabel();
@@ -517,6 +526,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         txtCausaDefuncionC = new javax.swing.JTextField();
         txtCausaDefuncionD = new javax.swing.JTextField();
         btnSiguienteVista10 = new javax.swing.JButton();
+        btnRegresarVista10 = new javax.swing.JButton();
         jPanelVista11 = new javax.swing.JPanel();
         jPanel39 = new javax.swing.JPanel();
         jLabel107 = new javax.swing.JLabel();
@@ -542,6 +552,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         txtOtrasCondiciones = new javax.swing.JTextField();
         txtCodigoCieIntervaloTiempo = new javax.swing.JTextField();
         btnSiguienteVista11 = new javax.swing.JButton();
+        btnRegresarVista11 = new javax.swing.JButton();
         jPanelVista12 = new javax.swing.JPanel();
         jPanel40 = new javax.swing.JPanel();
         jLabel108 = new javax.swing.JLabel();
@@ -579,6 +590,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         rdbtnSiDonadorOrganos = new javax.swing.JRadioButton();
         rdbtnNoMuerteEncefalica = new javax.swing.JRadioButton();
         btnSiguienteVista12 = new javax.swing.JButton();
+        btnRegresarVista12 = new javax.swing.JButton();
         jPanelVista13 = new javax.swing.JPanel();
         jPanel41 = new javax.swing.JPanel();
         jLabel109 = new javax.swing.JLabel();
@@ -612,6 +624,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jLabel135 = new javax.swing.JLabel();
         txtNumeroActa = new javax.swing.JTextField();
         btnSiguienteVista13 = new javax.swing.JButton();
+        btnRegresarVista13 = new javax.swing.JButton();
         jPanelVista14 = new javax.swing.JPanel();
         jPanel52 = new javax.swing.JPanel();
         jLabel137 = new javax.swing.JLabel();
@@ -626,6 +639,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         txtDescripcionSituacion = new javax.swing.JTextArea();
         btnSiguienteVista14 = new javax.swing.JButton();
+        btnRegresarVista14 = new javax.swing.JButton();
         jPanelVista15 = new javax.swing.JPanel();
         jPanel53 = new javax.swing.JPanel();
         jLabel138 = new javax.swing.JLabel();
@@ -637,7 +651,6 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jLabel148 = new javax.swing.JLabel();
         jLabel149 = new javax.swing.JLabel();
         jLabel150 = new javax.swing.JLabel();
-        jLabel151 = new javax.swing.JLabel();
         jLabel152 = new javax.swing.JLabel();
         jLabel153 = new javax.swing.JLabel();
         jLabel154 = new javax.swing.JLabel();
@@ -654,6 +667,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         txtMunicipioAlcaldiaLesion = new javax.swing.JTextField();
         txtEntidadFederativaLesion = new javax.swing.JTextField();
         btnSiguienteVista15 = new javax.swing.JButton();
+        btnRegresarVista15 = new javax.swing.JButton();
         jPanelVista16 = new javax.swing.JPanel();
         jPanel55 = new javax.swing.JPanel();
         jLabel140 = new javax.swing.JLabel();
@@ -684,6 +698,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         txtFirmaCertificante = new javax.swing.JTextField();
         txtNumCedProfesional = new javax.swing.JTextField();
         btnSiguienteVista16 = new javax.swing.JButton();
+        btnRegresarVista16 = new javax.swing.JButton();
         jPanelVista17 = new javax.swing.JPanel();
         jPanel54 = new javax.swing.JPanel();
         jLabel139 = new javax.swing.JLabel();
@@ -712,6 +727,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jLabel180 = new javax.swing.JLabel();
         txtEntidadFederativaCertificante = new javax.swing.JTextField();
         btnSiguienteVista17 = new javax.swing.JButton();
+        btnRegresarVista17 = new javax.swing.JButton();
         jPanelVista18 = new javax.swing.JPanel();
         jPanel64 = new javax.swing.JPanel();
         jLabel167 = new javax.swing.JLabel();
@@ -749,6 +765,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         txtMesRegistro = new javax.swing.JTextField();
         txtAñoRegistro = new javax.swing.JTextField();
         btnEnviarFormulario = new javax.swing.JButton();
+        btnRegresarVista18 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -781,7 +798,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel2.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel2.setText("Nombre del (la) fallecido (a):");
+        jLabel2.setText("1. Nombre del (la) fallecido (a):");
 
         jLabel3.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel3.setText("Nombre (s)");
@@ -816,13 +833,11 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(115, 115, 115)
-                .addComponent(jLabel3)
+                .addGap(14, 14, 14)
+                .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel4)
-                .addGap(193, 193, 193)
-                .addComponent(jLabel5)
-                .addGap(128, 128, 128))
+                .addComponent(rdbtnPersonaDesconocida)
+                .addGap(95, 95, 95))
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGap(37, 37, 37)
                 .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -832,11 +847,13 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addComponent(txtApellidoMaterno, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(39, Short.MAX_VALUE))
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(14, 14, 14)
-                .addComponent(jLabel2)
+                .addGap(111, 111, 111)
+                .addComponent(jLabel3)
+                .addGap(196, 196, 196)
+                .addComponent(jLabel4)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(rdbtnPersonaDesconocida)
-                .addGap(95, 95, 95))
+                .addComponent(jLabel5)
+                .addGap(119, 119, 119))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -851,18 +868,19 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(txtApellidoPaterno, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel3)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel5))
-                .addContainerGap())
+                    .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jLabel4)
+                        .addComponent(jLabel5)))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
 
         jPanel4.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel6.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel6.setText("Fecha de nacimiento");
+        jLabel6.setText("2. Fecha de nacimiento");
 
         jLabel7.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel7.setText("Día");
@@ -884,14 +902,6 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(37, 37, 37)
-                .addComponent(jLabel7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel8)
-                .addGap(161, 161, 161)
-                .addComponent(jLabel9)
-                .addGap(58, 58, 58))
-            .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(txtDiaNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
@@ -899,6 +909,14 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addGap(45, 45, 45)
                 .addComponent(txtAñoNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(38, 38, 38)
+                .addComponent(jLabel7)
+                .addGap(185, 185, 185)
+                .addComponent(jLabel8)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel9)
+                .addGap(55, 55, 55))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel6)
@@ -917,18 +935,18 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addComponent(txtMesNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtAñoNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtDiaNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(28, 28, 28)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7)
                     .addComponent(jLabel8)
                     .addComponent(jLabel9))
-                .addContainerGap())
+                .addGap(28, 28, 28))
         );
 
         jPanel5.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel10.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel10.setText("Sexo");
+        jLabel10.setText("3. Sexo");
 
         buttonGroupSexo.add(rdbtnHombre);
         rdbtnHombre.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
@@ -960,19 +978,16 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addGap(14, 14, 14)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addGap(129, 129, 129)
-                                .addComponent(jLabel10))
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addGap(104, 104, 104)
-                                .addComponent(rdbtnSeIgnoraSexo)))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel5Layout.createSequentialGroup()
                         .addComponent(rdbtnHombre)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 107, Short.MAX_VALUE)
                         .addComponent(rdbtnMujer)
-                        .addGap(42, 42, 42))))
+                        .addGap(42, 42, 42))
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addGap(104, 104, 104)
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel10)
+                            .addComponent(rdbtnSeIgnoraSexo))
+                        .addContainerGap(127, Short.MAX_VALUE))))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -989,7 +1004,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         );
 
         btnSiguienteVista1.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista1.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista1.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista1.setText("Siguiente");
         btnSiguienteVista1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1001,24 +1016,22 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanelVista1.setLayout(jPanelVista1Layout);
         jPanelVista1Layout.setHorizontalGroup(
             jPanelVista1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnSiguienteVista1)
-                .addGap(55, 55, 55))
             .addGroup(jPanelVista1Layout.createSequentialGroup()
                 .addGroup(jPanelVista1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelVista1Layout.createSequentialGroup()
-                        .addGap(69, 69, 69)
-                        .addGroup(jPanelVista1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(jPanelVista1Layout.createSequentialGroup()
-                                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanelVista1Layout.createSequentialGroup()
                         .addGap(247, 247, 247)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(76, Short.MAX_VALUE))
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanelVista1Layout.createSequentialGroup()
+                        .addGap(69, 69, 69)
+                        .addGroup(jPanelVista1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(btnSiguienteVista1)
+                            .addGroup(jPanelVista1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addGroup(jPanelVista1Layout.createSequentialGroup()
+                                    .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(103, Short.MAX_VALUE))
         );
         jPanelVista1Layout.setVerticalGroup(
             jPanelVista1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1031,9 +1044,9 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addGroup(jPanelVista1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
+                .addGap(31, 31, 31)
                 .addComponent(btnSiguienteVista1)
-                .addContainerGap(58, Short.MAX_VALUE))
+                .addContainerGap(59, Short.MAX_VALUE))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab1", jPanelVista1);
@@ -1065,7 +1078,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel12.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel12.setText("Entidad de nacimiento");
+        jLabel12.setText("4. Entidad de nacimiento");
 
         jLabel13.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel13.setText("Entidad federativa o país, si nació en el extranjero");
@@ -1084,7 +1097,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addGroup(jPanel8Layout.createSequentialGroup()
                         .addGap(33, 33, 33)
                         .addComponent(jLabel13)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 91, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(txtEntidadNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(55, 55, 55))
         );
@@ -1104,7 +1117,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel9.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel14.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel14.setText("CURP");
+        jLabel14.setText("5. CURP");
 
         txtCurp.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -1145,7 +1158,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         });
 
         jLabel15.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel15.setText("¿Se le conocía como afromexicana/o?");
+        jLabel15.setText("6. ¿Se le conocía como afromexicana/o?");
 
         buttonGroupAfromexicano.add(rdbtnSeIgnoraAfromexicano);
         rdbtnSeIgnoraAfromexicano.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
@@ -1183,7 +1196,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel11.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel16.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel16.setText("¿Se consideraba indígena?");
+        jLabel16.setText("7. ¿Se consideraba indígena?");
 
         buttonGroupConsiderabaIndigena.add(rdbtnSiIndigena);
         rdbtnSiIndigena.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
@@ -1207,7 +1220,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel11Layout.setHorizontalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
-                .addContainerGap(68, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel16)
                 .addGap(90, 90, 90))
             .addGroup(jPanel11Layout.createSequentialGroup()
@@ -1252,7 +1265,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         });
 
         jLabel17.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel17.setText("¿Hablaba alguna lengua indígena?");
+        jLabel17.setText("8. ¿Hablaba alguna lengua indígena?");
 
         buttonGroupHablabaLenguaIndigena.add(rdbtnSeIgnoraLenguaIndigena);
         rdbtnSeIgnoraLenguaIndigena.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
@@ -1279,14 +1292,14 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(rdbtnNoLenguaIndigena)
                     .addComponent(rdbtnSiLenguaIndigena))
-                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel12Layout.createSequentialGroup()
                         .addGap(38, 38, 38)
                         .addComponent(jLabel17))
                     .addGroup(jPanel12Layout.createSequentialGroup()
-                        .addGap(23, 23, 23)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(18, 18, 18)
                         .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(rdbtnSeIgnoraLenguaIndigena)
                             .addComponent(txtEspecifiqueLenguaIndigena, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -1298,7 +1311,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel12Layout.createSequentialGroup()
-                        .addGap(0, 61, Short.MAX_VALUE)
+                        .addGap(0, 63, Short.MAX_VALUE)
                         .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(rdbtnSiLenguaIndigena)
                             .addComponent(jLabel18)
@@ -1332,7 +1345,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         });
 
         jLabel19.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel19.setText("Nacionalidad");
+        jLabel19.setText("9. Nacionalidad");
 
         buttonGroupNacionalidad.add(rdbtnSeIgnoraNacionalidad);
         rdbtnSeIgnoraNacionalidad.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
@@ -1383,7 +1396,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel13Layout.createSequentialGroup()
                 .addComponent(jLabel19)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(rdbtnNacionalidadMex)
                     .addComponent(rdbtnSeIgnoraNacionalidad))
@@ -1399,7 +1412,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         );
 
         btnSiguienteVista2.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista2.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista2.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista2.setText("Siguiente");
         btnSiguienteVista2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1407,33 +1420,42 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             }
         });
 
+        btnRegresarVista2.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista2.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista2.setText("Regresar");
+        btnRegresarVista2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista2ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanelVista2Layout = new javax.swing.GroupLayout(jPanelVista2);
         jPanelVista2.setLayout(jPanelVista2Layout);
         jPanelVista2Layout.setHorizontalGroup(
             jPanelVista2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista2Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(btnSiguienteVista2)
-                .addGap(62, 62, 62))
             .addGroup(jPanelVista2Layout.createSequentialGroup()
                 .addGroup(jPanelVista2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelVista2Layout.createSequentialGroup()
                         .addGap(82, 82, 82)
-                        .addGroup(jPanelVista2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanelVista2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanelVista2Layout.createSequentialGroup()
                                 .addGroup(jPanelVista2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jPanel12, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jPanel10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(18, 18, 18)
-                                .addGroup(jPanelVista2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jPanel11, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jPanel13, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGroup(jPanelVista2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jPanel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jPanel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                            .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(jPanelVista2Layout.createSequentialGroup()
+                                .addComponent(btnRegresarVista2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btnSiguienteVista2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(jPanelVista2Layout.createSequentialGroup()
                         .addGap(242, 242, 242)
                         .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(93, Short.MAX_VALUE))
+                .addContainerGap(102, Short.MAX_VALUE))
         );
         jPanelVista2Layout.setVerticalGroup(
             jPanelVista2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1453,7 +1475,9 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addComponent(jPanel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnSiguienteVista2)
+                .addGroup(jPanelVista2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista2)
+                    .addComponent(btnRegresarVista2))
                 .addGap(9, 9, 9))
         );
 
@@ -1486,7 +1510,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel16.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel22.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel22.setText("Edad cumplida");
+        jLabel22.setText("10. Edad cumplida");
 
         jComboBoxTiempo.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
         jComboBoxTiempo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Minutos", "Horas", "Días", "Meses", "Años cumplidos" }));
@@ -1555,26 +1579,27 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addComponent(jSeparator8, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel16Layout.createSequentialGroup()
-                        .addGap(104, 104, 104)
-                        .addComponent(jLabel23))
-                    .addGroup(jPanel16Layout.createSequentialGroup()
-                        .addGap(39, 39, 39)
-                        .addComponent(txtFolioCertificadoNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 370, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel16Layout.createSequentialGroup()
-                        .addGap(12, 12, 12)
-                        .addComponent(jLabel26)
                         .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel16Layout.createSequentialGroup()
+                                .addGap(104, 104, 104)
+                                .addComponent(jLabel23))
+                            .addGroup(jPanel16Layout.createSequentialGroup()
+                                .addGap(39, 39, 39)
+                                .addComponent(txtFolioCertificadoNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 370, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel16Layout.createSequentialGroup()
+                                .addGap(12, 12, 12)
+                                .addComponent(jLabel26)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(txtSemanasGestacion, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 75, Short.MAX_VALUE)
                                 .addComponent(jLabel25)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(txtPesoAlNacer, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel16Layout.createSequentialGroup()
-                                .addGap(15, 15, 15)
-                                .addComponent(jLabel24)))))
-                .addContainerGap(21, Short.MAX_VALUE))
+                                .addComponent(txtPesoAlNacer, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(21, Short.MAX_VALUE))
+                    .addGroup(jPanel16Layout.createSequentialGroup()
+                        .addGap(141, 141, 141)
+                        .addComponent(jLabel24)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         jPanel16Layout.setVerticalGroup(
             jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1597,14 +1622,13 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                                 .addComponent(jLabel23)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(txtFolioCertificadoNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(16, 16, 16)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel24)
+                                .addGap(25, 25, 25)
                                 .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(jPanel16Layout.createSequentialGroup()
-                                        .addComponent(jLabel24)
-                                        .addGap(15, 15, 15)
-                                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                            .addComponent(jLabel26)
-                                            .addComponent(txtSemanasGestacion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jLabel26)
+                                        .addComponent(txtSemanasGestacion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addComponent(jLabel25)
                                     .addComponent(txtPesoAlNacer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(0, 25, Short.MAX_VALUE)))))
@@ -1614,7 +1638,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel17.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel27.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel27.setText("Situación conyugal");
+        jLabel27.setText("11. Situación conyugal");
 
         buttonGroupSituacionConyugal.add(rdbtnSoltero);
         rdbtnSoltero.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 14)); // NOI18N
@@ -1700,11 +1724,20 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         );
 
         btnSiguienteVista3.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista3.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista3.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista3.setText("Siguiente");
         btnSiguienteVista3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSiguienteVista3ActionPerformed(evt);
+            }
+        });
+
+        btnRegresarVista3.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista3.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista3.setText("Regresar");
+        btnRegresarVista3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista3ActionPerformed(evt);
             }
         });
 
@@ -1714,19 +1747,19 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             jPanelVista3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista3Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addGroup(jPanelVista3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista3Layout.createSequentialGroup()
-                        .addComponent(btnSiguienteVista3)
-                        .addGap(53, 53, 53))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista3Layout.createSequentialGroup()
-                        .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(248, 248, 248))))
+                .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(248, 248, 248))
             .addGroup(jPanelVista3Layout.createSequentialGroup()
                 .addGap(75, 75, 75)
                 .addGroup(jPanelVista3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(83, Short.MAX_VALUE))
+                    .addComponent(jPanel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanelVista3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanelVista3Layout.createSequentialGroup()
+                            .addComponent(btnRegresarVista3, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnSiguienteVista3, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(110, Short.MAX_VALUE))
         );
         jPanelVista3Layout.setVerticalGroup(
             jPanelVista3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1738,8 +1771,10 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addGap(24, 24, 24)
                 .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btnSiguienteVista3)
-                .addContainerGap(62, Short.MAX_VALUE))
+                .addGroup(jPanelVista3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista3)
+                    .addComponent(btnRegresarVista3))
+                .addContainerGap(64, Short.MAX_VALUE))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab3", jPanelVista3);
@@ -1771,7 +1806,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel20.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel29.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel29.setText("Residencia habitual");
+        jLabel29.setText("12. Residencia habitual");
 
         jLabel30.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel30.setText("Anote el domicilio permanente donde vivía la (el) fallecida/o ");
@@ -1835,116 +1870,122 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             .addGroup(jPanel20Layout.createSequentialGroup()
                 .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel20Layout.createSequentialGroup()
-                        .addGap(351, 351, 351)
-                        .addComponent(jLabel29))
-                    .addGroup(jPanel20Layout.createSequentialGroup()
-                        .addGap(43, 43, 43)
-                        .addComponent(txtTipoVialidad, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(70, 70, 70)
-                        .addComponent(txtNombreVialidad, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(70, 70, 70)
-                        .addComponent(txtNumExt, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(69, 69, 69)
-                        .addComponent(txtNumInt, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel20Layout.createSequentialGroup()
-                        .addGap(61, 61, 61)
-                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(jLabel30)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel20Layout.createSequentialGroup()
-                                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGap(964, 964, 964)
+                        .addComponent(jLabel36))
+                    .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(jPanel20Layout.createSequentialGroup()
+                            .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel20Layout.createSequentialGroup()
-                                        .addComponent(jLabel31)
-                                        .addGap(109, 109, 109)
-                                        .addComponent(jLabel32)
-                                        .addGap(106, 106, 106)
-                                        .addComponent(jLabel33))
-                                    .addComponent(txtNombreAsentamientoHumano, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel37))
-                                .addGap(55, 55, 55)))
-                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel20Layout.createSequentialGroup()
-                                .addGap(76, 76, 76)
-                                .addComponent(jLabel34))
-                            .addGroup(jPanel20Layout.createSequentialGroup()
-                                .addGap(46, 46, 46)
-                                .addComponent(txtCodigoPostal, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(jPanel20Layout.createSequentialGroup()
-                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(txtTipoAsentamientoHumano, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(59, 59, 59)
+                                        .addComponent(jLabel35)
+                                        .addGap(100, 100, 100)
+                                        .addComponent(jLabel37))
+                                    .addGroup(jPanel20Layout.createSequentialGroup()
+                                        .addGap(43, 43, 43)
+                                        .addComponent(txtTipoVialidad, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(45, 45, 45)
+                                        .addComponent(txtNombreVialidad, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(58, 58, 58)
+                                        .addComponent(txtNumExt, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel20Layout.createSequentialGroup()
+                                        .addGap(42, 42, 42)
+                                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(txtTipoAsentamientoHumano, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txtLocalidad, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(56, 56, 56)
+                                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                            .addComponent(txtNombreAsentamientoHumano, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txtMunicipioAlcaldia, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(113, 113, 113)))
+                                .addGroup(jPanel20Layout.createSequentialGroup()
+                                    .addGap(70, 70, 70)
+                                    .addComponent(jLabel31)
+                                    .addGap(129, 129, 129)
+                                    .addComponent(jLabel32)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jLabel33)
+                                    .addGap(43, 43, 43)))
                             .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(txtNumInt, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGroup(jPanel20Layout.createSequentialGroup()
-                                    .addGap(52, 52, 52)
-                                    .addComponent(txtLocalidad, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(jPanel20Layout.createSequentialGroup()
-                                    .addGap(82, 82, 82)
-                                    .addComponent(jLabel38))
-                                .addGroup(jPanel20Layout.createSequentialGroup()
-                                    .addGap(42, 42, 42)
-                                    .addComponent(jLabel35))))
-                        .addGap(86, 86, 86)
-                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel20Layout.createSequentialGroup()
-                                .addGap(383, 383, 383)
-                                .addComponent(jLabel41)
-                                .addGap(229, 229, 229)
-                                .addComponent(jLabel36))
-                            .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addGroup(jPanel20Layout.createSequentialGroup()
-                                    .addComponent(jLabel39)
-                                    .addGap(125, 125, 125)
-                                    .addComponent(jLabel40))
-                                .addGroup(jPanel20Layout.createSequentialGroup()
-                                    .addComponent(txtMunicipioAlcaldia, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(112, 112, 112)
-                                    .addComponent(txtEntidadFederativaPais, javax.swing.GroupLayout.PREFERRED_SIZE, 258, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                .addContainerGap())
+                                    .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(jPanel20Layout.createSequentialGroup()
+                                            .addGap(22, 22, 22)
+                                            .addComponent(jLabel41))
+                                        .addGroup(jPanel20Layout.createSequentialGroup()
+                                            .addGap(91, 91, 91)
+                                            .addComponent(jLabel34)))
+                                    .addGap(46, 46, 46))))
+                        .addGroup(jPanel20Layout.createSequentialGroup()
+                            .addGap(282, 282, 282)
+                            .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(txtCodigoPostal, javax.swing.GroupLayout.PREFERRED_SIZE, 258, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txtEntidadFederativaPais, javax.swing.GroupLayout.PREFERRED_SIZE, 258, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addGap(328, 328, 328)
+                        .addComponent(jLabel29)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel20Layout.createSequentialGroup()
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addGap(106, 106, 106)
+                        .addComponent(jLabel38)
+                        .addGap(196, 196, 196)
+                        .addComponent(jLabel39)
+                        .addGap(106, 106, 106)
+                        .addComponent(jLabel40))
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addGap(266, 266, 266)
+                        .addComponent(jLabel30)))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel20Layout.setVerticalGroup(
             jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel20Layout.createSequentialGroup()
-                .addGap(16, 16, 16)
+                .addContainerGap()
                 .addComponent(jLabel29)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel30)
-                .addGap(10, 10, 10)
+                .addGap(20, 20, 20)
                 .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtTipoVialidad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtNombreVialidad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtNumExt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtNumInt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(23, 23, 23)
-                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel31)
-                        .addComponent(jLabel32)
-                        .addComponent(jLabel33))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel31)
+                    .addComponent(jLabel32)
+                    .addComponent(jLabel33)
                     .addComponent(jLabel34))
-                .addGap(12, 12, 12)
+                .addGap(29, 29, 29)
                 .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(txtCodigoPostal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtTipoAsentamientoHumano, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtNombreAsentamientoHumano, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(37, 37, 37)
-                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel36)
-                    .addComponent(jLabel41)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel35)
-                    .addComponent(jLabel37))
-                .addGap(24, 24, 24)
+                    .addComponent(jLabel37)
+                    .addComponent(jLabel41))
+                .addGap(15, 15, 15)
+                .addComponent(jLabel36)
+                .addGap(8, 8, 8)
                 .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtLocalidad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtMunicipioAlcaldia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtEntidadFederativaPais, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel40)
                     .addComponent(jLabel39)
                     .addComponent(jLabel38))
-                .addContainerGap(24, Short.MAX_VALUE))
+                .addContainerGap(46, Short.MAX_VALUE))
         );
 
         btnSiguienteVista4.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista4.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista4.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista4.setText("Siguiente");
         btnSiguienteVista4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1952,23 +1993,33 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             }
         });
 
+        btnRegresarVista4.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista4.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista4.setText("Regresar");
+        btnRegresarVista4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista4ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanelVista4Layout = new javax.swing.GroupLayout(jPanelVista4);
         jPanelVista4.setLayout(jPanelVista4Layout);
         jPanelVista4Layout.setHorizontalGroup(
             jPanelVista4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista4Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnSiguienteVista4, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(37, 37, 37))
             .addGroup(jPanelVista4Layout.createSequentialGroup()
                 .addGroup(jPanelVista4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelVista4Layout.createSequentialGroup()
-                        .addGap(242, 242, 242)
+                        .addGap(258, 258, 258)
                         .addComponent(jPanel19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanelVista4Layout.createSequentialGroup()
                         .addGap(66, 66, 66)
-                        .addComponent(jPanel20, javax.swing.GroupLayout.PREFERRED_SIZE, 843, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(89, Short.MAX_VALUE))
+                        .addGroup(jPanelVista4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanelVista4Layout.createSequentialGroup()
+                                .addComponent(btnRegresarVista4, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btnSiguienteVista4, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jPanel20, javax.swing.GroupLayout.PREFERRED_SIZE, 843, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(116, Short.MAX_VALUE))
         );
         jPanelVista4Layout.setVerticalGroup(
             jPanelVista4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1977,9 +2028,11 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addComponent(jPanel19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jPanel20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnSiguienteVista4)
-                .addContainerGap(55, Short.MAX_VALUE))
+                .addGap(32, 32, 32)
+                .addGroup(jPanelVista4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista4)
+                    .addComponent(btnRegresarVista4))
+                .addContainerGap(31, Short.MAX_VALUE))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab4", jPanelVista4);
@@ -2086,7 +2139,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         });
 
         jLabel44.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel44.setText("Escolaridad");
+        jLabel44.setText("13. Escolaridad");
 
         buttonGroupEscolaridadSeleccionada.add(rdbtnEscolaridadIncompleta);
         rdbtnEscolaridadIncompleta.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 14)); // NOI18N
@@ -2144,7 +2197,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addGap(194, 194, 194))
             .addComponent(jSeparator22, javax.swing.GroupLayout.Alignment.TRAILING)
             .addGroup(jPanel18Layout.createSequentialGroup()
-                .addGap(402, 402, 402)
+                .addGap(369, 369, 369)
                 .addComponent(jLabel44)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -2177,7 +2230,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel45.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel45.setText("Ocupación habitual");
+        jLabel45.setText("14. Ocupación habitual");
 
         rdbtnOcupacionHabitualSeIgnora.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 14)); // NOI18N
         rdbtnOcupacionHabitualSeIgnora.setText("Se ignora");
@@ -2260,11 +2313,20 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         );
 
         btnSiguienteVista5.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista5.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista5.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista5.setText("Siguiente");
         btnSiguienteVista5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSiguienteVista5ActionPerformed(evt);
+            }
+        });
+
+        btnRegresarVista5.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista5.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista5.setText("Regresar");
+        btnRegresarVista5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista5ActionPerformed(evt);
             }
         });
 
@@ -2273,20 +2335,20 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanelVista5Layout.setHorizontalGroup(
             jPanelVista5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista5Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(btnSiguienteVista5, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(57, 57, 57))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(259, 259, 259))
             .addGroup(jPanelVista5Layout.createSequentialGroup()
-                .addGroup(jPanelVista5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGap(54, 54, 54)
+                .addGroup(jPanelVista5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanelVista5Layout.createSequentialGroup()
-                        .addGap(240, 240, 240)
-                        .addComponent(jPanel21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanelVista5Layout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(jPanelVista5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(54, Short.MAX_VALUE))
+                        .addComponent(btnRegresarVista5, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(670, 670, 670)
+                        .addComponent(btnSiguienteVista5, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanelVista5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(81, Short.MAX_VALUE))
         );
         jPanelVista5Layout.setVerticalGroup(
             jPanelVista5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2298,8 +2360,10 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btnSiguienteVista5)
-                .addContainerGap(29, Short.MAX_VALUE))
+                .addGroup(jPanelVista5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista5)
+                    .addComponent(btnRegresarVista5))
+                .addContainerGap(31, Short.MAX_VALUE))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab5", jPanelVista5);
@@ -2331,7 +2395,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel6.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel48.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel48.setText("Afliliación a Servicios de Salud");
+        jLabel48.setText("15. Afliliación a Servicios de Salud");
 
         buttonGroupAfiliacionServiciosSalud.add(rdbtnServiciosDeSaludNinguna);
         rdbtnServiciosDeSaludNinguna.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 14)); // NOI18N
@@ -2477,9 +2541,9 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addComponent(jLabel49)
                 .addGap(64, 64, 64))
             .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(72, 72, 72)
+                .addGap(171, 171, 171)
                 .addComponent(jLabel50, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(117, 117, 117)
+                .addGap(18, 18, 18)
                 .addComponent(txtNumeroSeguridadSocial, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -2513,7 +2577,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         );
 
         btnSiguienteVista6.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista6.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista6.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista6.setText("Siguiente");
         btnSiguienteVista6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2541,18 +2605,13 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jLabel55.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         jLabel55.setText("DEL INF");
 
+        jLabel197.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
+        jLabel197.setText("16. Nombre");
+
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
         jPanel14Layout.setHorizontalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel14Layout.createSequentialGroup()
-                .addGap(115, 115, 115)
-                .addComponent(jLabel52)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel53)
-                .addGap(193, 193, 193)
-                .addComponent(jLabel54)
-                .addGap(128, 128, 128))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
                 .addGap(61, 61, 61)
                 .addComponent(txtNombreInf, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2564,45 +2623,71 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             .addGroup(jPanel14Layout.createSequentialGroup()
                 .addGap(18, 18, 18)
                 .addComponent(jLabel55)
+                .addGap(323, 323, 323)
+                .addComponent(jLabel197)
                 .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addGap(115, 115, 115)
+                .addComponent(jLabel52)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel53)
+                .addGap(183, 183, 183)
+                .addComponent(jLabel54)
+                .addGap(135, 135, 135))
         );
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel14Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel55)
-                .addGap(18, 18, 18)
                 .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtNombreInf, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtApellidoPaternoInf, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtApellidoMaternoInf, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
-                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel52)
-                    .addComponent(jLabel53)
-                    .addComponent(jLabel54))
-                .addContainerGap())
+                    .addComponent(jLabel55)
+                    .addComponent(jLabel197))
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel14Layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(txtNombreInf, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtApellidoPaternoInf, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtApellidoMaternoInf, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel53)
+                            .addComponent(jLabel54))
+                        .addContainerGap(33, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel52)
+                        .addGap(36, 36, 36))))
         );
+
+        btnRegresarVista6.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista6.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista6.setText("Regresar");
+        btnRegresarVista6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista6ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanelVista6Layout = new javax.swing.GroupLayout(jPanelVista6);
         jPanelVista6.setLayout(jPanelVista6Layout);
         jPanelVista6Layout.setHorizontalGroup(
             jPanelVista6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista6Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnSiguienteVista6, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(65, 65, 65))
             .addGroup(jPanelVista6Layout.createSequentialGroup()
                 .addGroup(jPanelVista6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelVista6Layout.createSequentialGroup()
+                        .addGap(242, 242, 242)
+                        .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanelVista6Layout.createSequentialGroup()
                         .addGap(37, 37, 37)
                         .addGroup(jPanelVista6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanelVista6Layout.createSequentialGroup()
+                                .addComponent(btnRegresarVista6, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btnSiguienteVista6, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                    .addGroup(jPanelVista6Layout.createSequentialGroup()
-                        .addGap(242, 242, 242)
-                        .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(51, Short.MAX_VALUE))
+                            .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                .addContainerGap(78, Short.MAX_VALUE))
         );
         jPanelVista6Layout.setVerticalGroup(
             jPanelVista6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2613,8 +2698,10 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
-                .addComponent(btnSiguienteVista6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 8, Short.MAX_VALUE)
+                .addGroup(jPanelVista6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista6)
+                    .addComponent(btnRegresarVista6))
                 .addGap(16, 16, 16))
         );
 
@@ -2647,12 +2734,12 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel25.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel56.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel56.setText("Firma de la (el) informante");
+        jLabel56.setText("18. Firma de la (el) informante");
 
         txtFirmaInformante.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jLabel57.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel57.setText("Parentesco con la (el) fallecida/o");
+        jLabel57.setText("17. Parentesco con la (el) fallecida/o");
 
         txtParentescoFamiliar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -2665,7 +2752,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addGroup(jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel25Layout.createSequentialGroup()
                         .addGap(9, 9, 9)
-                        .addComponent(jLabel57, javax.swing.GroupLayout.DEFAULT_SIZE, 279, Short.MAX_VALUE)
+                        .addComponent(jLabel57, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(227, 227, 227)
                         .addComponent(jLabel56)
                         .addGap(118, 118, 118))
@@ -2835,7 +2922,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         });
 
         jLabel62.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel62.setText("Sitio donde sucedió la defunción");
+        jLabel62.setText("19. Sitio donde sucedió la defunción");
 
         javax.swing.GroupLayout jPanel26Layout = new javax.swing.GroupLayout(jPanel26);
         jPanel26.setLayout(jPanel26Layout);
@@ -2848,10 +2935,8 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(rdbtnDefuncionSecretariaSalud)
                             .addComponent(rdbtnDefuncionImssBienestar)
-                            .addComponent(rdbtnDefuncionImss)
-                            .addComponent(jLabel59)
-                            .addComponent(jLabel60))
-                        .addGap(17, 17, 17)
+                            .addComponent(rdbtnDefuncionImss))
+                        .addGap(84, 84, 84)
                         .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel26Layout.createSequentialGroup()
                                 .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2864,16 +2949,20 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                                     .addComponent(rdbtnDefuncionSemar)
                                     .addComponent(rdbtnDefuncionUnidadMedicaPrivada)))
                             .addGroup(jPanel26Layout.createSequentialGroup()
-                                .addGap(46, 46, 46)
-                                .addComponent(txtDefuncionNombreUnidadMedica, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel26Layout.createSequentialGroup()
                                 .addGap(43, 43, 43)
                                 .addComponent(txtDefuncionClaveUnicaEstablecimientos, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(jPanel26Layout.createSequentialGroup()
                         .addGap(31, 31, 31)
                         .addComponent(jLabel58)
                         .addGap(163, 163, 163)
-                        .addComponent(jLabel62)))
+                        .addComponent(jLabel62))
+                    .addGroup(jPanel26Layout.createSequentialGroup()
+                        .addGap(58, 58, 58)
+                        .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel60)
+                            .addComponent(jLabel59))
+                        .addGap(28, 28, 28)
+                        .addComponent(txtDefuncionNombreUnidadMedica, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jSeparator33, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -2934,7 +3023,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         );
 
         btnSiguienteVista7.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista7.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista7.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista7.setText("Siguiente");
         btnSiguienteVista7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2942,24 +3031,36 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             }
         });
 
+        btnRegresarVista7.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista7.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista7.setText("Regresar");
+        btnRegresarVista7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista7ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanelVista7Layout = new javax.swing.GroupLayout(jPanelVista7);
         jPanelVista7.setLayout(jPanelVista7Layout);
         jPanelVista7Layout.setHorizontalGroup(
             jPanelVista7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelVista7Layout.createSequentialGroup()
-                .addGap(33, 33, 33)
-                .addGroup(jPanelVista7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(35, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista7Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(btnSiguienteVista7, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(49, 49, 49))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista7Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(226, 226, 226))
+                .addGap(250, 250, 250))
+            .addGroup(jPanelVista7Layout.createSequentialGroup()
+                .addGap(33, 33, 33)
+                .addGroup(jPanelVista7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanelVista7Layout.createSequentialGroup()
+                        .addComponent(btnRegresarVista7, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnSiguienteVista7, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(49, 49, 49))
+                    .addGroup(jPanelVista7Layout.createSequentialGroup()
+                        .addGroup(jPanelVista7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jPanel26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jPanel25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addContainerGap(47, Short.MAX_VALUE))))
         );
         jPanelVista7Layout.setVerticalGroup(
             jPanelVista7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2971,8 +3072,10 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnSiguienteVista7)
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addGroup(jPanelVista7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista7)
+                    .addComponent(btnRegresarVista7))
+                .addContainerGap(27, Short.MAX_VALUE))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab7", jPanelVista7);
@@ -3004,7 +3107,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel23.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel63.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel63.setText("Domicilio donde sucedió la defunción");
+        jLabel63.setText("20. Domicilio donde sucedió la defunción");
 
         jLabel64.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel64.setText("Tipo de vialidad");
@@ -3066,117 +3169,113 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel23Layout.setHorizontalGroup(
             jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel23Layout.createSequentialGroup()
-                .addGap(42, 42, 42)
+                .addGap(47, 47, 47)
                 .addComponent(jLabel64)
+                .addGap(126, 126, 126)
                 .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel23Layout.createSequentialGroup()
-                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel23Layout.createSequentialGroup()
-                                .addGap(131, 131, 131)
-                                .addComponent(txtNombreAsentamientoHumanoDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel23Layout.createSequentialGroup()
-                                .addGap(0, 120, Short.MAX_VALUE)
-                                .addComponent(jLabel65)
-                                .addGap(102, 102, 102)
-                                .addComponent(jLabel66)
-                                .addGap(120, 120, 120)))
-                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtMunicipioDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtNumIntDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel23Layout.createSequentialGroup()
-                                .addGap(32, 32, 32)
-                                .addComponent(jLabel67)))
-                        .addGap(228, 228, 228))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel23Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(txtNumExtDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(65, 65, 65)
+                        .addComponent(txtNumIntDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(249, 249, 249))
+                    .addGroup(jPanel23Layout.createSequentialGroup()
+                        .addComponent(jLabel65)
+                        .addGap(129, 129, 129)
+                        .addComponent(jLabel66)
+                        .addGap(144, 144, 144)
+                        .addComponent(jLabel67)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel63)
-                        .addGap(335, 335, 335))))
+                        .addComponent(jLabel68)
+                        .addGap(82, 82, 82))))
             .addGroup(jPanel23Layout.createSequentialGroup()
                 .addGap(12, 12, 12)
+                .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jLabel69, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(txtTipoAsentamientoHumanoDefuncion)
+                    .addComponent(txtTipoVialidadDefuncion, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel23Layout.createSequentialGroup()
-                        .addComponent(txtTipoVialidadDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(75, 75, 75)
+                        .addGap(68, 68, 68)
                         .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel23Layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(jLabel68)
-                                .addGap(70, 70, 70))
-                            .addGroup(jPanel23Layout.createSequentialGroup()
-                                .addComponent(txtNombreVialidadDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(51, 51, 51)
-                                .addComponent(txtNumExtDefuncion)
-                                .addGap(288, 288, 288)
-                                .addComponent(txtCodigoPostalDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(50, 50, 50))))
+                                .addComponent(txtNombreAsentamientoHumanoDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(60, 60, 60)
+                                .addComponent(txtLocalidadDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txtNombreVialidadDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
+                        .addComponent(txtMunicipioDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 37, Short.MAX_VALUE)
+                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtEntidadFederativaDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtCodigoPostalDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(50, 50, 50))
                     .addGroup(jPanel23Layout.createSequentialGroup()
-                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel69, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(txtTipoAsentamientoHumanoDefuncion))
-                        .addGap(57, 57, 57)
-                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel23Layout.createSequentialGroup()
-                                .addComponent(jLabel70)
-                                .addGap(100, 100, 100)
-                                .addComponent(jLabel71)
-                                .addGap(33, 33, 33))
-                            .addComponent(txtLocalidadDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel72)
                         .addGap(56, 56, 56)
-                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel23Layout.createSequentialGroup()
-                                .addComponent(txtEntidadFederativaDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(50, 50, 50))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel23Layout.createSequentialGroup()
-                                .addComponent(jLabel73)
-                                .addGap(74, 74, 74))))))
+                        .addComponent(jLabel70)
+                        .addGap(96, 96, 96)
+                        .addComponent(jLabel71)
+                        .addGap(123, 123, 123)
+                        .addComponent(jLabel72)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel73)
+                        .addGap(71, 71, 71))))
+            .addGroup(jPanel23Layout.createSequentialGroup()
+                .addGap(317, 317, 317)
+                .addComponent(jLabel63)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel23Layout.setVerticalGroup(
             jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel23Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel63)
-                .addGap(29, 29, 29)
+                .addGap(72, 72, 72)
                 .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtNombreVialidadDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtNumExtDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtCodigoPostalDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtTipoVialidadDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtNumIntDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(21, 21, 21)
+                    .addComponent(txtNumIntDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtNumExtDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtNombreVialidadDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtTipoVialidadDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel64)
                     .addComponent(jLabel65)
                     .addComponent(jLabel66)
                     .addComponent(jLabel67)
                     .addComponent(jLabel68))
-                .addGap(71, 71, 71)
+                .addGap(43, 43, 43)
                 .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtTipoAsentamientoHumanoDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtNombreAsentamientoHumanoDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtMunicipioDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtEntidadFederativaDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtLocalidadDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
-                .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel69)
-                        .addComponent(jLabel70)
-                        .addComponent(jLabel71))
-                    .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel72)
-                        .addComponent(jLabel73)))
-                .addGap(47, 47, 47))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel69)
+                    .addComponent(jLabel70)
+                    .addComponent(jLabel71)
+                    .addComponent(jLabel72)
+                    .addComponent(jLabel73))
+                .addContainerGap(77, Short.MAX_VALUE))
         );
 
         btnSiguienteVista8.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista8.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista8.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista8.setText("Siguiente");
         btnSiguienteVista8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSiguienteVista8ActionPerformed(evt);
+            }
+        });
+
+        btnRegresarVista8.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista8.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista8.setText("Regresar");
+        btnRegresarVista8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista8ActionPerformed(evt);
             }
         });
 
@@ -3186,30 +3285,31 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             jPanelVista8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelVista8Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanelVista8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelVista8Layout.createSequentialGroup()
-                        .addComponent(jPanel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista8Layout.createSequentialGroup()
-                        .addGap(0, 266, Short.MAX_VALUE)
-                        .addGroup(jPanelVista8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista8Layout.createSequentialGroup()
-                                .addComponent(btnSiguienteVista8, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(49, 49, 49))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista8Layout.createSequentialGroup()
-                                .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(233, 233, 233))))))
+                .addComponent(jPanel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+            .addGroup(jPanelVista8Layout.createSequentialGroup()
+                .addGap(237, 237, 237)
+                .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista8Layout.createSequentialGroup()
+                .addGap(46, 46, 46)
+                .addComponent(btnRegresarVista8, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnSiguienteVista8, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(41, 41, 41))
         );
         jPanelVista8Layout.setVerticalGroup(
             jPanelVista8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelVista8Layout.createSequentialGroup()
-                .addGap(14, 14, 14)
+                .addGap(23, 23, 23)
                 .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27)
-                .addComponent(jPanel23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btnSiguienteVista8)
-                .addContainerGap(59, Short.MAX_VALUE))
+                .addComponent(jPanel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
+                .addGroup(jPanelVista8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista8)
+                    .addComponent(btnRegresarVista8))
+                .addGap(40, 40, 40))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab8", jPanelVista8);
@@ -3241,7 +3341,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel30.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel75.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel75.setText("Fecha y hora de la defunción");
+        jLabel75.setText("21. Fecha y hora de la defunción");
 
         jLabel76.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel76.setText("Día");
@@ -3283,17 +3383,11 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel30Layout.setHorizontalGroup(
             jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel30Layout.createSequentialGroup()
-                .addGap(57, 57, 57)
+                .addGap(54, 54, 54)
                 .addComponent(jLabel76)
-                .addGap(141, 141, 141)
-                .addComponent(jLabel77, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel78)
-                .addGap(103, 103, 103))
-            .addGroup(jPanel30Layout.createSequentialGroup()
-                .addGap(148, 148, 148)
-                .addComponent(jLabel75)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addComponent(jLabel77, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(262, 262, 262))
             .addGroup(jPanel30Layout.createSequentialGroup()
                 .addGap(16, 16, 16)
                 .addComponent(txtDiaDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -3303,51 +3397,56 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addComponent(txtAñoDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(54, 54, 54))
             .addGroup(jPanel30Layout.createSequentialGroup()
-                .addGroup(jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel30Layout.createSequentialGroup()
-                        .addGap(85, 85, 85)
-                        .addComponent(txtHorasDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel30Layout.createSequentialGroup()
-                        .addGap(116, 116, 116)
-                        .addComponent(jLabel79)))
+                .addGap(85, 85, 85)
+                .addComponent(txtHorasDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel30Layout.createSequentialGroup()
-                        .addComponent(txtMinutosDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(94, 94, 94))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel30Layout.createSequentialGroup()
-                        .addComponent(jLabel80, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(117, 117, 117))))
+                .addGroup(jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel78)
+                    .addComponent(txtMinutosDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(94, 94, 94))
+            .addGroup(jPanel30Layout.createSequentialGroup()
+                .addGap(132, 132, 132)
+                .addComponent(jLabel75)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel30Layout.createSequentialGroup()
+                .addGap(116, 116, 116)
+                .addComponent(jLabel79)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel80, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(113, 113, 113))
         );
         jPanel30Layout.setVerticalGroup(
             jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel30Layout.createSequentialGroup()
                 .addComponent(jLabel75)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtDiaDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtMesDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtAñoDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel76)
-                    .addComponent(jLabel77)
-                    .addComponent(jLabel78))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
+                .addGroup(jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel30Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(txtDiaDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtMesDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtAñoDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel30Layout.createSequentialGroup()
+                        .addGap(28, 28, 28)
+                        .addGroup(jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel76)
+                            .addComponent(jLabel77)
+                            .addComponent(jLabel78))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
                 .addGroup(jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtHorasDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtMinutosDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(22, 22, 22)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel79)
                     .addComponent(jLabel80))
-                .addContainerGap())
+                .addGap(28, 28, 28))
         );
 
         jPanel31.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel81.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel81.setText("¿Tuvo atención médica durante la");
+        jLabel81.setText("22. ¿Tuvo atención médica durante la");
 
         buttonGroupAtencionMedicaDuranteEnfermedad.add(rdbtnSiAtencionMedica);
         rdbtnSiAtencionMedica.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
@@ -3374,10 +3473,6 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel31Layout.setHorizontalGroup(
             jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel31Layout.createSequentialGroup()
-                .addGap(45, 45, 45)
-                .addComponent(jLabel81)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel31Layout.createSequentialGroup()
                 .addGap(16, 16, 16)
                 .addGroup(jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel31Layout.createSequentialGroup()
@@ -3390,6 +3485,10 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(rdbtnSeIgnoraAtencionMedica)
                         .addGap(31, 31, 31))))
+            .addGroup(jPanel31Layout.createSequentialGroup()
+                .addGap(30, 30, 30)
+                .addComponent(jLabel81)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel31Layout.setVerticalGroup(
             jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3408,7 +3507,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel32.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel83.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel83.setText("¿Se realizó una cirugía en las últimas cuatro semanas?");
+        jLabel83.setText("23. ¿Se realizó una cirugía en las últimas cuatro semanas?");
 
         buttonGroupRealizoCirugia.add(rdbtnSiRealizoCirugia);
         rdbtnSiRealizoCirugia.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
@@ -3490,51 +3589,49 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel32Layout.setHorizontalGroup(
             jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel32Layout.createSequentialGroup()
-                .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel32Layout.createSequentialGroup()
-                        .addGap(45, 45, 45)
-                        .addComponent(jLabel83))
-                    .addGroup(jPanel32Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel32Layout.createSequentialGroup()
-                                .addComponent(rdbtnSeIgnoraRealizoCirugia)
-                                .addGap(90, 90, 90)
-                                .addComponent(txtMotivoCirugia, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel32Layout.createSequentialGroup()
-                                .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(rdbtnSiRealizoCirugia)
-                                    .addComponent(rdbtnNoRealizoCirugia))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(jPanel32Layout.createSequentialGroup()
-                                        .addComponent(jLabel84, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(82, 82, 82)
-                                        .addComponent(jLabel85)
-                                        .addGap(127, 127, 127)
-                                        .addComponent(jLabel86)
-                                        .addGap(30, 30, 30))
-                                    .addGroup(jPanel32Layout.createSequentialGroup()
-                                        .addComponent(txtDiaRealizoCirugia, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(txtMesRealizoCirugia, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(txtAñoRealizoCirugia, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
-                .addContainerGap(53, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel32Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel87, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(158, 158, 158))
+                .addGap(21, 21, 21)
+                .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel32Layout.createSequentialGroup()
+                            .addComponent(rdbtnSeIgnoraRealizoCirugia)
+                            .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel32Layout.createSequentialGroup()
+                                    .addGap(90, 90, 90)
+                                    .addComponent(txtMotivoCirugia, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(jPanel32Layout.createSequentialGroup()
+                                    .addGap(123, 123, 123)
+                                    .addComponent(jLabel87, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGap(0, 0, Short.MAX_VALUE))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel32Layout.createSequentialGroup()
+                            .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(rdbtnSiRealizoCirugia)
+                                .addComponent(rdbtnNoRealizoCirugia))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
+                            .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(jPanel32Layout.createSequentialGroup()
+                                    .addComponent(jLabel84, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(82, 82, 82)
+                                    .addComponent(jLabel85)
+                                    .addGap(127, 127, 127)
+                                    .addComponent(jLabel86)
+                                    .addGap(30, 30, 30))
+                                .addGroup(jPanel32Layout.createSequentialGroup()
+                                    .addComponent(txtDiaRealizoCirugia, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtMesRealizoCirugia, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(txtAñoRealizoCirugia, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addComponent(jLabel83))
+                .addContainerGap(50, Short.MAX_VALUE))
         );
         jPanel32Layout.setVerticalGroup(
             jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel32Layout.createSequentialGroup()
                 .addContainerGap()
+                .addComponent(jLabel83)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel32Layout.createSequentialGroup()
-                        .addComponent(jLabel83)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel32Layout.createSequentialGroup()
                                 .addComponent(rdbtnSiRealizoCirugia)
@@ -3561,15 +3658,15 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel32Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(txtMotivoCirugia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(16, 16, 16)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel87)
-                        .addContainerGap())))
+                        .addGap(16, 16, 16))))
         );
 
         jPanel33.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel88.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel88.setText("¿Fué defunción accidental o violenta?");
+        jLabel88.setText("24. ¿Fué defunción accidental o violenta?");
 
         buttonGroupDefuncionAccidental.add(rdbtnSiDefuncionAccidentalViolenta);
         rdbtnSiDefuncionAccidentalViolenta.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
@@ -3592,19 +3689,19 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel33.setLayout(jPanel33Layout);
         jPanel33Layout.setHorizontalGroup(
             jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel33Layout.createSequentialGroup()
-                .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+            .addGroup(jPanel33Layout.createSequentialGroup()
+                .addGap(16, 16, 16)
+                .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel33Layout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel88))
+                        .addComponent(jLabel88)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel33Layout.createSequentialGroup()
-                        .addGap(16, 16, 16)
                         .addComponent(rdbtnSiDefuncionAccidentalViolenta)
                         .addGap(80, 80, 80)
                         .addComponent(rdbtnNoDefuncionAccidentalViolenta)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
-                        .addComponent(rdbtnSeIgnoraDefuncionAccidentalViolenta)))
-                .addGap(31, 31, 31))
+                        .addComponent(rdbtnSeIgnoraDefuncionAccidentalViolenta)
+                        .addGap(31, 31, 31))))
         );
         jPanel33Layout.setVerticalGroup(
             jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3619,11 +3716,20 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         );
 
         btnSiguienteVista9.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista9.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista9.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista9.setText("Siguiente");
         btnSiguienteVista9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSiguienteVista9ActionPerformed(evt);
+            }
+        });
+
+        btnRegresarVista9.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista9.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista9.setText("Regresar");
+        btnRegresarVista9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista9ActionPerformed(evt);
             }
         });
 
@@ -3635,12 +3741,13 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addGap(29, 29, 29)
                 .addGroup(jPanelVista9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jPanel30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, Short.MAX_VALUE)
+                    .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnRegresarVista9, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 85, Short.MAX_VALUE)
                 .addGroup(jPanelVista9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel31, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel33, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnSiguienteVista9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnSiguienteVista9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(50, 50, 50))
             .addGroup(jPanelVista9Layout.createSequentialGroup()
                 .addGap(251, 251, 251)
@@ -3661,8 +3768,10 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addComponent(jPanel32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
-                .addComponent(btnSiguienteVista9)
-                .addContainerGap(47, Short.MAX_VALUE))
+                .addGroup(jPanelVista9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista9)
+                    .addComponent(btnRegresarVista9))
+                .addContainerGap(49, Short.MAX_VALUE))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab9", jPanelVista9);
@@ -3738,7 +3847,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         });
 
         jLabel90.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel90.setText("Tipo de defunción");
+        jLabel90.setText("25. Tipo de defunción");
 
         javax.swing.GroupLayout jPanel28Layout = new javax.swing.GroupLayout(jPanel28);
         jPanel28.setLayout(jPanel28Layout);
@@ -3781,7 +3890,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel35.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel91.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 14)); // NOI18N
-        jLabel91.setText("Causas de la defunción (Anote una sola causa en cada renglón. Evite señalar modos de morir -Ejemplo: paro cardiaco, astenia, etc)");
+        jLabel91.setText("26. Causas de la defunción (Anote una sola causa en cada renglón. Evite señalar modos de morir -Ejemplo: paro cardiaco, astenia, etc)");
 
         jLabel92.setText("PARTE I");
 
@@ -3845,65 +3954,49 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel35Layout.setHorizontalGroup(
             jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel35Layout.createSequentialGroup()
-                .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel35Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel92))
+                .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel35Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel99, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel100)
                             .addGroup(jPanel35Layout.createSequentialGroup()
                                 .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel99, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel100))
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(jPanel35Layout.createSequentialGroup()
-                                .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel94)
+                                    .addComponent(jLabel93)
+                                    .addComponent(jLabel95)
                                     .addComponent(jLabel101)
                                     .addComponent(jLabel98, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(txtCausaDefuncionD, javax.swing.GroupLayout.PREFERRED_SIZE, 439, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(20, 20, 20))))
-                    .addGroup(jPanel35Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(jPanel35Layout.createSequentialGroup()
-                                .addComponent(jLabel94)
-                                .addGap(121, 121, 121))
+                                .addGap(224, 224, 224)
+                                .addComponent(txtCausaDefuncionD))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel35Layout.createSequentialGroup()
-                                .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel106, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel105, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel35Layout.createSequentialGroup()
-                                        .addComponent(jLabel93)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jLabel97, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel35Layout.createSequentialGroup()
-                                        .addComponent(jLabel95)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jLabel104, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
-                        .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel35Layout.createSequentialGroup()
-                                .addComponent(jLabel96)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(txtCausaDefuncionA, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(24, 24, 24))
-                            .addGroup(jPanel35Layout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
                                 .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel35Layout.createSequentialGroup()
-                                        .addComponent(jLabel103)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
-                                        .addComponent(txtCausaDefuncionC, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel35Layout.createSequentialGroup()
-                                        .addComponent(jLabel102)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(txtCausaDefuncionB, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(11, 11, 11))))
-                    .addGroup(jPanel35Layout.createSequentialGroup()
-                        .addGap(41, 41, 41)
-                        .addComponent(jLabel91)))
-                .addContainerGap(162, Short.MAX_VALUE))
+                                    .addComponent(jLabel102, javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel103, javax.swing.GroupLayout.Alignment.TRAILING))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(txtCausaDefuncionC)
+                                    .addComponent(txtCausaDefuncionB, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 295, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel35Layout.createSequentialGroup()
+                            .addContainerGap()
+                            .addComponent(jLabel92))
+                        .addGroup(jPanel35Layout.createSequentialGroup()
+                            .addGap(93, 93, 93)
+                            .addComponent(jLabel91))
+                        .addGroup(jPanel35Layout.createSequentialGroup()
+                            .addGap(375, 375, 375)
+                            .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(jLabel104, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jLabel97, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jLabel105, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jLabel106, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGap(56, 56, 56)
+                            .addComponent(jLabel96)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(txtCausaDefuncionA, javax.swing.GroupLayout.PREFERRED_SIZE, 295, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(82, 82, 82))
         );
         jPanel35Layout.setVerticalGroup(
             jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3911,31 +4004,29 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel91)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addComponent(jLabel92)
+                .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel35Layout.createSequentialGroup()
-                        .addComponent(jLabel92)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jLabel93))
                     .addGroup(jPanel35Layout.createSequentialGroup()
+                        .addGap(2, 2, 2)
                         .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel97)
-                            .addComponent(jLabel96))
-                        .addGap(22, 22, 22))
-                    .addGroup(jPanel35Layout.createSequentialGroup()
-                        .addComponent(txtCausaDefuncionA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(14, 14, 14)))
+                            .addComponent(txtCausaDefuncionA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel96)
+                            .addComponent(jLabel97))))
                 .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel35Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel94)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel95))
+                    .addGroup(jPanel35Layout.createSequentialGroup()
+                        .addGap(23, 23, 23)
                         .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel95)
+                            .addComponent(txtCausaDefuncionB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel102)
-                            .addComponent(jLabel104)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel35Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(txtCausaDefuncionB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(jLabel104))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 6, Short.MAX_VALUE)
                 .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel35Layout.createSequentialGroup()
                         .addGap(45, 45, 45)
@@ -3953,21 +4044,30 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel101))
                     .addGroup(jPanel35Layout.createSequentialGroup()
-                        .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel106)
                             .addComponent(txtCausaDefuncionD, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(15, 15, 15)))
+                        .addGap(13, 13, 13)))
                 .addGap(4, 4, 4)
                 .addComponent(jLabel100)
                 .addContainerGap())
         );
 
         btnSiguienteVista10.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista10.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista10.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista10.setText("Siguiente");
         btnSiguienteVista10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSiguienteVista10ActionPerformed(evt);
+            }
+        });
+
+        btnRegresarVista10.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista10.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista10.setText("Regresar");
+        btnRegresarVista10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista10ActionPerformed(evt);
             }
         });
 
@@ -3982,11 +4082,13 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addComponent(jPanel35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista10Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(btnSiguienteVista10, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(54, 54, 54))
+                .addGap(26, 26, 26)
+                .addComponent(btnRegresarVista10, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnSiguienteVista10, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(50, 50, 50))
             .addGroup(jPanelVista10Layout.createSequentialGroup()
-                .addGap(236, 236, 236)
+                .addGap(251, 251, 251)
                 .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -4000,8 +4102,10 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnSiguienteVista10)
-                .addContainerGap(27, Short.MAX_VALUE))
+                .addGroup(jPanelVista10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista10)
+                    .addComponent(btnRegresarVista10))
+                .addContainerGap(29, Short.MAX_VALUE))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab10", jPanelVista10);
@@ -4073,21 +4177,21 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addComponent(txtIntervaloEnfermedadDefuncionD, javax.swing.GroupLayout.PREFERRED_SIZE, 525, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtIntervaloEnfermedadDefuncionB, javax.swing.GroupLayout.PREFERRED_SIZE, 525, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtIntervaloEnfermedadDefuncionA, javax.swing.GroupLayout.PREFERRED_SIZE, 525, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(12, 12, 12)
+                .addGap(18, 18, 18)
                 .addComponent(jSeparator56, javax.swing.GroupLayout.PREFERRED_SIZE, 11, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel36Layout.createSequentialGroup()
-                        .addGap(68, 68, 68)
+                        .addGap(62, 62, 62)
                         .addComponent(jLabel111, javax.swing.GroupLayout.PREFERRED_SIZE, 301, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel36Layout.createSequentialGroup()
-                        .addGap(94, 94, 94)
+                        .addGap(88, 88, 88)
                         .addGroup(jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(txtCodigoCieC, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtCodigoCieD, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtCodigoCieB, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtCodigoCieA, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel36Layout.createSequentialGroup()
-                        .addGap(183, 183, 183)
+                        .addGap(177, 177, 177)
                         .addComponent(jLabel112)))
                 .addContainerGap(37, Short.MAX_VALUE))
         );
@@ -4153,19 +4257,17 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addComponent(jLabel114)
                     .addGroup(jPanel37Layout.createSequentialGroup()
                         .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel37Layout.createSequentialGroup()
-                                .addComponent(jLabel116)
-                                .addGap(31, 31, 31)
-                                .addComponent(jLabel117))
-                            .addGroup(jPanel37Layout.createSequentialGroup()
-                                .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel115)
-                                    .addComponent(jLabel113))
-                                .addGap(78, 78, 78)
-                                .addComponent(txtOtrasCondiciones, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(48, 48, 48)
-                        .addComponent(txtCodigoCieIntervaloTiempo, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(97, Short.MAX_VALUE))
+                            .addComponent(jLabel115)
+                            .addComponent(jLabel113))
+                        .addGap(78, 78, 78)
+                        .addComponent(txtOtrasCondiciones, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28)
+                        .addComponent(txtCodigoCieIntervaloTiempo, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel37Layout.createSequentialGroup()
+                        .addComponent(jLabel116)
+                        .addGap(36, 36, 36)
+                        .addComponent(jLabel117)))
+                .addContainerGap(83, Short.MAX_VALUE))
         );
         jPanel37Layout.setVerticalGroup(
             jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -4179,26 +4281,32 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel115)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel116)
-                            .addGroup(jPanel37Layout.createSequentialGroup()
-                                .addGap(0, 12, Short.MAX_VALUE)
-                                .addComponent(jLabel117, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addContainerGap(12, Short.MAX_VALUE))
+                        .addComponent(jLabel116))
                     .addGroup(jPanel37Layout.createSequentialGroup()
                         .addGap(20, 20, 20)
                         .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(txtOtrasCondiciones, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtCodigoCieIntervaloTiempo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel117, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
 
         btnSiguienteVista11.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista11.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista11.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista11.setText("Siguiente");
         btnSiguienteVista11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSiguienteVista11ActionPerformed(evt);
+            }
+        });
+
+        btnRegresarVista11.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista11.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista11.setText("Regresar");
+        btnRegresarVista11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista11ActionPerformed(evt);
             }
         });
 
@@ -4207,20 +4315,21 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanelVista11Layout.setHorizontalGroup(
             jPanelVista11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista11Layout.createSequentialGroup()
-                .addContainerGap(18, Short.MAX_VALUE)
+                .addContainerGap(280, Short.MAX_VALUE)
+                .addComponent(jPanel39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(252, 252, 252))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista11Layout.createSequentialGroup()
+                .addGap(74, 74, 74)
+                .addComponent(btnRegresarVista11, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnSiguienteVista11, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(57, 57, 57))
+            .addGroup(jPanelVista11Layout.createSequentialGroup()
+                .addGap(32, 32, 32)
                 .addGroup(jPanelVista11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelVista11Layout.createSequentialGroup()
-                        .addGap(235, 235, 235)
-                        .addGroup(jPanelVista11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista11Layout.createSequentialGroup()
-                                .addComponent(btnSiguienteVista11, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(41, 41, 41))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista11Layout.createSequentialGroup()
-                                .addComponent(jPanel39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(252, 252, 252))))
-                    .addGroup(jPanelVista11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(jPanel36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jPanel37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addComponent(jPanel37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanelVista11Layout.setVerticalGroup(
             jPanelVista11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -4232,8 +4341,10 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnSiguienteVista11)
-                .addContainerGap(24, Short.MAX_VALUE))
+                .addGroup(jPanelVista11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista11)
+                    .addComponent(btnRegresarVista11))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab11", jPanelVista11);
@@ -4315,7 +4426,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         });
 
         jLabel125.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel125.setText("¿Se practicó necropsia?");
+        jLabel125.setText("27. ¿Se practicó necropsia?");
 
         javax.swing.GroupLayout jPanel38Layout = new javax.swing.GroupLayout(jPanel38);
         jPanel38.setLayout(jPanel38Layout);
@@ -4332,7 +4443,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addComponent(rdbtnNoUtilizaronHallazgos)
                         .addGap(64, 64, 64))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel38Layout.createSequentialGroup()
-                        .addGap(0, 107, Short.MAX_VALUE)
+                        .addGap(0, 134, Short.MAX_VALUE)
                         .addComponent(jLabel119, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap())
                     .addGroup(jPanel38Layout.createSequentialGroup()
@@ -4340,16 +4451,17 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                             .addComponent(rdbtnNoPracticoNecropsia)
                             .addComponent(rdbtnSeIgnoraPracticoNecropsia))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-            .addGroup(jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel38Layout.createSequentialGroup()
-                    .addGap(71, 71, 71)
-                    .addComponent(jLabel125)
-                    .addContainerGap(97, Short.MAX_VALUE)))
+            .addGroup(jPanel38Layout.createSequentialGroup()
+                .addGap(68, 68, 68)
+                .addComponent(jLabel125)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel38Layout.setVerticalGroup(
             jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel38Layout.createSequentialGroup()
-                .addGap(54, 54, 54)
+                .addGap(11, 11, 11)
+                .addComponent(jLabel125)
+                .addGap(18, 18, 18)
                 .addComponent(jLabel119)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -4362,18 +4474,13 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(rdbtnSeIgnoraPracticoNecropsia)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel38Layout.createSequentialGroup()
-                    .addGap(16, 16, 16)
-                    .addComponent(jLabel125)
-                    .addContainerGap(134, Short.MAX_VALUE)))
         );
 
         jPanel42.setBackground(new java.awt.Color(183, 225, 248));
         jPanel42.setEnabled(false);
 
         jLabel120.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel120.setText("Si la defunción corresponde a una mujer de 10 a 54 años, ");
+        jLabel120.setText("28. Si la defunción corresponde a una mujer de 10 a 54 años ");
 
         jLabel121.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel121.setText("Especifique si la muerte ocurrió durante:");
@@ -4459,21 +4566,6 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel42Layout.setHorizontalGroup(
             jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel42Layout.createSequentialGroup()
-                .addGroup(jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel42Layout.createSequentialGroup()
-                        .addGap(154, 154, 154)
-                        .addComponent(jLabel124))
-                    .addGroup(jPanel42Layout.createSequentialGroup()
-                        .addGap(202, 202, 202)
-                        .addComponent(rdbtnSiComplicaciones)
-                        .addGap(132, 132, 132)
-                        .addComponent(rdbtnNoComplicaciones)))
-                .addGap(0, 147, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel42Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel120)
-                .addGap(82, 82, 82))
-            .addGroup(jPanel42Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel42Layout.createSequentialGroup()
@@ -4504,6 +4596,20 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(rdbtnNoComplicacionesPropias)
                                 .addGap(42, 42, 42))))))
+            .addGroup(jPanel42Layout.createSequentialGroup()
+                .addGroup(jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel42Layout.createSequentialGroup()
+                        .addGap(154, 154, 154)
+                        .addComponent(jLabel124))
+                    .addGroup(jPanel42Layout.createSequentialGroup()
+                        .addGap(202, 202, 202)
+                        .addComponent(rdbtnSiComplicaciones)
+                        .addGap(132, 132, 132)
+                        .addComponent(rdbtnNoComplicaciones))
+                    .addGroup(jPanel42Layout.createSequentialGroup()
+                        .addGap(79, 79, 79)
+                        .addComponent(jLabel120)))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel42Layout.setVerticalGroup(
             jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -4551,7 +4657,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jLabel118.setText("muerte encefálica?");
 
         jLabel126.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel126.setText("¿La (el) fallecido presentó");
+        jLabel126.setText("29. ¿La (el) fallecido presentó");
 
         buttonGroupMuerteEncefalica.add(rdbtnSiMuerteEncefalica);
         rdbtnSiMuerteEncefalica.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
@@ -4599,30 +4705,30 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel43Layout.setHorizontalGroup(
             jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel43Layout.createSequentialGroup()
-                .addContainerGap(73, Short.MAX_VALUE)
-                .addGroup(jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel43Layout.createSequentialGroup()
-                        .addComponent(jLabel126, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(72, 72, 72))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel43Layout.createSequentialGroup()
-                        .addComponent(jLabel118, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(48, 48, 48))))
-            .addGroup(jPanel43Layout.createSequentialGroup()
-                .addGap(89, 89, 89)
-                .addGroup(jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel43Layout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(rdbtnSiDonadorOrganos)
-                        .addGap(57, 57, 57)
-                        .addComponent(rdbtnNoDonadorOrganos))
-                    .addComponent(jLabel127, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel43Layout.createSequentialGroup()
                 .addGap(39, 39, 39)
                 .addComponent(rdbtnSiMuerteEncefalica)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(rdbtnNoMuerteEncefalica)
                 .addGap(82, 82, 82))
+            .addGroup(jPanel43Layout.createSequentialGroup()
+                .addGroup(jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel43Layout.createSequentialGroup()
+                        .addGap(89, 89, 89)
+                        .addGroup(jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel43Layout.createSequentialGroup()
+                                .addGap(6, 6, 6)
+                                .addComponent(rdbtnSiDonadorOrganos)
+                                .addGap(57, 57, 57)
+                                .addComponent(rdbtnNoDonadorOrganos))
+                            .addComponent(jLabel127, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel43Layout.createSequentialGroup()
+                        .addGap(56, 56, 56)
+                        .addComponent(jLabel126, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel43Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel118, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(72, 72, 72))
         );
         jPanel43Layout.setVerticalGroup(
             jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -4645,11 +4751,20 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         );
 
         btnSiguienteVista12.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista12.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista12.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista12.setText("Siguiente");
         btnSiguienteVista12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSiguienteVista12ActionPerformed(evt);
+            }
+        });
+
+        btnRegresarVista12.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista12.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista12.setText("Regresar");
+        btnRegresarVista12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista12ActionPerformed(evt);
             }
         });
 
@@ -4671,9 +4786,11 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addComponent(jPanel40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista12Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(btnSiguienteVista12, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(90, 90, 90))
+                .addGap(27, 27, 27)
+                .addComponent(btnRegresarVista12, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnSiguienteVista12, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(19, 19, 19))
         );
         jPanelVista12Layout.setVerticalGroup(
             jPanelVista12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -4688,8 +4805,10 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addComponent(jPanel43, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addComponent(jPanel42, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnSiguienteVista12)
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addGroup(jPanelVista12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista12)
+                    .addComponent(btnRegresarVista12))
+                .addContainerGap(27, Short.MAX_VALUE))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab12", jPanelVista12);
@@ -4721,7 +4840,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel44.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel128.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel128.setText("Causa básica de defunción");
+        jLabel128.setText("30. Causa básica de defunción");
 
         jLabel129.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel129.setText("Código CIE");
@@ -4738,25 +4857,21 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel44Layout.setHorizontalGroup(
             jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel44Layout.createSequentialGroup()
+                .addGap(101, 101, 101)
+                .addComponent(jLabel129)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel44Layout.createSequentialGroup()
                 .addGroup(jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel44Layout.createSequentialGroup()
-                        .addGap(15, 15, 15)
+                        .addGap(16, 16, 16)
                         .addComponent(jLabel128))
                     .addGroup(jPanel44Layout.createSequentialGroup()
-                        .addGap(52, 52, 52)
-                        .addComponent(txtCausaBasicaDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(0, 32, Short.MAX_VALUE))
-            .addGroup(jPanel44Layout.createSequentialGroup()
-                .addGroup(jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(txtCodigoAdicional, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(jPanel44Layout.createSequentialGroup()
-                            .addGap(86, 86, 86)
-                            .addComponent(jLabel129))
-                        .addGroup(jPanel44Layout.createSequentialGroup()
-                            .addGap(49, 49, 49)
-                            .addComponent(jLabel130))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(62, 62, 62)
+                        .addGroup(jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel130)
+                            .addComponent(txtCausaBasicaDefuncion, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtCodigoAdicional, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel44Layout.setVerticalGroup(
             jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -4777,7 +4892,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel45.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel131.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel131.setText("¿Ocurrió en el desempeño");
+        jLabel131.setText("31. ¿Ocurrió en el desempeño");
 
         buttonGroupAccidentalViolenta.add(rdbtnSiOcurrioDesempeñoTrabajo);
         rdbtnSiOcurrioDesempeñoTrabajo.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
@@ -4806,53 +4921,49 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel45.setLayout(jPanel45Layout);
         jPanel45Layout.setHorizontalGroup(
             jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel45Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel45Layout.createSequentialGroup()
-                        .addComponent(rdbtnSiOcurrioDesempeñoTrabajo)
-                        .addGap(16, 16, 16)
-                        .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(rdbtnSeIgnoraOcurrioDesempeñoTrabajo)
-                            .addGroup(jPanel45Layout.createSequentialGroup()
-                                .addComponent(jLabel132)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(rdbtnNoOcurrioDesempeñoTrabajo))))
-                    .addGroup(jPanel45Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jLabel131, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(111, 111, 111))
             .addGroup(jPanel45Layout.createSequentialGroup()
-                .addGap(41, 41, 41)
-                .addComponent(jLabel136)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel45Layout.createSequentialGroup()
+                        .addGap(48, 48, 48)
+                        .addComponent(jLabel136))
+                    .addGroup(jPanel45Layout.createSequentialGroup()
+                        .addGap(79, 79, 79)
+                        .addComponent(jLabel132))
+                    .addGroup(jPanel45Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanel45Layout.createSequentialGroup()
+                                .addComponent(rdbtnSiOcurrioDesempeñoTrabajo)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(rdbtnNoOcurrioDesempeñoTrabajo)
+                                .addGap(13, 13, 13))
+                            .addComponent(jLabel131)))
+                    .addGroup(jPanel45Layout.createSequentialGroup()
+                        .addGap(70, 70, 70)
+                        .addComponent(rdbtnSeIgnoraOcurrioDesempeñoTrabajo)))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
         jPanel45Layout.setVerticalGroup(
             jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel45Layout.createSequentialGroup()
-                .addContainerGap()
                 .addComponent(jLabel136)
-                .addGap(5, 5, 5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel131)
-                .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel45Layout.createSequentialGroup()
-                        .addGap(28, 28, 28)
-                        .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(rdbtnSiOcurrioDesempeñoTrabajo)
-                            .addComponent(rdbtnNoOcurrioDesempeñoTrabajo))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel45Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel132)
-                        .addGap(33, 33, 33)
-                        .addComponent(rdbtnSeIgnoraOcurrioDesempeñoTrabajo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(15, 15, 15))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel132)
+                .addGap(2, 2, 2)
+                .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(rdbtnSiOcurrioDesempeñoTrabajo)
+                    .addComponent(rdbtnNoOcurrioDesempeñoTrabajo))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(rdbtnSeIgnoraOcurrioDesempeñoTrabajo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(15, 15, 15))
         );
 
         jPanel46.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel133.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel133.setText("Lugar donde ocurrió la lesión (accidental o violenta)");
+        jLabel133.setText("32. Lugar donde ocurrió la lesión (accidental o violenta)");
 
         buttonGroupLugarOcurrioLesion.add(rdbtnViviendaParticular);
         rdbtnViviendaParticular.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
@@ -4920,7 +5031,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                             .addComponent(rdbtnViviendaParticular)
                             .addComponent(rdbtnViviendaColectiva)
                             .addComponent(rdbtnEscuelauOficinaPublica))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 171, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(rdbtnGranja)
                             .addComponent(rdbtnAreaComercialoServicio)
@@ -4964,7 +5075,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jLabel134.setText("con el acta número");
 
         jLabel135.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel135.setText("La defunción fué registrada en el ministerio público ");
+        jLabel135.setText("33. La defunción fué registrada en el ministerio público ");
 
         txtNumeroActa.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -4998,7 +5109,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         );
 
         btnSiguienteVista13.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista13.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista13.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista13.setText("Siguiente");
         btnSiguienteVista13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -5006,25 +5117,34 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             }
         });
 
+        btnRegresarVista13.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista13.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista13.setText("Regresar");
+        btnRegresarVista13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista13ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanelVista13Layout = new javax.swing.GroupLayout(jPanelVista13);
         jPanelVista13.setLayout(jPanelVista13Layout);
         jPanelVista13Layout.setHorizontalGroup(
             jPanelVista13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista13Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(btnSiguienteVista13, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(76, 76, 76))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista13Layout.createSequentialGroup()
-                .addContainerGap(33, Short.MAX_VALUE)
+            .addGroup(jPanelVista13Layout.createSequentialGroup()
+                .addContainerGap(12, Short.MAX_VALUE)
                 .addGroup(jPanelVista13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista13Layout.createSequentialGroup()
-                        .addGroup(jPanelVista13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel44, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel45, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanelVista13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel46, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel47, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanelVista13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(btnSiguienteVista13, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanelVista13Layout.createSequentialGroup()
+                                .addGroup(jPanelVista13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(btnRegresarVista13, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jPanel45, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jPanel44, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(18, 18, 18)
+                                .addGroup(jPanelVista13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jPanel47, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jPanel46, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                         .addGap(36, 36, 36))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista13Layout.createSequentialGroup()
                         .addComponent(jPanel41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -5046,8 +5166,10 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jPanel47, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnSiguienteVista13)
-                .addContainerGap(43, Short.MAX_VALUE))
+                .addGroup(jPanelVista13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista13)
+                    .addComponent(btnRegresarVista13))
+                .addContainerGap(46, Short.MAX_VALUE))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab13", jPanelVista13);
@@ -5079,7 +5201,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel56.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel141.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel141.setText("Relación del/la presunto/a agresor/a con el/la fallecido/a");
+        jLabel141.setText("34. Relación del/la presunto/a agresor/a con el/la fallecido/a");
 
         txtRelacionAgresorFallecido.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -5110,7 +5232,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel57.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel142.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel142.setText("Describa brevemente la situación, circunstancia o motivos en que se produjo la lesión ");
+        jLabel142.setText("35. Describa brevemente la situación, circunstancia o motivos en que se produjo la lesión ");
 
         jLabel143.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel143.setText("Accidental, violenta o si es intoxicación, especifique el agente tóxico");
@@ -5139,10 +5261,11 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addComponent(jLabel143))
                     .addGroup(jPanel57Layout.createSequentialGroup()
                         .addGap(26, 26, 26)
-                        .addGroup(jPanel57Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel142)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 635, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(51, 51, 51)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 635, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel57Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel142)))
+                .addGap(44, 44, 44)
                 .addGroup(jPanel57Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(rdbtnInvestigacionPendiente)
                     .addComponent(rdbtnNoPuedeDeterminarse))
@@ -5165,7 +5288,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         );
 
         btnSiguienteVista14.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista14.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista14.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista14.setText("Siguiente");
         btnSiguienteVista14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -5173,14 +5296,19 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             }
         });
 
+        btnRegresarVista14.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista14.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista14.setText("Regresar");
+        btnRegresarVista14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista14ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanelVista14Layout = new javax.swing.GroupLayout(jPanelVista14);
         jPanelVista14.setLayout(jPanelVista14Layout);
         jPanelVista14Layout.setHorizontalGroup(
             jPanelVista14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista14Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(btnSiguienteVista14, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(57, 57, 57))
             .addGroup(jPanelVista14Layout.createSequentialGroup()
                 .addGroup(jPanelVista14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelVista14Layout.createSequentialGroup()
@@ -5189,9 +5317,14 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addGroup(jPanelVista14Layout.createSequentialGroup()
                         .addGap(16, 16, 16)
                         .addGroup(jPanelVista14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanelVista14Layout.createSequentialGroup()
+                                .addComponent(btnRegresarVista14, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btnSiguienteVista14, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(19, 19, 19))
                             .addComponent(jPanel57, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jPanel56, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(22, Short.MAX_VALUE))
+                .addContainerGap(49, Short.MAX_VALUE))
         );
         jPanelVista14Layout.setVerticalGroup(
             jPanelVista14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -5203,8 +5336,10 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jPanel57, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btnSiguienteVista14)
-                .addContainerGap(60, Short.MAX_VALUE))
+                .addGroup(jPanelVista14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista14)
+                    .addComponent(btnRegresarVista14))
+                .addContainerGap(62, Short.MAX_VALUE))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab14", jPanelVista14);
@@ -5236,7 +5371,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel58.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel144.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel144.setText("Domicilio donde ocurrió la lesión");
+        jLabel144.setText("36. Domicilio donde ocurrió la lesión");
 
         jLabel145.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel145.setText("accidental o violenta");
@@ -5255,8 +5390,6 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
 
         jLabel150.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel150.setText("Tipo de asentamiento humano");
-
-        jLabel151.setText("Código Postal");
 
         jLabel152.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel152.setText("Nombre del asentamiento humano");
@@ -5297,129 +5430,125 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel58.setLayout(jPanel58Layout);
         jPanel58Layout.setHorizontalGroup(
             jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel58Layout.createSequentialGroup()
+                .addGap(87, 87, 87)
+                .addComponent(jLabel153)
+                .addGap(207, 207, 207)
+                .addComponent(jLabel154)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel155)
+                .addGap(96, 96, 96))
+            .addGroup(jPanel58Layout.createSequentialGroup()
+                .addGap(46, 46, 46)
+                .addComponent(jLabel150)
+                .addGap(115, 115, 115)
+                .addComponent(jLabel152)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel156)
+                .addGap(108, 108, 108))
             .addGroup(jPanel58Layout.createSequentialGroup()
                 .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel58Layout.createSequentialGroup()
-                        .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel58Layout.createSequentialGroup()
-                                .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel58Layout.createSequentialGroup()
-                                        .addGap(21, 21, 21)
-                                        .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addComponent(txtLocalidadLesion)
-                                            .addComponent(jLabel150, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                                    .addGroup(jPanel58Layout.createSequentialGroup()
-                                        .addGap(63, 63, 63)
-                                        .addComponent(jLabel153)))
-                                .addGap(123, 123, 123)
-                                .addComponent(jLabel154)
-                                .addGap(207, 207, 207)
-                                .addComponent(jLabel155)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(jPanel58Layout.createSequentialGroup()
-                                .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel58Layout.createSequentialGroup()
-                                        .addGap(382, 382, 382)
-                                        .addComponent(jLabel145))
-                                    .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(txtEntidadFederativaLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGroup(jPanel58Layout.createSequentialGroup()
-                                            .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel58Layout.createSequentialGroup()
-                                                    .addContainerGap()
-                                                    .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                        .addComponent(txtNombreAsentamientoHumanoLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addComponent(jLabel152))
-                                                    .addGap(48, 48, 48))
-                                                .addGroup(jPanel58Layout.createSequentialGroup()
-                                                    .addGap(61, 61, 61)
-                                                    .addComponent(jLabel146)
-                                                    .addGap(109, 109, 109)
-                                                    .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(txtMunicipioAlcaldiaLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addGroup(jPanel58Layout.createSequentialGroup()
-                                                            .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                                                .addComponent(txtNombreVialidadLesion)
-                                                                .addComponent(jLabel147, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                                            .addGap(114, 114, 114)
-                                                            .addComponent(jLabel148)))))
-                                            .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(jPanel58Layout.createSequentialGroup()
-                                                    .addGap(66, 66, 66)
-                                                    .addComponent(txtCodigoPostalLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                    .addComponent(jLabel149))
-                                                .addGroup(jPanel58Layout.createSequentialGroup()
-                                                    .addGap(82, 82, 82)
-                                                    .addComponent(jLabel156))))))
-                                .addGap(213, 213, 213)))
-                        .addComponent(jLabel151))
+                        .addGap(362, 362, 362)
+                        .addComponent(jLabel145))
                     .addGroup(jPanel58Layout.createSequentialGroup()
-                        .addGap(49, 49, 49)
-                        .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtTipoAsentamientoHumanoLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel58Layout.createSequentialGroup()
-                                .addComponent(txtTipoVialidadLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(287, 287, 287)
-                                .addComponent(txtNumExtLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(75, 75, 75)
-                                .addComponent(txtNumIntLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel58Layout.createSequentialGroup()
-                .addGap(323, 323, 323)
-                .addComponent(jLabel144)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(21, 21, 21)
+                                .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addGroup(jPanel58Layout.createSequentialGroup()
+                                        .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(txtLocalidadLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txtTipoAsentamientoHumanoLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
+                                        .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(txtNombreAsentamientoHumanoLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 245, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txtMunicipioAlcaldiaLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 245, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel58Layout.createSequentialGroup()
+                                        .addComponent(txtTipoVialidadLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(33, 33, 33)
+                                        .addComponent(txtNombreVialidadLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel58Layout.createSequentialGroup()
+                                .addGap(64, 64, 64)
+                                .addComponent(jLabel146)
+                                .addGap(175, 175, 175)))
+                        .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel58Layout.createSequentialGroup()
+                                .addGap(66, 66, 66)
+                                .addComponent(txtEntidadFederativaLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txtCodigoPostalLesion, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtNumIntLesion, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(21, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel58Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel58Layout.createSequentialGroup()
+                        .addComponent(jLabel147)
+                        .addGap(130, 130, 130)
+                        .addComponent(jLabel148)
+                        .addGap(158, 158, 158)
+                        .addComponent(jLabel149)
+                        .addGap(73, 73, 73))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel58Layout.createSequentialGroup()
+                        .addComponent(jLabel144)
+                        .addGap(282, 282, 282))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel58Layout.createSequentialGroup()
+                        .addComponent(txtNumExtLesion, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(227, 227, 227))))
         );
         jPanel58Layout.setVerticalGroup(
             jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel58Layout.createSequentialGroup()
                 .addGap(10, 10, 10)
                 .addComponent(jLabel144)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel145)
                 .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel58Layout.createSequentialGroup()
-                        .addGap(16, 16, 16)
+                        .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanel58Layout.createSequentialGroup()
+                                .addGap(38, 38, 38)
+                                .addComponent(txtTipoVialidadLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel58Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel145)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(txtNumExtLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtNumIntLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtNombreVialidadLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGap(18, 18, 18)
                         .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtNumIntLesion, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(txtTipoVialidadLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txtNombreVialidadLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel58Layout.createSequentialGroup()
+                            .addComponent(jLabel149)
+                            .addComponent(jLabel148))
+                        .addGap(42, 42, 42)
+                        .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(txtTipoAsentamientoHumanoLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtNombreAsentamientoHumanoLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtCodigoPostalLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel152)
+                            .addComponent(jLabel156)
+                            .addComponent(jLabel150))
+                        .addGap(50, 50, 50)
+                        .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(txtLocalidadLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtEntidadFederativaLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtMunicipioAlcaldiaLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtNumExtLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(23, 23, 23)
-                .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel146)
-                    .addComponent(jLabel147)
-                    .addComponent(jLabel148)
-                    .addComponent(jLabel149))
-                .addGap(37, 37, 37)
-                .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtTipoAsentamientoHumanoLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtNombreAsentamientoHumanoLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtCodigoPostalLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel152)
-                    .addComponent(jLabel151)
-                    .addComponent(jLabel156)
-                    .addComponent(jLabel150))
-                .addGap(50, 50, 50)
-                .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtLocalidadLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtEntidadFederativaLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtMunicipioAlcaldiaLesion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
-                .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel153)
-                    .addComponent(jLabel154)
-                    .addComponent(jLabel155))
-                .addContainerGap())
+                        .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel155)
+                            .addComponent(jLabel153)
+                            .addComponent(jLabel154)))
+                    .addGroup(jPanel58Layout.createSequentialGroup()
+                        .addGap(73, 73, 73)
+                        .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel146)
+                            .addComponent(jLabel147))))
+                .addContainerGap(30, Short.MAX_VALUE))
         );
 
         btnSiguienteVista15.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista15.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista15.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista15.setText("Siguiente");
         btnSiguienteVista15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -5427,14 +5556,19 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             }
         });
 
+        btnRegresarVista15.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista15.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista15.setText("Regresar");
+        btnRegresarVista15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista15ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanelVista15Layout = new javax.swing.GroupLayout(jPanelVista15);
         jPanelVista15.setLayout(jPanelVista15Layout);
         jPanelVista15Layout.setHorizontalGroup(
             jPanelVista15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista15Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(btnSiguienteVista15, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(60, 60, 60))
             .addGroup(jPanelVista15Layout.createSequentialGroup()
                 .addGroup(jPanelVista15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelVista15Layout.createSequentialGroup()
@@ -5442,8 +5576,13 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addComponent(jPanel53, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanelVista15Layout.createSequentialGroup()
                         .addGap(73, 73, 73)
-                        .addComponent(jPanel58, javax.swing.GroupLayout.PREFERRED_SIZE, 843, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(82, Short.MAX_VALUE))
+                        .addGroup(jPanelVista15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanelVista15Layout.createSequentialGroup()
+                                .addComponent(btnRegresarVista15, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btnSiguienteVista15, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jPanel58, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(109, Short.MAX_VALUE))
         );
         jPanelVista15Layout.setVerticalGroup(
             jPanelVista15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -5453,7 +5592,9 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel58, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
-                .addComponent(btnSiguienteVista15)
+                .addGroup(jPanelVista15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista15)
+                    .addComponent(btnRegresarVista15))
                 .addGap(31, 31, 31))
         );
 
@@ -5548,7 +5689,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         });
 
         jLabel161.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel161.setText("Certificada por ");
+        jLabel161.setText("37. Certificada por ");
 
         txtEspecifiqueOtraAutoridad1.setEditable(false);
         txtEspecifiqueOtraAutoridad1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -5570,10 +5711,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addComponent(rdbtnMedicoLegista))
                     .addGroup(jPanel60Layout.createSequentialGroup()
                         .addGap(182, 182, 182)
-                        .addComponent(rdbtnAutoridadCivil))
-                    .addGroup(jPanel60Layout.createSequentialGroup()
-                        .addGap(14, 14, 14)
-                        .addComponent(jLabel179)))
+                        .addComponent(rdbtnAutoridadCivil)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 66, Short.MAX_VALUE)
                 .addGroup(jPanel60Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel60Layout.createSequentialGroup()
@@ -5582,23 +5720,29 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addComponent(rdbtnPersonaAutorizada))
                     .addGroup(jPanel60Layout.createSequentialGroup()
                         .addComponent(rdbtnOtro)
-                        .addGap(101, 101, 101)
+                        .addGap(120, 120, 120)
                         .addComponent(jLabel160)
-                        .addGap(37, 37, 37)
+                        .addGap(18, 18, 18)
                         .addComponent(txtEspecifiqueOtraAutoridad1, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(60, Short.MAX_VALUE))
-            .addGroup(jPanel60Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel60Layout.createSequentialGroup()
-                    .addGap(385, 385, 385)
-                    .addComponent(jLabel161)
-                    .addContainerGap(406, Short.MAX_VALUE)))
+            .addGroup(jPanel60Layout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addComponent(jLabel179)
+                .addGap(179, 179, 179)
+                .addComponent(jLabel161, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel60Layout.setVerticalGroup(
             jPanel60Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel60Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel179)
-                .addGap(23, 23, 23)
+                .addGroup(jPanel60Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel60Layout.createSequentialGroup()
+                        .addComponent(jLabel179)
+                        .addGap(23, 23, 23))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel60Layout.createSequentialGroup()
+                        .addComponent(jLabel161)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
                 .addGroup(jPanel60Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(rdbtnMedicoTratante)
                     .addComponent(rdbtnMedicoLegista)
@@ -5609,17 +5753,13 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel60Layout.createSequentialGroup()
                         .addGroup(jPanel60Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(rdbtnOtro)
-                            .addComponent(rdbtnAutoridadCivil)
-                            .addComponent(jLabel160))
+                            .addComponent(rdbtnAutoridadCivil))
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel60Layout.createSequentialGroup()
-                        .addComponent(txtEspecifiqueOtraAutoridad1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel60Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(txtEspecifiqueOtraAutoridad1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel160))
                         .addGap(16, 16, 16))))
-            .addGroup(jPanel60Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel60Layout.createSequentialGroup()
-                    .addGap(16, 16, 16)
-                    .addComponent(jLabel161)
-                    .addContainerGap(85, Short.MAX_VALUE)))
         );
 
         jPanel59.setBackground(new java.awt.Color(183, 225, 248));
@@ -5645,7 +5785,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jLabel162.setText("Apellido Materno");
 
         jLabel164.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel164.setText("Nombre");
+        jLabel164.setText("38. Nombre");
 
         javax.swing.GroupLayout jPanel59Layout = new javax.swing.GroupLayout(jPanel59);
         jPanel59.setLayout(jPanel59Layout);
@@ -5655,23 +5795,27 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addGroup(jPanel59Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel59Layout.createSequentialGroup()
                         .addGap(19, 19, 19)
-                        .addComponent(txtNombreCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(txtNombreCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel59Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel59Layout.createSequentialGroup()
+                                .addGap(21, 21, 21)
+                                .addComponent(jLabel164))
+                            .addGroup(jPanel59Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(jPanel59Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel59Layout.createSequentialGroup()
+                                        .addGap(6, 6, 6)
+                                        .addComponent(jLabel158))
+                                    .addComponent(txtApellidoPCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(jPanel59Layout.createSequentialGroup()
-                        .addGap(47, 47, 47)
+                        .addGap(40, 40, 40)
                         .addComponent(jLabel157)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
                 .addGroup(jPanel59Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel59Layout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addComponent(jLabel164))
-                    .addComponent(txtApellidoPCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel59Layout.createSequentialGroup()
-                        .addComponent(jLabel158)
-                        .addGap(10, 10, 10)))
-                .addGap(18, 18, Short.MAX_VALUE)
-                .addGroup(jPanel59Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(txtApellidoMCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel162))
+                    .addGroup(jPanel59Layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(jLabel162)))
                 .addGap(36, 36, 36))
         );
         jPanel59Layout.setVerticalGroup(
@@ -5684,12 +5828,12 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addComponent(txtNombreCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtApellidoMCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtApellidoPCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel59Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel157)
                     .addComponent(jLabel158)
                     .addComponent(jLabel162))
-                .addContainerGap())
+                .addContainerGap(25, Short.MAX_VALUE))
         );
 
         jPanel61.setBackground(new java.awt.Color(183, 225, 248));
@@ -5699,10 +5843,10 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jSeparator83.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
         jLabel163.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel163.setText("Si el certificante es médico");
+        jLabel163.setText("39. Si el certificante es médico");
 
         jLabel159.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel159.setText("Firma del certificante");
+        jLabel159.setText("40. Firma del certificante");
 
         jLabel165.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel165.setText("Número de cédula profesional ");
@@ -5723,23 +5867,28 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel61Layout.setHorizontalGroup(
             jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel61Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel61Layout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel165)
+                        .addGap(44, 44, 44))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel61Layout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel163)
                         .addGap(18, 18, 18))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel61Layout.createSequentialGroup()
-                        .addComponent(jLabel165)
-                        .addGap(31, 31, 31))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel61Layout.createSequentialGroup()
-                        .addComponent(txtNumCedProfesional, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(29, 29, 29)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(txtNumCedProfesional, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addComponent(jSeparator83, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(31, 31, 31)
-                .addGroup(jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(txtFirmaCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel159))
-                .addGap(72, 72, 72))
+                .addGroup(jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel61Layout.createSequentialGroup()
+                        .addGap(34, 34, 34)
+                        .addComponent(txtFirmaCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel61Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel159)))
+                .addGap(69, 69, 69))
         );
         jPanel61Layout.setVerticalGroup(
             jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -5750,22 +5899,36 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addGroup(jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel163)
                             .addComponent(jLabel159))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
                         .addGroup(jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtFirmaCertificante, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtNumCedProfesional, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(22, 22, 22)
-                        .addComponent(jLabel165))
+                            .addGroup(jPanel61Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+                                .addComponent(txtNumCedProfesional, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel165)
+                                .addGap(16, 16, 16))
+                            .addGroup(jPanel61Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtFirmaCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, Short.MAX_VALUE))))
                     .addComponent(jSeparator83))
                 .addContainerGap())
         );
 
         btnSiguienteVista16.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista16.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista16.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista16.setText("Siguiente");
         btnSiguienteVista16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSiguienteVista16ActionPerformed(evt);
+            }
+        });
+
+        btnRegresarVista16.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista16.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista16.setText("Regresar");
+        btnRegresarVista16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista16ActionPerformed(evt);
             }
         });
 
@@ -5774,37 +5937,40 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanelVista16Layout.setHorizontalGroup(
             jPanelVista16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista16Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(btnSiguienteVista16, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(78, 78, 78))
-            .addGroup(jPanelVista16Layout.createSequentialGroup()
-                .addGap(34, 34, 34)
-                .addGroup(jPanelVista16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel60, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanelVista16Layout.createSequentialGroup()
-                        .addComponent(jPanel59, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel61, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
-                .addContainerGap(57, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista16Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel55, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(245, 245, 245))
+            .addGroup(jPanelVista16Layout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addGroup(jPanelVista16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanelVista16Layout.createSequentialGroup()
+                        .addComponent(btnRegresarVista16, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(686, 686, 686)
+                        .addComponent(btnSiguienteVista16, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanelVista16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jPanel60, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanelVista16Layout.createSequentialGroup()
+                            .addComponent(jPanel59, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(jPanel61, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))))
+                .addContainerGap(84, Short.MAX_VALUE))
         );
         jPanelVista16Layout.setVerticalGroup(
             jPanelVista16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelVista16Layout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addComponent(jPanel55, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGap(28, 28, 28)
                 .addComponent(jPanel60, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
+                .addGroup(jPanelVista16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel61, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel59, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addGroup(jPanelVista16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel59, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel61, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(26, 26, 26)
-                .addComponent(btnSiguienteVista16)
-                .addContainerGap(86, Short.MAX_VALUE))
+                .addGroup(jPanelVista16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnRegresarVista16)
+                    .addComponent(btnSiguienteVista16))
+                .addGap(74, 74, 74))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab16", jPanelVista16);
@@ -5836,7 +6002,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel62.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel166.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel166.setText("Domicilio y teléfono");
+        jLabel166.setText("41. Domicilio y teléfono");
 
         jLabel168.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel168.setText("Tipo de vialidad");
@@ -5908,124 +6074,124 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel62Layout.setHorizontalGroup(
             jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel62Layout.createSequentialGroup()
+                .addGap(95, 95, 95)
+                .addComponent(jLabel175)
+                .addGap(160, 160, 160)
+                .addComponent(jLabel176)
+                .addGap(100, 100, 100)
+                .addComponent(jLabel177)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel180)
+                .addGap(85, 85, 85))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel62Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel170)
+                .addGap(122, 122, 122)
+                .addComponent(jLabel171)
+                .addGap(67, 67, 67))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel62Layout.createSequentialGroup()
+                .addGap(59, 59, 59)
+                .addComponent(jLabel172)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel174)
+                .addGap(153, 153, 153)
+                .addComponent(jLabel178)
+                .addGap(72, 72, 72))
+            .addGroup(jPanel62Layout.createSequentialGroup()
                 .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel62Layout.createSequentialGroup()
-                        .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel62Layout.createSequentialGroup()
-                                .addGap(78, 78, 78)
-                                .addComponent(jLabel175))
-                            .addGroup(jPanel62Layout.createSequentialGroup()
-                                .addGap(32, 32, 32)
-                                .addComponent(jLabel172))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel62Layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(txtLocalidadCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(110, 110, 110)
-                        .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel62Layout.createSequentialGroup()
-                                .addComponent(jLabel176)
-                                .addGap(90, 90, 90)
-                                .addComponent(jLabel177)
-                                .addGap(109, 109, 109)
-                                .addComponent(jLabel180)
-                                .addGap(30, 30, 30))
-                            .addGroup(jPanel62Layout.createSequentialGroup()
-                                .addComponent(jLabel174)
-                                .addGap(158, 158, 158)
-                                .addComponent(jLabel178)
-                                .addGap(18, 18, 18))
-                            .addGroup(jPanel62Layout.createSequentialGroup()
-                                .addComponent(txtMunicipioAlcaldiaCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(72, 72, 72)
-                                .addComponent(txtEntidadFederativaCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(61, 61, 61)
-                                .addComponent(txtTelefonoCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(jPanel62Layout.createSequentialGroup()
-                        .addGap(50, 50, 50)
-                        .addComponent(txtTipoVialidadCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(88, 88, 88)
-                        .addComponent(txtNombreVialidadCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(81, 81, 81)
-                        .addComponent(txtNumExtCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(99, 99, 99)
-                        .addComponent(txtNumIntCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel62Layout.createSequentialGroup()
                         .addGap(32, 32, 32)
-                        .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(jPanel62Layout.createSequentialGroup()
-                                    .addGap(299, 299, 299)
-                                    .addComponent(jLabel166))
-                                .addGroup(jPanel62Layout.createSequentialGroup()
-                                    .addComponent(jLabel168)
-                                    .addGap(109, 109, 109)
-                                    .addComponent(jLabel169)
-                                    .addGap(108, 108, 108)
-                                    .addComponent(jLabel170)))
+                        .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel62Layout.createSequentialGroup()
-                                .addComponent(txtTipoAsentamientoHumanoCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(139, 139, 139)
-                                .addComponent(txtNombreAsentamientoHumanoCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(141, 141, 141)
-                        .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel62Layout.createSequentialGroup()
-                                .addGap(6, 6, 6)
-                                .addComponent(txtCodigoPostalCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel171))))
-                .addContainerGap(77, Short.MAX_VALUE))
+                                .addComponent(txtLocalidadCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(22, 22, 22)
+                                .addComponent(txtMunicipioAlcaldiaCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 194, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(txtEntidadFederativaCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(txtTelefonoCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel62Layout.createSequentialGroup()
+                                .addComponent(txtTipoVialidadCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(txtNombreVialidadCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(44, 44, 44)
+                                .addComponent(txtNumExtCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(46, 46, 46)
+                                .addComponent(txtNumIntCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel62Layout.createSequentialGroup()
+                                .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel62Layout.createSequentialGroup()
+                                        .addGap(60, 60, 60)
+                                        .addComponent(jLabel168)
+                                        .addGap(161, 161, 161)
+                                        .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel169)
+                                            .addComponent(txtNombreAsentamientoHumanoCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(txtTipoAsentamientoHumanoCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(65, 65, 65)
+                                .addComponent(txtCodigoPostalCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(jPanel62Layout.createSequentialGroup()
+                        .addGap(329, 329, 329)
+                        .addComponent(jLabel166)))
+                .addContainerGap(25, Short.MAX_VALUE))
         );
         jPanel62Layout.setVerticalGroup(
             jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel62Layout.createSequentialGroup()
-                .addGap(10, 10, 10)
+                .addContainerGap()
                 .addComponent(jLabel166)
-                .addGap(38, 38, 38)
-                .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(txtNumIntCertificante, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(txtTipoVialidadCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(txtNumExtCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(txtNombreVialidadCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(23, 23, 23)
-                .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel168)
-                        .addComponent(jLabel169)
-                        .addComponent(jLabel170))
-                    .addComponent(jLabel171))
-                .addGap(12, 12, 12)
+                .addGap(42, 42, 42)
+                .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtNumExtCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtNombreVialidadCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtNumIntCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtTipoVialidadCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel171)
+                    .addComponent(jLabel170)
+                    .addComponent(jLabel169)
+                    .addComponent(jLabel168))
+                .addGap(55, 55, 55)
                 .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtTipoAsentamientoHumanoCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtNombreAsentamientoHumanoCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtCodigoPostalCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(37, 37, 37)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel172)
                     .addComponent(jLabel174)
-                    .addComponent(jLabel178))
-                .addGap(24, 24, 24)
+                    .addComponent(jLabel178)
+                    .addComponent(jLabel172))
+                .addGap(46, 46, 46)
                 .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtLocalidadCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtMunicipioAlcaldiaCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtTelefonoCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtEntidadFederativaCertificante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 54, Short.MAX_VALUE)
-                .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel175)
+                    .addComponent(jLabel176)
                     .addComponent(jLabel177)
-                    .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel175)
-                        .addComponent(jLabel176)
-                        .addComponent(jLabel180)))
-                .addContainerGap())
+                    .addComponent(jLabel180))
+                .addContainerGap(39, Short.MAX_VALUE))
         );
 
         btnSiguienteVista17.setBackground(new java.awt.Color(183, 225, 248));
-        btnSiguienteVista17.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 12)); // NOI18N
+        btnSiguienteVista17.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnSiguienteVista17.setText("Siguiente");
         btnSiguienteVista17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSiguienteVista17ActionPerformed(evt);
+            }
+        });
+
+        btnRegresarVista17.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista17.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista17.setText("Regresar");
+        btnRegresarVista17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista17ActionPerformed(evt);
             }
         });
 
@@ -6036,15 +6202,17 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             .addGroup(jPanelVista17Layout.createSequentialGroup()
                 .addGroup(jPanelVista17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelVista17Layout.createSequentialGroup()
-                        .addGap(794, 794, 794)
-                        .addComponent(btnSiguienteVista17, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(238, 238, 238)
+                        .addComponent(jPanel54, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanelVista17Layout.createSequentialGroup()
                         .addGap(79, 79, 79)
-                        .addComponent(jPanel62, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanelVista17Layout.createSequentialGroup()
-                        .addGap(238, 238, 238)
-                        .addComponent(jPanel54, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(78, Short.MAX_VALUE))
+                        .addGroup(jPanelVista17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanelVista17Layout.createSequentialGroup()
+                                .addComponent(btnRegresarVista17, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(605, 605, 605)
+                                .addComponent(btnSiguienteVista17, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jPanel62, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(105, Short.MAX_VALUE))
         );
         jPanelVista17Layout.setVerticalGroup(
             jPanelVista17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -6054,7 +6222,9 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel62, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
-                .addComponent(btnSiguienteVista17)
+                .addGroup(jPanelVista17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSiguienteVista17)
+                    .addComponent(btnRegresarVista17))
                 .addGap(31, 31, 31))
         );
 
@@ -6087,7 +6257,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel65.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel173.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel173.setText("Fecha de certificación");
+        jLabel173.setText("42. Fecha de certificación");
 
         jLabel181.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel181.setText("DÍA");
@@ -6132,7 +6302,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                 .addComponent(txtFechaCertificacionAño, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(26, Short.MAX_VALUE))
             .addGroup(jPanel65Layout.createSequentialGroup()
-                .addGap(47, 47, 47)
+                .addGap(52, 52, 52)
                 .addComponent(jLabel181)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel182)
@@ -6154,18 +6324,18 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addComponent(txtFechaCertificacionDia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtFechaCertificacionMes, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtFechaCertificacionAño, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel65Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel181)
                     .addComponent(jLabel182)
-                    .addComponent(jLabel183))
-                .addContainerGap())
+                    .addComponent(jLabel183)
+                    .addComponent(jLabel181))
+                .addGap(18, 18, 18))
         );
 
         jPanel66.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel184.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel184.setText("La defunción fue inscrita por la fiscalía o juzgado");
+        jLabel184.setText("43. La defunción fue inscrita por la fiscalía o juzgado");
 
         jLabel185.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel185.setText("Num.");
@@ -6205,28 +6375,26 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel66Layout.setHorizontalGroup(
             jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel66Layout.createSequentialGroup()
-                .addGap(19, 19, 19)
+                .addGap(25, 25, 25)
                 .addGroup(jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel66Layout.createSequentialGroup()
-                        .addComponent(jLabel186)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(112, 112, 112)
+                        .addGroup(jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(txtNumFiscalia, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtNumLibroFiscalia, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel66Layout.createSequentialGroup()
-                        .addComponent(jLabel187)
-                        .addGap(18, 18, 18)
-                        .addComponent(txtNumActaFiscalia, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel66Layout.createSequentialGroup()
-                        .addGap(15, 15, 15)
-                        .addComponent(jLabel185)))
+                    .addComponent(txtNumActaFiscalia, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel66Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel188, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel184, javax.swing.GroupLayout.PREFERRED_SIZE, 388, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(52, 52, 52))
+                .addGroup(jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel185)
+                    .addComponent(jLabel188, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel187)
+                        .addComponent(jLabel186)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel184)
+                .addGap(54, 54, 54))
         );
         jPanel66Layout.setVerticalGroup(
             jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -6236,32 +6404,24 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addComponent(jLabel184)
                     .addComponent(jLabel188))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
-                .addGroup(jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel66Layout.createSequentialGroup()
-                        .addComponent(txtNumFiscalia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(9, 9, 9))
-                    .addComponent(jLabel185, javax.swing.GroupLayout.Alignment.TRAILING))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel66Layout.createSequentialGroup()
-                        .addComponent(txtNumLibroFiscalia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(15, 15, 15))
-                    .addComponent(jLabel186, javax.swing.GroupLayout.Alignment.TRAILING))
-                .addGroup(jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addGroup(jPanel66Layout.createSequentialGroup()
-                        .addGap(19, 19, 19)
-                        .addComponent(jLabel187))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel66Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtNumActaFiscalia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                .addGroup(jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtNumFiscalia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel185))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+                .addGroup(jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtNumLibroFiscalia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel186))
+                .addGap(15, 15, 15)
+                .addGroup(jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtNumActaFiscalia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel187))
+                .addGap(21, 21, 21))
         );
 
         jPanel67.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel189.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel189.setText("Lugar de registro");
+        jLabel189.setText("44. Lugar de registro");
 
         jLabel190.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel190.setText("Localidad");
@@ -6283,61 +6443,50 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel67Layout.setHorizontalGroup(
             jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel67Layout.createSequentialGroup()
-                .addGap(29, 29, 29)
                 .addGroup(jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel67Layout.createSequentialGroup()
-                        .addComponent(jLabel190)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(txtLocalidadRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(64, 64, 64))
-                    .addGroup(jPanel67Layout.createSequentialGroup()
+                        .addGap(29, 29, 29)
                         .addGroup(jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel67Layout.createSequentialGroup()
-                                .addComponent(jLabel191)
-                                .addGap(26, 26, 26)
-                                .addComponent(txtMunicipioRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel67Layout.createSequentialGroup()
                                 .addComponent(jLabel192)
                                 .addGap(32, 32, 32)
-                                .addComponent(txtEntidadFederativaRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 64, Short.MAX_VALUE))))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel67Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel189)
-                .addGap(194, 194, 194))
+                                .addComponent(txtEntidadFederativaRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel67Layout.createSequentialGroup()
+                                .addGroup(jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel191)
+                                    .addComponent(jLabel190))
+                                .addGap(26, 26, 26)
+                                .addGroup(jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(txtLocalidadRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtMunicipioRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(jPanel67Layout.createSequentialGroup()
+                        .addGap(161, 161, 161)
+                        .addComponent(jLabel189)))
+                .addGap(0, 64, Short.MAX_VALUE))
         );
         jPanel67Layout.setVerticalGroup(
             jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel67Layout.createSequentialGroup()
-                .addContainerGap()
                 .addComponent(jLabel189)
-                .addGroup(jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel67Layout.createSequentialGroup()
-                        .addGap(46, 46, 46)
-                        .addComponent(txtMunicipioRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(jPanel67Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel190)
-                            .addGroup(jPanel67Layout.createSequentialGroup()
-                                .addComponent(txtLocalidadRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(9, 9, 9)))
-                        .addGap(27, 27, 27)
-                        .addComponent(jLabel191)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 8, Short.MAX_VALUE)
-                .addGroup(jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel192, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel67Layout.createSequentialGroup()
-                        .addComponent(txtEntidadFederativaRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(9, 9, 9)))
-                .addGap(24, 24, 24))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
+                .addGroup(jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel190)
+                    .addComponent(txtLocalidadRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(23, 23, 23)
+                .addGroup(jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel191)
+                    .addComponent(txtMunicipioRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
+                .addGroup(jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel192)
+                    .addComponent(txtEntidadFederativaRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(22, 22, 22))
         );
 
         jPanel68.setBackground(new java.awt.Color(183, 225, 248));
 
         jLabel193.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 18)); // NOI18N
-        jLabel193.setText("Fecha de registro ");
+        jLabel193.setText("45. Fecha de registro ");
 
         jLabel194.setFont(new java.awt.Font("Yu Gothic UI Light", 0, 12)); // NOI18N
         jLabel194.setText("DÍA");
@@ -6373,25 +6522,26 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         jPanel68.setLayout(jPanel68Layout);
         jPanel68Layout.setHorizontalGroup(
             jPanel68Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel68Layout.createSequentialGroup()
-                .addGap(16, 16, 16)
-                .addComponent(txtDiaRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(4, 4, 4)
+            .addGroup(jPanel68Layout.createSequentialGroup()
                 .addGroup(jPanel68Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel193)
                     .addGroup(jPanel68Layout.createSequentialGroup()
+                        .addGap(48, 48, 48)
+                        .addComponent(jLabel194)
+                        .addGap(85, 85, 85)
+                        .addComponent(jLabel195)
+                        .addGap(82, 82, 82)
+                        .addComponent(jLabel196))
+                    .addGroup(jPanel68Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addComponent(txtDiaRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(10, 10, 10)
                         .addComponent(txtMesRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(txtAñoRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txtAñoRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel68Layout.createSequentialGroup()
+                        .addGap(96, 96, 96)
+                        .addComponent(jLabel193)))
                 .addContainerGap(49, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel68Layout.createSequentialGroup()
-                .addGap(47, 47, 47)
-                .addComponent(jLabel194)
-                .addGap(100, 100, 100)
-                .addComponent(jLabel195)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel196)
-                .addGap(52, 52, 52))
         );
         jPanel68Layout.setVerticalGroup(
             jPanel68Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -6403,14 +6553,16 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                     .addComponent(txtDiaRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtMesRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtAñoRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel68Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel194)
+                    .addComponent(jLabel196)
                     .addComponent(jLabel195)
-                    .addComponent(jLabel196))
-                .addContainerGap())
+                    .addComponent(jLabel194))
+                .addGap(12, 12, 12))
         );
 
+        btnEnviarFormulario.setBackground(new java.awt.Color(183, 225, 248));
+        btnEnviarFormulario.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
         btnEnviarFormulario.setText("Enviar");
         btnEnviarFormulario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -6418,32 +6570,47 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
             }
         });
 
+        btnRegresarVista18.setBackground(new java.awt.Color(183, 225, 248));
+        btnRegresarVista18.setFont(new java.awt.Font("Yu Gothic UI Light", 1, 14)); // NOI18N
+        btnRegresarVista18.setText("Regresar");
+        btnRegresarVista18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegresarVista18ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanelVista18Layout = new javax.swing.GroupLayout(jPanelVista18);
         jPanelVista18.setLayout(jPanelVista18Layout);
         jPanelVista18Layout.setHorizontalGroup(
             jPanelVista18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelVista18Layout.createSequentialGroup()
-                .addGap(22, 22, 22)
-                .addGroup(jPanelVista18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanelVista18Layout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jPanel65, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jPanel66, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
-                    .addGroup(jPanelVista18Layout.createSequentialGroup()
-                        .addComponent(jPanel67, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(33, 33, 33)
-                        .addComponent(jPanel68, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(65, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista18Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel64, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(236, 236, 236))
+            .addGroup(jPanelVista18Layout.createSequentialGroup()
                 .addGroup(jPanelVista18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista18Layout.createSequentialGroup()
-                        .addComponent(jPanel64, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(236, 236, 236))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista18Layout.createSequentialGroup()
-                        .addComponent(btnEnviarFormulario)
-                        .addGap(248, 248, 248))))
+                    .addGroup(jPanelVista18Layout.createSequentialGroup()
+                        .addGap(22, 22, 22)
+                        .addGroup(jPanelVista18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanelVista18Layout.createSequentialGroup()
+                                .addGap(6, 6, 6)
+                                .addComponent(jPanel65, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jPanel66, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                            .addGroup(jPanelVista18Layout.createSequentialGroup()
+                                .addComponent(jPanel67, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(jPanelVista18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanelVista18Layout.createSequentialGroup()
+                                        .addGap(33, 33, 33)
+                                        .addComponent(jPanel68, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelVista18Layout.createSequentialGroup()
+                                        .addGap(55, 55, 55)
+                                        .addComponent(btnEnviarFormulario, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(14, 14, 14))))))
+                    .addGroup(jPanelVista18Layout.createSequentialGroup()
+                        .addGap(70, 70, 70)
+                        .addComponent(btnRegresarVista18, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(92, Short.MAX_VALUE))
         );
         jPanelVista18Layout.setVerticalGroup(
             jPanelVista18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -6458,15 +6625,16 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
                         .addComponent(jPanel65, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGroup(jPanelVista18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanelVista18Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
-                        .addComponent(jPanel67, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(51, 51, 51))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 41, Short.MAX_VALUE)
+                        .addComponent(jPanel67, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanelVista18Layout.createSequentialGroup()
                         .addGap(59, 59, 59)
                         .addComponent(jPanel68, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnEnviarFormulario)
-                        .addGap(22, 22, 22))))
+                        .addComponent(btnEnviarFormulario)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnRegresarVista18)
+                .addGap(16, 16, 16))
         );
 
         tabbedPaneCertificadoDefuncion.addTab("tab18", jPanelVista18);
@@ -6982,6 +7150,74 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
     private void btnEnviarFormularioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviarFormularioActionPerformed
         ControladorFormularioCertificadoDefuncion.recopilarInformacionVista18();
     }//GEN-LAST:event_btnEnviarFormularioActionPerformed
+
+    private void btnRegresarVista3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista3ActionPerformed
+
+    private void btnRegresarVista5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista5ActionPerformed
+
+    private void btnRegresarVista2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista2ActionPerformed
+
+    private void btnRegresarVista4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista4ActionPerformed
+
+    private void btnRegresarVista6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista6ActionPerformed
+
+    private void btnRegresarVista7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista7ActionPerformed
+
+    private void btnRegresarVista8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista8ActionPerformed
+
+    private void btnRegresarVista9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista9ActionPerformed
+
+    private void btnRegresarVista10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista10ActionPerformed
+
+    private void btnRegresarVista11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista11ActionPerformed
+
+    private void btnRegresarVista12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista12ActionPerformed
+
+    private void btnRegresarVista13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista13ActionPerformed
+
+    private void btnRegresarVista14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista14ActionPerformed
+
+    private void btnRegresarVista15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista15ActionPerformed
+
+    private void btnRegresarVista17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista17ActionPerformed
+
+    private void btnRegresarVista16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista16ActionPerformed
+
+    private void btnRegresarVista18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnRegresarVista18ActionPerformed
 
     public JRadioButton getRdbtnNoOcurrioDesempeñoTrabajo() {
         return rdbtnNoOcurrioDesempeñoTrabajo;
@@ -7770,6 +8006,23 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnEnviarFormulario;
+    private javax.swing.JButton btnRegresarVista10;
+    private javax.swing.JButton btnRegresarVista11;
+    private javax.swing.JButton btnRegresarVista12;
+    private javax.swing.JButton btnRegresarVista13;
+    private javax.swing.JButton btnRegresarVista14;
+    private javax.swing.JButton btnRegresarVista15;
+    private javax.swing.JButton btnRegresarVista16;
+    private javax.swing.JButton btnRegresarVista17;
+    private javax.swing.JButton btnRegresarVista18;
+    private javax.swing.JButton btnRegresarVista2;
+    private javax.swing.JButton btnRegresarVista3;
+    private javax.swing.JButton btnRegresarVista4;
+    private javax.swing.JButton btnRegresarVista5;
+    private javax.swing.JButton btnRegresarVista6;
+    private javax.swing.JButton btnRegresarVista7;
+    private javax.swing.JButton btnRegresarVista8;
+    private javax.swing.JButton btnRegresarVista9;
     private javax.swing.JButton btnSiguienteVista1;
     private javax.swing.JButton btnSiguienteVista10;
     private javax.swing.JButton btnSiguienteVista11;
@@ -7872,7 +8125,6 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel149;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel150;
-    private javax.swing.JLabel jLabel151;
     private javax.swing.JLabel jLabel152;
     private javax.swing.JLabel jLabel153;
     private javax.swing.JLabel jLabel154;
@@ -7922,6 +8174,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel194;
     private javax.swing.JLabel jLabel195;
     private javax.swing.JLabel jLabel196;
+    private javax.swing.JLabel jLabel197;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
