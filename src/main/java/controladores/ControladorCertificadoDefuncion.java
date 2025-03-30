@@ -12,19 +12,19 @@ import java.io.IOException;
 import java.util.Map;
 
 public class ControladorCertificadoDefuncion {
-    Certificante certificante;
-    Fallecido fallecido;
-    Defuncion defuncion;
-    Informante informante;
-    RegistroCivil registroCivil;
-    Situacion situacion;
+    //    Certificante certificante;
+//    Fallecido fallecido;
+//    Defuncion defuncion;
+//    Informante informante;
+//    RegistroCivil registroCivil;
+//    Situacion situacion;
     final String RUTA_PLANTILLA = "pdfs/plantilla-certificado-defuncion.pdf";
     String rutaSalidaPdf = "C:\\Users\\neto-\\Documents\\NetBeansProjects\\Hospital\\src\\main\\resources\\pdfs\\";
 
-    public void GenerarCertificadoDefuncion(Certificante certificante, Fallecido fallecido, Defuncion defuncion,
-                                            Informante informante, RegistroCivil registroCivil,
-                                            Situacion situacion) {
-        rutaSalidaPdf = rutaSalidaPdf + fallecido.getCurp()+".pdf";
+    public boolean GenerarCertificadoDefuncion(Certificante certificante, Fallecido fallecido, Defuncion defuncion,
+                                               Informante informante, RegistroCivil registroCivil,
+                                               Situacion situacion) {
+        rutaSalidaPdf = rutaSalidaPdf + fallecido.getCurp() + ".pdf";
 
         String rutaFuente = "C:\\Windows\\Fonts\\arial.ttf"; // Asegúrate de que esta fuente existe
         try {
@@ -232,27 +232,35 @@ public class ControladorCertificadoDefuncion {
                 checkboxField.setValue("on");
             }
 
-            if (fallecido.getSituacionConyugal().equals("Soltera/o")) {
-                checkboxField = fields.get("situacionCoyugalSoltero");
-                checkboxField.setValue("on");
-            } else if (fallecido.getSituacionConyugal().equals("Separada/o")) {
-                checkboxField = fields.get("situacionCoyugalSeparado");
-                checkboxField.setValue("on");
-            } else if (fallecido.getSituacionConyugal().equals("En unión libre")) {
-                checkboxField = fields.get("situacionCoyugalUnionLibre");
-                checkboxField.setValue("on");
-            } else if (fallecido.getSituacionConyugal().equals("Divorciada/o")) {
-                checkboxField = fields.get("situacionCoyugalDivorciado");
-                checkboxField.setValue("on");
-            } else if (fallecido.getSituacionConyugal().equals("Casada/o")) {
-                checkboxField = fields.get("situacionCoyugalCasado");
-                checkboxField.setValue("on");
-            } else if (fallecido.getSituacionConyugal().equals("Viuda/o")) {
-                checkboxField = fields.get("situacionCoyugalViudo");
-                checkboxField.setValue("on");
-            } else if (fallecido.getSituacionConyugal().equals("Se ignora")) {
-                checkboxField = fields.get("situacionCoyugalSeIgnora");
-                checkboxField.setValue("on");
+            switch (fallecido.getSituacionConyugal()) {
+                case "Soltera/o" -> {
+                    checkboxField = fields.get("situacionCoyugalSoltero");
+                    checkboxField.setValue("on");
+                }
+                case "Separada/o" -> {
+                    checkboxField = fields.get("situacionCoyugalSeparado");
+                    checkboxField.setValue("on");
+                }
+                case "En unión libre" -> {
+                    checkboxField = fields.get("situacionCoyugalUnionLibre");
+                    checkboxField.setValue("on");
+                }
+                case "Divorciada/o" -> {
+                    checkboxField = fields.get("situacionCoyugalDivorciado");
+                    checkboxField.setValue("on");
+                }
+                case "Casada/o" -> {
+                    checkboxField = fields.get("situacionCoyugalCasado");
+                    checkboxField.setValue("on");
+                }
+                case "Viuda/o" -> {
+                    checkboxField = fields.get("situacionCoyugalViudo");
+                    checkboxField.setValue("on");
+                }
+                case "Se ignora" -> {
+                    checkboxField = fields.get("situacionCoyugalSeIgnora");
+                    checkboxField.setValue("on");
+                }
             }
 
             // Información de la vista 4
@@ -272,37 +280,42 @@ public class ControladorCertificadoDefuncion {
             fields.get("entidadFederativaPais3").setValue(fallecido.getEntidadFederativaPais());
 
             // Información de la vista 5
-            boolean siEstudio = false;
-            if (fallecido.getEscolaridad().equals("Ninguna")) {
-                checkboxField = fields.get("escolaridadNinguna");
-                checkboxField.setValue("on");
-            } else if (fallecido.getEscolaridad().equals("Primaria")) {
-                siEstudio = true;
-                checkboxField = fields.get("escolaridadPrimaria");
-                checkboxField.setValue("on");
-            } else if (fallecido.getEscolaridad().equals("Bachillerato o Preparatoria")) {
-                siEstudio = true;
-                checkboxField = fields.get("escolaridadBachillerato");
-                checkboxField.setValue("on");
-            } else if (fallecido.getEscolaridad().equals("Posgrado")) {
-                siEstudio = true;
-                checkboxField = fields.get("escolaridadPosgrado");
-                checkboxField.setValue("on");
-            } else if (fallecido.getEscolaridad().equals("Preescolar")) {
-                siEstudio = true;
-                checkboxField = fields.get("escolaridadPreescolar");
-                checkboxField.setValue("on");
-            } else if (fallecido.getEscolaridad().equals("Secundaria")) {
-                siEstudio = true;
-                checkboxField = fields.get("escolaridadSecundaria");
-                checkboxField.setValue("on");
-            } else if (fallecido.getEscolaridad().equals("Profesional")) {
-                siEstudio = true;
-                checkboxField = fields.get("escolaridadProfesional");
-                checkboxField.setValue("on");
-            } else if (fallecido.getEscolaridad().equals("Se ignora")) {
-                checkboxField = fields.get("escolaridadSeIgnora");
-                checkboxField.setValue("on");
+            boolean siEstudio = true;
+            switch (fallecido.getEscolaridad()) {
+                case "Ninguna" -> {
+                    siEstudio = false;
+                    checkboxField = fields.get("escolaridadNinguna");
+                    checkboxField.setValue("on");
+                }
+                case "Primaria" -> {
+                    checkboxField = fields.get("escolaridadPrimaria");
+                    checkboxField.setValue("on");
+                }
+                case "Bachillerato o Preparatoria" -> {
+                    checkboxField = fields.get("escolaridadBachillerato");
+                    checkboxField.setValue("on");
+                }
+                case "Posgrado" -> {
+                    checkboxField = fields.get("escolaridadPosgrado");
+                    checkboxField.setValue("on");
+                }
+                case "Preescolar" -> {
+                    checkboxField = fields.get("escolaridadPreescolar");
+                    checkboxField.setValue("on");
+                }
+                case "Secundaria" -> {
+                    checkboxField = fields.get("escolaridadSecundaria");
+                    checkboxField.setValue("on");
+                }
+                case "Profesional" -> {
+                    checkboxField = fields.get("escolaridadProfesional");
+                    checkboxField.setValue("on");
+                }
+                case "Se ignora" -> {
+                    siEstudio = false;
+                    checkboxField = fields.get("escolaridadSeIgnora");
+                    checkboxField.setValue("on");
+                }
             }
 
             // TODO - Verificar este nullpointer
@@ -310,14 +323,14 @@ public class ControladorCertificadoDefuncion {
                 if (fallecido.getTipoEscolaridad().equals("Completa")) {
                     checkboxField = fields.get("escolaridadCompleta");
                     checkboxField.setValue("on");
+                } else if (fallecido.getTipoEscolaridad().equals("Incompleta")) {
+                    checkboxField = fields.get("escolaridadIncompleta");
+                    checkboxField.setValue("on");
                 }
-            } else if (fallecido.getTipoEscolaridad().equals("Incompleta")) {
-                checkboxField = fields.get("escolaridadIncompleta");
-                checkboxField.setValue("on");
             }
 
             // TODO - Verificar si la ocupación habitual puede ser null
-            if (!fallecido.isOcupacionHabitual()) {
+            if (fallecido.isOcupacionHabitual()) {
                 fields.get("ocupacionHabitual").setValue(fallecido.getDescripcionOcupacion());
             } else {
                 checkboxField = fields.get("ocupacionHabitualSeIgnora");
@@ -887,12 +900,12 @@ public class ControladorCertificadoDefuncion {
 
             // Guardar y cerrar el documento
             pdfDoc.close();
-            System.out.println("PDF generado correctamente en: " + new File(rutaSalidaPdf).getAbsolutePath());
+            return true;
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        return false;
     }
 
     private String[] getFechas(int dia, int mes, int year) {

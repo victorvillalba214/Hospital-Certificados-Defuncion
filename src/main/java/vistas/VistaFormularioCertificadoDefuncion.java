@@ -7104,7 +7104,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
     }//GEN-LAST:event_rdbtnSeIgnoraPracticoNecropsiaActionPerformed
 
     private void btnSiguienteVista12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista12ActionPerformed
-       ControladorFormularioCertificadoDefuncion.recopilarInformacionVista12();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista12();
     }//GEN-LAST:event_btnSiguienteVista12ActionPerformed
 
     private void btnSiguienteVista13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista13ActionPerformed
@@ -7116,7 +7116,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
     }//GEN-LAST:event_btnSiguienteVista14ActionPerformed
 
     private void btnSiguienteVista15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiguienteVista15ActionPerformed
-       ControladorFormularioCertificadoDefuncion.recopilarInformacionVista15();
+        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista15();
     }//GEN-LAST:event_btnSiguienteVista15ActionPerformed
 
     private void rdbtnMedicoTratanteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbtnMedicoTratanteActionPerformed
@@ -7152,71 +7152,71 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
     }//GEN-LAST:event_btnEnviarFormularioActionPerformed
 
     private void btnRegresarVista3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista3ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista3ActionPerformed
 
     private void btnRegresarVista5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista5ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista5ActionPerformed
 
     private void btnRegresarVista2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista2ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista2ActionPerformed
 
     private void btnRegresarVista4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista4ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista4ActionPerformed
 
     private void btnRegresarVista6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista6ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista6ActionPerformed
 
     private void btnRegresarVista7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista7ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista7ActionPerformed
 
     private void btnRegresarVista8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista8ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista8ActionPerformed
 
     private void btnRegresarVista9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista9ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista9ActionPerformed
 
     private void btnRegresarVista10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista10ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista10ActionPerformed
 
     private void btnRegresarVista11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista11ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista11ActionPerformed
 
     private void btnRegresarVista12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista12ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista12ActionPerformed
 
     private void btnRegresarVista13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista13ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista13ActionPerformed
 
     private void btnRegresarVista14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista14ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista14ActionPerformed
 
     private void btnRegresarVista15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista15ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista15ActionPerformed
 
     private void btnRegresarVista17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista17ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista17ActionPerformed
 
     private void btnRegresarVista16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista16ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista16ActionPerformed
 
     private void btnRegresarVista18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista18ActionPerformed
-        // TODO add your handling code here:
+        ControladorFormularioCertificadoDefuncion.regresarUnaVista();
     }//GEN-LAST:event_btnRegresarVista18ActionPerformed
 
     public JRadioButton getRdbtnNoOcurrioDesempeñoTrabajo() {

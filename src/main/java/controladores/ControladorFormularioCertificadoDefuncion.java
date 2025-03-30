@@ -1,6 +1,6 @@
 package controladores;
 
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
 import modelos.*;
 import vistas.VistaFormularioCertificadoDefuncion;
@@ -38,6 +38,11 @@ public class ControladorFormularioCertificadoDefuncion {
         vistaFormularioCertificadoDefuncion.setVisible(true);
         vistaFormularioCertificadoDefuncion.getTabbedPaneCertificadoDefuncion().setUI(null);
         vistaFormularioCertificadoDefuncion.getTabbedPaneCertificadoDefuncion().setSelectedIndex(0);
+    }
+
+    // TODO - Terminar este méthod
+    public static void limpiarTodasVistas(){
+        limpiarVista1();
     }
 
     /// # METHODS PARA RECOPILAR INFORMACIÓN DE LAS VISTAS
@@ -1577,23 +1582,29 @@ public class ControladorFormularioCertificadoDefuncion {
                     JOptionPane.WARNING_MESSAGE);
         } else {
             // Concluir formulario si no hay errores
-            insertarInformacionCertificadoDefuncion();
+            if (insertarInformacionCertificadoDefuncion()) {
+                JOptionPane.showMessageDialog(null,
+                        "Certificado de Defunción generado exitosamente",
+                        "Éxito",
+                        JOptionPane.INFORMATION_MESSAGE);
+                vistaFormularioCertificadoDefuncion.dispose();
+            }
+
         }
     }
 
     /// # METHODS PARA INSERTAR LA INFORMACIÓN EN LA BASE DE DATOS
 
     // Méthod para insertar en la BD TODA la información necesaria para generar el Certificado de Defuncion
-    public static void insertarInformacionCertificadoDefuncion() {
+    public static boolean insertarInformacionCertificadoDefuncion() {
         if (insertarInformacionCertificante()) {
             if (insertarInformacionFallecido()) {
                 if (insertarInformacionDefuncion()) {
                     if (insertarInformacionSituacion()) {
                         if (insertarInformacionRegistroCivil()) {
                             if (insertarInformacionInformante()) {
-                                System.out.println("Información insertada correctamente!");
                                 ControladorCertificadoDefuncion controladorCertificadoDefuncion = new ControladorCertificadoDefuncion();
-                                controladorCertificadoDefuncion.GenerarCertificadoDefuncion(certificante, fallecido,
+                                return controladorCertificadoDefuncion.GenerarCertificadoDefuncion(certificante, fallecido,
                                         defuncion, informante, registroCivil, situacion);
                             } else {
                                 System.err.println("Error al insertar información del certificante");
@@ -1613,6 +1624,7 @@ public class ControladorFormularioCertificadoDefuncion {
         } else {
             System.err.println("Error al insertar información del fallecido");
         }
+        return false;
     }
 
     // Method para insertar la información del certificante en la BD
@@ -1865,6 +1877,14 @@ public class ControladorFormularioCertificadoDefuncion {
     }
 
     /// # METHODS AUXILIARES QUE MANIPULAN LA VISTA
+
+    public static void regresarUnaVista() {
+        int indideActual = vistaFormularioCertificadoDefuncion.getTabbedPaneCertificadoDefuncion().getSelectedIndex();
+        if (indideActual != 0) {
+            vistaFormularioCertificadoDefuncion.getTabbedPaneCertificadoDefuncion().setSelectedIndex(indideActual - 1);
+        }
+
+    }
 
     public static void deshabilitarHabilitarCamposEdadCumplida() {
         // Verifica y habilita o deshabilita los campos según la selección de la edad cumplida
@@ -2124,4 +2144,31 @@ public class ControladorFormularioCertificadoDefuncion {
             vistaFormularioCertificadoDefuncion.getTxtEspecifiqueOtraAutoridad1().setEditable(false);
         }
     }
+
+    private static void limpiarVista1(){
+        limpiarTextField(vistaFormularioCertificadoDefuncion.getTxtNombre());
+        limpiarTextField(vistaFormularioCertificadoDefuncion.getTxtApellidoPaterno());
+        limpiarTextField(vistaFormularioCertificadoDefuncion.getTxtApellidoMaterno());
+        limpiarTextField(vistaFormularioCertificadoDefuncion.getTxtAñoNacimiento());
+        limpiarTextField(vistaFormularioCertificadoDefuncion.getTxtMesNacimiento());
+        limpiarTextField(vistaFormularioCertificadoDefuncion.getTxtDiaNacimiento());
+
+        unselectRadioButton(vistaFormularioCertificadoDefuncion.getRdbtnPersonaDesconocida());
+        unselectRadioButton(vistaFormularioCertificadoDefuncion.getRdbtnHombre());
+        unselectRadioButton(vistaFormularioCertificadoDefuncion.getRdbtnMujer());
+        unselectRadioButton(vistaFormularioCertificadoDefuncion.getRdbtnSeIgnoraSexo());
+    }
+
+    private static void limpiarTextField(JTextField campo){
+        campo.setText("");
+    }
+
+    private static void limpiarTextArea(JTextArea campo){
+        campo.setText("");
+    }
+
+    private static void unselectRadioButton(JRadioButton campo){
+        campo.setSelected(false);
+    }
+    
 }
