@@ -5,8 +5,13 @@
 package vistas;
 
 import controladores.ControladorFormularioCertificadoDefuncion;
+import java.awt.Image;
+import java.io.File;
 import java.util.logging.Logger;
+import javax.swing.ImageIcon;
 import javax.swing.JComboBox;
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 import javax.swing.JRadioButton;
 import javax.swing.JTabbedPane;
 import javax.swing.JTextArea;
@@ -18,12 +23,23 @@ import javax.swing.JTextField;
  */
 public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
 
+    JFileChooser seleccionar = new JFileChooser();
+    File archivo;
+
     /**
      * Creates new form VistaGeneraCertificado
      */
     public VistaFormularioCertificadoDefuncion() {
         initComponents();
         this.setLocationRelativeTo(null);
+        cambiarIcono();
+    }
+
+    private void cambiarIcono() {
+        ImageIcon icono = new ImageIcon(getClass().getResource("/img/logoHospital.jpg"));
+        Image imagen = icono.getImage();
+
+        this.setIconImage(imagen);
     }
 
     public JTextField getTxtEntidadNacimiento() {
@@ -768,6 +784,7 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
         btnRegresarVista18 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setResizable(false);
 
         tabbedPaneCertificadoDefuncion.setEnabled(false);
 
@@ -7148,7 +7165,18 @@ public class VistaFormularioCertificadoDefuncion extends javax.swing.JFrame {
     }//GEN-LAST:event_btnSiguienteVista17ActionPerformed
 
     private void btnEnviarFormularioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviarFormularioActionPerformed
-        ControladorFormularioCertificadoDefuncion.recopilarInformacionVista18();
+        //Con JFileChooser.APPROVE_OPTION Permite desplegar un menú de examinar para guardar el pdf
+        if (seleccionar.showDialog(null, "Guardar") == JFileChooser.APPROVE_OPTION) {
+            archivo = seleccionar.getSelectedFile(); //ruta donde se guarda el archivo
+
+            // Convertir la ruta del archivo a una cadena (String)
+            String rutaArchivo = archivo.getAbsolutePath();
+
+            ControladorFormularioCertificadoDefuncion.recopilarInformacionVista18(rutaArchivo);
+
+        }
+
+
     }//GEN-LAST:event_btnEnviarFormularioActionPerformed
 
     private void btnRegresarVista3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarVista3ActionPerformed

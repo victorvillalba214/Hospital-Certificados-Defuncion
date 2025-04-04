@@ -5,6 +5,7 @@ import modelos.Usuario;
 import modelos.UsuarioDAO;
 import vistas.Login;
 
+import vistas.VistaCrearUsuario;
 import vistas.VistaOlvidoPassword;
 
 public class ControladorLogin {
@@ -12,6 +13,7 @@ public class ControladorLogin {
     public static Login vistaLogin = new Login();
     // Vista para la pantalla de olvido de contraseña
     public static VistaOlvidoPassword vistaOlvidoPassword = new VistaOlvidoPassword();
+    public static VistaCrearUsuario  vistaCrearUsuario = new VistaCrearUsuario();
 
     // Método para mostrar la vista de login
     public static void mostrar() {
@@ -99,19 +101,46 @@ public class ControladorLogin {
 
     // Método para mostrar la vista de olvido de contraseña
     public static void mostrarVistaOlvidoPassword() {
+        vistaLogin.setVisible(false);
         vistaOlvidoPassword.setVisible(true);
+    }
+    
+    // Método para mostrar la vista de crear usuario
+     public static void mostrarVistaCrearUsuario() {
+        vistaLogin.setVisible(false);
+        vistaCrearUsuario.setVisible(true);
     }
 
     // Método para cerrar la vista de olvido de contraseña
     public static void cerrarVistaOlvidoPassword() {
+        vistaLogin.setVisible(true);
         vistaOlvidoPassword.dispose();
         limpiarVistaOlvidoPassword();
     }
+    
+        // Método para cerrar la vista de crear usuario
+    public static void cerrarVistaCrearUsuario() {
+        vistaLogin.setVisible(true);
+        vistaCrearUsuario.dispose();
+        limpiarVistaCrearUsuario();
+    }
+
 
     // Método para restablecer los campos en la vista de olvido de contraseña
     private static void limpiarVistaOlvidoPassword() {
         vistaOlvidoPassword.getTxtUsername().setText("");
         vistaOlvidoPassword.getPasswordFieldNewPassword().setText("");
+    }
+    
+        // Método para restablecer los campos en la vista de crear usuario
+    private static void limpiarVistaCrearUsuario() {
+        vistaCrearUsuario.getTxtNombre().setText("");
+        vistaCrearUsuario.getTxtApellidoPaterno().setText("");
+        vistaCrearUsuario.getTxtApellidoMaterno().setText("");
+        vistaCrearUsuario.getTxtUsuario().setText("");
+        vistaCrearUsuario.getTxtPassword().setText("");
+        vistaCrearUsuario.getTxtTipoDeUsuario().setText("");
+        
     }
     
     private static void limpiarVista(){

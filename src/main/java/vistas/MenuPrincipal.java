@@ -6,6 +6,9 @@ package vistas;
 
 import controladores.ControladorMenuPrincipal;
 import controladores.ControladorSistema;
+import java.awt.Image;
+import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -19,6 +22,14 @@ public class MenuPrincipal extends javax.swing.JFrame {
     public MenuPrincipal() {
         initComponents();
         this.setLocationRelativeTo(null);
+        cambiarIcono();
+    }
+
+    private void cambiarIcono() {
+        ImageIcon icono = new ImageIcon(getClass().getResource("/img/logoHospital.jpg"));
+        Image imagen = icono.getImage();
+
+        this.setIconImage(imagen);
     }
 
     /**
@@ -45,6 +56,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(0, 51, 102));
 
@@ -68,9 +80,19 @@ public class MenuPrincipal extends javax.swing.JFrame {
 
         btnModificarCertificado.setBackground(new java.awt.Color(147, 147, 255));
         btnModificarCertificado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/document-edit.png"))); // NOI18N
+        btnModificarCertificado.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnModificarCertificadoActionPerformed(evt);
+            }
+        });
 
         btnDarDeBaja.setBackground(new java.awt.Color(102, 102, 102));
         btnDarDeBaja.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/document-delete.png"))); // NOI18N
+        btnDarDeBaja.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDarDeBajaActionPerformed(evt);
+            }
+        });
 
         jLabel1.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -203,11 +225,22 @@ public class MenuPrincipal extends javax.swing.JFrame {
 
     private void btnNuevoCertificadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNuevoCertificadoActionPerformed
         ControladorSistema.iniciarGenerarCertificadoDefuncion();
+
     }//GEN-LAST:event_btnNuevoCertificadoActionPerformed
 
     private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
         ControladorMenuPrincipal.logout();
     }//GEN-LAST:event_btnSalirActionPerformed
+
+    private void btnModificarCertificadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModificarCertificadoActionPerformed
+        JOptionPane.showMessageDialog(null, "Lo lamento, la funcionalidad está en creación "
+                + "y próximamente estará disponible en la siguiente versión.");
+    }//GEN-LAST:event_btnModificarCertificadoActionPerformed
+
+    private void btnDarDeBajaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDarDeBajaActionPerformed
+        JOptionPane.showMessageDialog(null, "Lo lamento, la funcionalidad está en creación "
+                + "y próximamente estará disponible en la siguiente versión.");
+    }//GEN-LAST:event_btnDarDeBajaActionPerformed
 
     /**
      * @param args the command line arguments

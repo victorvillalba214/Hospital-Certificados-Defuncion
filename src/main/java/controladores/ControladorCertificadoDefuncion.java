@@ -7,11 +7,11 @@ import com.itextpdf.kernel.pdf.PdfReader;
 import com.itextpdf.kernel.pdf.PdfWriter;
 import modelos.*;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.Map;
 
 public class ControladorCertificadoDefuncion {
+
     //    Certificante certificante;
 //    Fallecido fallecido;
 //    Defuncion defuncion;
@@ -19,12 +19,18 @@ public class ControladorCertificadoDefuncion {
 //    RegistroCivil registroCivil;
 //    Situacion situacion;
     final String RUTA_PLANTILLA = "pdfs/plantilla-certificado-defuncion.pdf";
-    String rutaSalidaPdf = "C:\\Users\\neto-\\Documents\\NetBeansProjects\\Hospital\\src\\main\\resources\\pdfs\\";
+    String rutaSalidaPdf;
+
+    public ControladorCertificadoDefuncion() {
+
+    }
+
+
 
     public boolean GenerarCertificadoDefuncion(Certificante certificante, Fallecido fallecido, Defuncion defuncion,
-                                               Informante informante, RegistroCivil registroCivil,
-                                               Situacion situacion) {
-        rutaSalidaPdf = rutaSalidaPdf + fallecido.getCurp() + ".pdf";
+            Informante informante, RegistroCivil registroCivil,
+            Situacion situacion, String rutaSalidaPdf) {
+        rutaSalidaPdf = rutaSalidaPdf + "_" + fallecido.getCurp() + ".pdf";
 
         String rutaFuente = "C:\\Windows\\Fonts\\arial.ttf"; // Asegúrate de que esta fuente existe
         try {

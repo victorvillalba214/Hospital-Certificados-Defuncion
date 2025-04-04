@@ -1,5 +1,6 @@
 package controladores;
 
+import java.io.File;
 import javax.swing.*;
 
 import modelos.*;
@@ -41,12 +42,11 @@ public class ControladorFormularioCertificadoDefuncion {
     }
 
     // TODO - Terminar este méthod
-    public static void limpiarTodasVistas(){
+    public static void limpiarTodasVistas() {
         limpiarVista1();
     }
 
     /// # METHODS PARA RECOPILAR INFORMACIÓN DE LAS VISTAS
-
     public static void recopilarInformacionVista1() {
 //        Se crea una instancia de Fallecido para aignarle los datos
         fallecido = new Fallecido();
@@ -115,16 +115,21 @@ public class ControladorFormularioCertificadoDefuncion {
                     errores.append("La fecha debe estar en el formato dd/mm/yyyy.\n");
                 }
             } else {
-                if (diaTexto.equals("")) errores.append("El campo Día de Nacimiento no debe ser vacío\n");
-                if (mesTexto.equals("")) errores.append("El campo Mes de Nacimiento no debe ser vacío\n");
-                if (anioTexto.equals("")) errores.append("El campo Año de Nacimiento no debe ser vacío\n");
+                if (diaTexto.equals("")) {
+                    errores.append("El campo Día de Nacimiento no debe ser vacío\n");
+                }
+                if (mesTexto.equals("")) {
+                    errores.append("El campo Mes de Nacimiento no debe ser vacío\n");
+                }
+                if (anioTexto.equals("")) {
+                    errores.append("El campo Año de Nacimiento no debe ser vacío\n");
+                }
             }
 //            Atrapa las excepciones que puedan surgir por un parseo de texto que no sea numérico a Integer
 //            o una fecha que no sea válida
         } catch (NumberFormatException | java.time.DateTimeException e) {
             errores.append("Solo puedes ingresar números válidos en los campos de Fecha de Nacimiento. Verifica que la fecha sea válida.\n");
         }
-
 
         if (vistaFormularioCertificadoDefuncion.getRdbtnHombre().isSelected()) {
             fallecido.setSexo("Hombre");
@@ -640,7 +645,6 @@ public class ControladorFormularioCertificadoDefuncion {
             errores.append("El campo Parentesco con el Fallecido no debe ser vacío\n");
         }
 
-
         if (vistaFormularioCertificadoDefuncion.getRdbtnDefuncionViaPublica().isSelected()) {
             defuncion.setSitio("Vía pública");
         } else if (vistaFormularioCertificadoDefuncion.getRdbtnDefuncionHogar().isSelected()) {
@@ -814,7 +818,6 @@ public class ControladorFormularioCertificadoDefuncion {
                     errores.append("El formato de la fecha debe ser dd/mm/aaaa\n");
                 }
 
-
             } catch (NumberFormatException e) {
                 errores.append("Los datos ingresados en la fecha de defunción deben ser numéricos\n");
             } catch (java.time.DateTimeException e) {
@@ -863,7 +866,6 @@ public class ControladorFormularioCertificadoDefuncion {
                     } else {
                         errores.append("El formato de la fecha debe ser dd/mm/aaaa\n");
                     }
-
 
                 } catch (NumberFormatException e) {
                     errores.append("Los datos ingresados en la fecha de cirugía deben ser numéricos\n");
@@ -1355,7 +1357,6 @@ public class ControladorFormularioCertificadoDefuncion {
             errores.append("El campo Apellido Materno no debe ser vacío\n");
         }
 
-
         if (errores.length() > 0) {
             // Mostrar mensaje con los errores encontrados
             JOptionPane.showMessageDialog(
@@ -1460,7 +1461,7 @@ public class ControladorFormularioCertificadoDefuncion {
         }
     }
 
-    public static void recopilarInformacionVista18() {
+    public static void recopilarInformacionVista18(String rutaArchivo) {
         registroCivil = new RegistroCivil();
         var errores = new StringBuilder();
 
@@ -1490,7 +1491,6 @@ public class ControladorFormularioCertificadoDefuncion {
                 } else {
                     errores.append("El formato de la fecha debe ser dd/mm/aaaa\n");
                 }
-
 
             } catch (NumberFormatException e) {
                 errores.append("Los datos ingresados en la fecha de defunción deben ser numéricos\n");
@@ -1582,7 +1582,7 @@ public class ControladorFormularioCertificadoDefuncion {
                     JOptionPane.WARNING_MESSAGE);
         } else {
             // Concluir formulario si no hay errores
-            if (insertarInformacionCertificadoDefuncion()) {
+            if (insertarInformacionCertificadoDefuncion(rutaArchivo)) {
                 JOptionPane.showMessageDialog(null,
                         "Certificado de Defunción generado exitosamente",
                         "Éxito",
@@ -1594,9 +1594,8 @@ public class ControladorFormularioCertificadoDefuncion {
     }
 
     /// # METHODS PARA INSERTAR LA INFORMACIÓN EN LA BASE DE DATOS
-
     // Méthod para insertar en la BD TODA la información necesaria para generar el Certificado de Defuncion
-    public static boolean insertarInformacionCertificadoDefuncion() {
+    public static boolean insertarInformacionCertificadoDefuncion(String rutaArchivo) {
         if (insertarInformacionCertificante()) {
             if (insertarInformacionFallecido()) {
                 if (insertarInformacionDefuncion()) {
@@ -1605,7 +1604,7 @@ public class ControladorFormularioCertificadoDefuncion {
                             if (insertarInformacionInformante()) {
                                 ControladorCertificadoDefuncion controladorCertificadoDefuncion = new ControladorCertificadoDefuncion();
                                 return controladorCertificadoDefuncion.GenerarCertificadoDefuncion(certificante, fallecido,
-                                        defuncion, informante, registroCivil, situacion);
+                                        defuncion, informante, registroCivil, situacion, rutaArchivo);
                             } else {
                                 System.err.println("Error al insertar información del certificante");
                             }
@@ -1877,7 +1876,6 @@ public class ControladorFormularioCertificadoDefuncion {
     }
 
     /// # METHODS AUXILIARES QUE MANIPULAN LA VISTA
-
     public static void regresarUnaVista() {
         int indideActual = vistaFormularioCertificadoDefuncion.getTabbedPaneCertificadoDefuncion().getSelectedIndex();
         if (indideActual != 0) {
@@ -2091,11 +2089,12 @@ public class ControladorFormularioCertificadoDefuncion {
     /**
      * Calculates the age based on the given day, month, and year.
      *
-     * @param day   The day of birth.
+     * @param day The day of birth.
      * @param month The month of birth.
-     * @param year  The year of birth.
+     * @param year The year of birth.
      * @return The calculated age as an integer.
-     * @throws IllegalArgumentException If the birthdate is invalid or in the future.
+     * @throws IllegalArgumentException If the birthdate is invalid or in the
+     * future.
      */
     public static int calcularEdad(int day, int month, int year) {
         // Create a LocalDate object from the provided day, month, and year
@@ -2145,7 +2144,7 @@ public class ControladorFormularioCertificadoDefuncion {
         }
     }
 
-    private static void limpiarVista1(){
+    private static void limpiarVista1() {
         limpiarTextField(vistaFormularioCertificadoDefuncion.getTxtNombre());
         limpiarTextField(vistaFormularioCertificadoDefuncion.getTxtApellidoPaterno());
         limpiarTextField(vistaFormularioCertificadoDefuncion.getTxtApellidoMaterno());
@@ -2159,16 +2158,16 @@ public class ControladorFormularioCertificadoDefuncion {
         unselectRadioButton(vistaFormularioCertificadoDefuncion.getRdbtnSeIgnoraSexo());
     }
 
-    private static void limpiarTextField(JTextField campo){
+    private static void limpiarTextField(JTextField campo) {
         campo.setText("");
     }
 
-    private static void limpiarTextArea(JTextArea campo){
+    private static void limpiarTextArea(JTextArea campo) {
         campo.setText("");
     }
 
-    private static void unselectRadioButton(JRadioButton campo){
+    private static void unselectRadioButton(JRadioButton campo) {
         campo.setSelected(false);
     }
-    
+
 }

@@ -5,6 +5,13 @@
 package vistas;
 
 import controladores.ControladorLogin;
+import java.awt.Image;
+import javax.swing.ImageIcon;
+
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -18,6 +25,44 @@ public class VistaOlvidoPassword extends javax.swing.JFrame {
     public VistaOlvidoPassword() {
         initComponents();
         this.setLocationRelativeTo(null);
+        cambiarIcono();
+        setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+
+        // Agregar un WindowListener para capturar el evento de cierre
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                confirmarCierre(); // Llamar al método personalizado
+            }
+        });
+    }
+
+    private void confirmarCierre() {
+        int confirm = JOptionPane.showConfirmDialog(
+                this,
+                "¿Estás seguro de que deseas cerrar?",
+                "Confirmación",
+                JOptionPane.YES_NO_OPTION
+        );
+
+        if (confirm == JOptionPane.YES_OPTION) {
+            realizarAccionesAntesDeCerrar(); // Ejecutar acciones personalizadas
+            dispose(); // Cerrar la ventana
+        } else {
+            System.out.println("Cierre cancelado.");
+        }
+    }
+
+    private void realizarAccionesAntesDeCerrar() {
+        // Aquí puedes agregar cualquier lógica adicional, como guardar archivos o liberar recursos.
+        ControladorLogin.mostrar();
+    }
+
+    private void cambiarIcono() {
+        ImageIcon icono = new ImageIcon(getClass().getResource("/img/logoHospital.jpg"));
+        Image imagen = icono.getImage();
+
+        this.setIconImage(imagen);
     }
 
     /**
@@ -41,7 +86,8 @@ public class VistaOlvidoPassword extends javax.swing.JFrame {
         jPanel4 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(0, 51, 102));
 
@@ -160,7 +206,7 @@ public class VistaOlvidoPassword extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(txtUsername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 35, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(passwordFieldNewPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -191,6 +237,8 @@ public class VistaOlvidoPassword extends javax.swing.JFrame {
 
     private void btnConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConfirmarActionPerformed
         ControladorLogin.cambiarPassword();
+        ControladorLogin.cerrarVistaOlvidoPassword();
+        ControladorLogin.mostrar();
     }//GEN-LAST:event_btnConfirmarActionPerformed
 
     /**

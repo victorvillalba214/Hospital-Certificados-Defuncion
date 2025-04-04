@@ -5,6 +5,8 @@
 package vistas;
 
 import controladores.ControladorLogin;
+import java.awt.Image;
+import javax.swing.ImageIcon;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
@@ -20,6 +22,14 @@ public class Login extends javax.swing.JFrame {
     public Login() {
         initComponents();
         this.setLocationRelativeTo(null);
+        cambiarIcono();
+    }
+    
+    private void cambiarIcono() {
+        ImageIcon icono = new ImageIcon(getClass().getResource("/img/logoHospital.jpg"));
+        Image imagen = icono.getImage();
+
+        this.setIconImage(imagen);
     }
 
     /**
@@ -46,6 +56,7 @@ public class Login extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel2.setBackground(new java.awt.Color(0, 51, 102));
 
@@ -135,6 +146,11 @@ public class Login extends javax.swing.JFrame {
         btnOlvidasteContraseña.setFont(new java.awt.Font("Segoe UI Historic", 1, 12)); // NOI18N
         btnOlvidasteContraseña.setForeground(new java.awt.Color(255, 255, 255));
         btnOlvidasteContraseña.setText("¿No tienes una cuenta? Registrate");
+        btnOlvidasteContraseña.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnOlvidasteContraseñaActionPerformed(evt);
+            }
+        });
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/IMG-hospital.jpg"))); // NOI18N
 
@@ -204,8 +220,13 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_btnLoginActionPerformed
 
     private void btnOlvidasteContraseña1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOlvidasteContraseña1ActionPerformed
+        
         ControladorLogin.mostrarVistaOlvidoPassword();
     }//GEN-LAST:event_btnOlvidasteContraseña1ActionPerformed
+
+    private void btnOlvidasteContraseñaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOlvidasteContraseñaActionPerformed
+       ControladorLogin.mostrarVistaCrearUsuario();
+    }//GEN-LAST:event_btnOlvidasteContraseñaActionPerformed
 
     /**
      * @param args the command line arguments
