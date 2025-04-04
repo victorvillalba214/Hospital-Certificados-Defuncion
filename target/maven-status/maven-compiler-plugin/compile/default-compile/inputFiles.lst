@@ -1,25 +1,27 @@
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\controladores\ControladorCertificadoDefuncion.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\controladores\ControladorFormularioCertificadoDefuncion.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\controladores\ControladorLogin.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\controladores\ControladorMenuPrincipal.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\controladores\ControladorSistema.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\controladores\Main.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\Certificante.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\CertificanteDAO.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\Defuncion.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\DefuncionDAO.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\Fallecido.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\FallecidoDAO.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\Informante.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\InformanteDAO.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\MySQLConexion.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\RegistroCivil.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\RegistroCivilDAO.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\Situacion.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\SituacionDAO.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\Usuario.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\modelos\UsuarioDAO.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\vistas\Login.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\vistas\MenuPrincipal.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\vistas\VistaFormularioCertificadoDefuncion.java
-C:\Users\neto-\Documents\NetBeansProjects\Hospital\src\main\java\vistas\VistaOlvidoPassword.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\controladores\ControladorCertificadoDefuncion.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\controladores\ControladorFormularioCertificadoDefuncion.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\controladores\ControladorLogin.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\controladores\ControladorMenuPrincipal.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\controladores\ControladorSistema.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\controladores\Main.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\Certificante.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\CertificanteDAO.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\Defuncion.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\DefuncionDAO.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\Fallecido.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\FallecidoDAO.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\Informante.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\InformanteDAO.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\MySQLConexion.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\RegistroCivil.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\RegistroCivilDAO.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\Situacion.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\SituacionDAO.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\Usuario.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\modelos\UsuarioDAO.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\vistas\Login.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\vistas\MenuPrincipal.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\vistas\PanelRound.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\vistas\VistaCrearUsuario.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\vistas\VistaFormularioCertificadoDefuncion.java
+C:\Users\VICTOR\OneDrive - UAEM - FACULTAD DE CONTADURIA, ADMINISTRACION E INFORMATICA\DOCUMENTOS\NetBeansProjects\Hospital-Certificados-Defuncion\src\main\java\vistas\VistaOlvidoPassword.java
